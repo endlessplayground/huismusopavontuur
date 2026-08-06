@@ -149,6 +149,9 @@ main, .main-kop, #folder {
     align-items: flex-start;
     justify-content: flex-start;
     padding-top: 190px;
+}
+
+.article main {
     padding: 190px 40px 0px 58px;
 }
 
