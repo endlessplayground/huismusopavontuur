@@ -12,18 +12,23 @@ a:visited {
     text-decoration: none;
 }
 
-p {
-    margin-bottom: 1.4em;
+p, h3 {
     line-height: 1.4;
-    color: blue;
+    margin-bottom: 1.0em;
 }
-em {
+
+em, h3 {
     font-weight: 500;
     font-style: normal;
     font-size: 1.3em;
     color: rgb(10, 187, 184);
+}
+
+h3 {
+    text-align: left !important;
 
 }
+
 h1 {
     color: red;
 }
@@ -41,9 +46,9 @@ h2 {
     z-index: 102;
     position: fixed;
     top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
 }
-
-
 
 /* ---------- PAGE ---------- */
 
@@ -140,9 +145,17 @@ main, .main-kop, #folder {
     padding: 160px 20px 70px 20px;
 }
 
-.section main {
+.article main, .section main, .short main {
+    align-items: flex-start;
     justify-content: flex-start;
     padding-top: 190px;
+    padding: 190px 40px 0px 58px;
+}
+
+.short main {
+    align-items: center;
+    text-align: center;
+    padding: 220px 55px 70px 55px;
 }
 
 #folder {
