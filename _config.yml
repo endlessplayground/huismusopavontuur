@@ -1,6 +1,9 @@
 title: "De Mus"
 description: "A personal experimental site"
 
+url: "https://endlessplayground.github.io"
+baseurl: "/huismusopavontuur"
+
 labels:
   about: "Wie is die mus?"
   ideas: "Wat vind ik..."
