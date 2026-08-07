@@ -6,7 +6,7 @@ page_type: section
 
 <nav class="menu-grid">
 
-<a href="{{ '/about/over-mij/' | relative_url }}">
+<a href="{{ '/about/over-mij.md' | relative_url }}">
   <div class="icon"><img src="{{ '/images/doc.svg' | relative_url }}" alt="Document"></div>
   <div class="label">Over mij</div>
 </a>
