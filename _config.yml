@@ -1,8 +1,11 @@
+version: "3"
+
+baseurl: ""
+
 title: "De Mus"
 description: "A personal experimental site"
 
-url: "https://endlessplayground.github.io"
-baseurl: "/huismusopavontuur"
+permalink: pretty
 
 labels:
   about: "Wie is die mus?"
