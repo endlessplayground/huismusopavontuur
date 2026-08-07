@@ -20,7 +20,7 @@
   {% include header.html %}
 </header>
 
-{% if page.page_type == "article_1" or page.page_type == "article_2" or page.page_type == "section_index" %}
+{% if page.page_type == "article_1" or page.page_type == "article_2" or page.page_type == "submenu_1" %}
   <div id="folder">
     <a href="{{ '/' | append: page.parent_folder | append: '/' | relative_url }}">
       <img src="{{ '/images/folder_menu.svg' | relative_url }}" alt="Folder">

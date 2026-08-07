@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Interessant"
-page_type: section_index
+page_type: submenu_1
 parent_folder: ideas
 ---
 
@@ -27,9 +27,10 @@ parent_folder: ideas
   <div class="label">Biologie</div>
 </a>
 
-<a href="#"><div class="icon-empty"></div></a>
-<a href="#"><div class="icon-empty"></div></a>
-<a href="#"><div class="icon-empty"></div></a>
-<a href="#"><div class="icon-empty"></div></a>
-<a href="#"><div class="icon-empty"></div></a>
+<a href="#"><div class="icon"></div><div class="label">...</div></a>
+<a href="#"><div class="icon"></div><div class="label">...</div></a>
+<a href="#"><div class="icon"></div><div class="label">...</div></a>
+<a href="#"><div class="icon"></div><div class="label">...</div></a>
+<a href="#"><div class="icon"></div><div class="label">...</div></a>
 </nav>
+

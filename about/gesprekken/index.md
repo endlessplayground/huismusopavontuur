@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Gesprekken"
-page_type: section_index
+page_type: submenu_1
 parent_folder: about
 ---
 
@@ -22,10 +22,10 @@ parent_folder: about
   <div class="label">Familie</div>
 </a>
 
-<a href="#"><div class="icon-empty"></div><div class="label">...</div></a>
-<a href="#"><div class="icon-empty"></div><div class="label">...</div></a>
-<a href="#"><div class="icon-empty"></div><div class="label">...</div></a>
-<a href="#"><div class="icon-empty"></div><div class="label">...</div></a>
-<a href="#"><div class="icon-empty"></div><div class="label">...</div></a>
-<a href="#"><div class="icon-empty"></div><div class="label">...</div></a>
+<a href="#"><div class="icon"></div><div class="label">...</div></a>
+<a href="#"><div class="icon"></div><div class="label">...</div></a>
+<a href="#"><div class="icon"></div><div class="label">...</div></a>
+<a href="#"><div class="icon"></div><div class="label">...</div></a>
+<a href="#"><div class="icon"></div><div class="label">...</div></a>
+<a href="#"><div class="icon"></div><div class="label">...</div></a>
 </nav>
