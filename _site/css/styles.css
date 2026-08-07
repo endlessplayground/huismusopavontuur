@@ -12,18 +12,23 @@ a:visited {
     text-decoration: none;
 }
 
-p {
-    margin-bottom: 1.4em;
+p, h3 {
     line-height: 1.4;
-    color: blue;
+    margin-bottom: 1.0em;
 }
-em {
+
+em, h3 {
     font-weight: 500;
     font-style: normal;
     font-size: 1.3em;
     color: rgb(10, 187, 184);
+}
+
+h3 {
+    text-align: left !important;
 
 }
+
 h1 {
     color: red;
 }
@@ -41,9 +46,9 @@ h2 {
     z-index: 102;
     position: fixed;
     top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
 }
-
-
 
 /* ---------- PAGE ---------- */
 
@@ -140,6 +145,22 @@ main, .main-kop, #folder {
     padding: 160px 20px 70px 20px;
 }
 
+.article main, .section main, .short main {
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 190px;
+}
+
+.article main {
+    padding: 190px 40px 0px 58px;
+}
+
+.short main {
+    align-items: center;
+    text-align: center;
+    padding: 220px 55px 70px 55px;
+}
+
 #folder {
 
     width: 50px;
@@ -228,7 +249,8 @@ main, .main-kop, #folder {
     background-color: rgba(145, 206, 189, 0.4);
 }
 
-.section .icon,  .section .icon-empty {
+.section .icon {
+    margin: 4px 0px 8px 0px;
     background: transparent;
     background-color: antiquewhite;
 }
@@ -249,20 +271,22 @@ footer {
     max-width: 430px;
 
 
-    height: 60px;
+    height: 56px;
 
     background: linear-gradient(
     to top,
-    rgba(154, 210, 76, 0.99) 0,
-    rgba(154, 210, 76, 0.2) 30%,
+    rgb(144, 204, 72) 0,
+    rgba(154, 210, 76, 0.35) 12%,
+    rgba(154, 210, 76, 0.1) 40%,
+    rgba(154, 210, 76, 0) 70%,
     transparent 100%
     );
     position: fixed;
-    bottom: 0;
+    bottom: 0px;
 
 }
 
 footer a {
-    margin-right: 3.5em;
+    margin-right: 4.5em;
     
 }
