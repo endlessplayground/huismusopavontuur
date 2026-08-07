@@ -30,7 +30,12 @@ h3 {
 }
 
 h1 {
+    font-size: 1.5em;
     color: red;
+    display: block;
+    position: absolute;
+    top: 160px;
+    z-index: 200;
 }
 
 h2 {
@@ -145,20 +150,28 @@ main, .main-kop, #folder {
     padding: 160px 20px 70px 20px;
 }
 
-.article main, .section main, .short main {
-    align-items: flex-start;
-    justify-content: flex-start;
+.article_1 main, .article_2 main, .submenu_1 main, .submenu_2 main, .section_index main, .short main {
+ 
     padding-top: 190px;
 }
 
-.article main {
+.section_index main {
+    justify-content: flex-start;
+}
+
+.article_1 main, .article_2 main, .submenu_1 main, .submenu_2 main {
     padding: 190px 40px 0px 58px;
 }
 
 .short main {
+    justify-content: flex-start;
     align-items: center;
     text-align: center;
     padding: 220px 55px 70px 55px;
+}
+
+.article_1 main {
+    justify-content: flex-start;
 }
 
 #folder {
@@ -230,7 +243,7 @@ main, .main-kop, #folder {
 
 /* ---------- ROUND IMAGE PLACEHOLDER ---------- */
 
-.home .icon, .home .icon-empty, .section .icon,  .section .icon-empty {
+.home .icon, .home .icon-empty, .section_index .icon,  .section_index .icon-empty {
 
     width: 70px;
     height: 70px;
@@ -249,7 +262,7 @@ main, .main-kop, #folder {
     background-color: rgba(145, 206, 189, 0.4);
 }
 
-.section .icon {
+.section_index .icon {
     margin: 4px 0px 8px 0px;
     background: transparent;
     background-color: antiquewhite;

@@ -1,6 +1,8 @@
 ---
 layout: default
 title: "Werk"
+page_type: submenu_2
+parent_folder: about
 ---
 
 # Werk

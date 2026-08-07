@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Projecten"
-page_type: section
+page_type: section_index
+parent_folder: projects
 ---
 
 <nav class="menu-grid">

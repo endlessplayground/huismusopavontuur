@@ -1,11 +1,9 @@
 ---
 layout: default
 title: "Gesprekken"
+page_type: section_index
+parent_folder: about
 ---
-
-# Gesprekken
-
-Korte introductie.
 
 <nav class="menu-grid">
 
@@ -24,10 +22,10 @@ Korte introductie.
   <div class="label">Familie</div>
 </a>
 
-<a href="#"><div class="icon-empty"></div></a>
-<a href="#"><div class="icon-empty"></div></a>
-<a href="#"><div class="icon-empty"></div></a>
-<a href="#"><div class="icon-empty"></div></a>
-<a href="#"><div class="icon-empty"></div></a>
-<a href="#"><div class="icon-empty"></div></a>
+<a href="#"><div class="icon-empty"></div><div class="label">...</div></a>
+<a href="#"><div class="icon-empty"></div><div class="label">...</div></a>
+<a href="#"><div class="icon-empty"></div><div class="label">...</div></a>
+<a href="#"><div class="icon-empty"></div><div class="label">...</div></a>
+<a href="#"><div class="icon-empty"></div><div class="label">...</div></a>
+<a href="#"><div class="icon-empty"></div><div class="label">...</div></a>
 </nav>

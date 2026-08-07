@@ -2,6 +2,7 @@
 layout: default
 title: "Contact"
 page_type: short
+parent_folder: contact
 ---
 
 <p>Wil je ergens op <em>reageren</em>, of heb je een leuk gespreksonderwerp dat het een <em>koffie</em>-afspraak waard is? &#9749;&#128172;</p>

@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Wat vind ik ervan???"
-page_type: section
+page_type: section_index
+parent_folder: about
 ---
 
 <nav class="menu-grid">

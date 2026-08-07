@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Nog meer"
+parent_folder: ideas
 ---
 
 # Nog meer

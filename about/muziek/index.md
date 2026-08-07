@@ -1,6 +1,8 @@
 ---
 layout: default
 title: "Mijn muziek"
+page_type: submenu_2
+parent_folder: about
 ---
 
 # Mijn muziek

@@ -1,11 +1,9 @@
 ---
 layout: default
 title: "Interessant"
+page_type: section_index
+parent_folder: ideas
 ---
-
-# Interessant
-
-Korte introductie.
 
 <nav class="menu-grid">
 

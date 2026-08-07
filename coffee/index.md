@@ -2,6 +2,7 @@
 layout: default
 title: "Koffie?"
 page_type: short
+parent_folder: coffee
 ---
 
 <p>Een goed <em>gesprek</em> gaat vaak samen met <em>koffie</em> en koffie kán samen gaan met een goed gesprek.</p>

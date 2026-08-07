@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Over mij"
-page_type: article
+page_type: article_1
+parent_folder: about
 ---
 
 <h3>Over mij</h3>

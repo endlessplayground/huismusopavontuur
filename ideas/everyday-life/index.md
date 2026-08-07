@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Dagelijks leven"
+parent_folder: ideas
 ---
 
 # Dagelijks leven
