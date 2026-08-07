@@ -159,8 +159,12 @@ main, .main-kop, #folder {
     justify-content: flex-start;
 }
 
-.article_1 main, .article_2 main, .submenu_1 main, .submenu_2 main {
+.article_1 main, .article_2 main {
     padding: 190px 40px 0px 58px;
+    justify-content: flex-start;
+}
+
+.submenu_1 main, .submenu_2 main {
     justify-content: flex-start;
 }
 
