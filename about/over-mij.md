@@ -6,9 +6,9 @@ page_type: article
 
 <h3>Over mij</h3>
 
-<div id="folder"><a href="{{ '/about/' | relative_url }}"><img src="{{ '/images/folder_menu.svg' | relative_url }}" alt="Folder"></a></div>
 
-<p>Hi! Ik ben <em>Yvon</em>, net 60 geworden, en ik ben op zoek naar waar ik naar op zoek ben. Kan nog best lastig zijn... &#128556;</p>
+
+<p>Hi! Ik ben <em>Yvon</em>, begin 60, en ik ben op zoek naar waar ik naar op zoek ben. Kan nog best lastig zijn... &#128556;</p>
 
 <p>Ik lees graag, vooral (semi-)wetenschappelijke <em>artikelen</em> en non-fictie. Daar wil ik op deze site iets mee doen.</p>
 

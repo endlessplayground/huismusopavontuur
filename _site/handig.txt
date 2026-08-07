@@ -1,0 +1,9 @@
+bundle exec jekyll serve --baseurl=""
+
+https://endlessplayground.github.io/huismusopavontuur/about/
+
+https://endlessplayground.github.io/huismusopavontuur/about/over-mij/
+
+https://endlessplayground.github.io/huismusopavontuur/about/over-mij.md
+
+https://nl.123rf.com/clipart-vectoren/koekjes.html
