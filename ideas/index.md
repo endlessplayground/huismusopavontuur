@@ -8,6 +8,9 @@ parent_folder: ideas
 
 <nav class="menu-grid">
 
+<!-- <a href="{{ '/' | relative_url }}">
+<div class="icon"><img src="{{ '/images/menu_back.svg' | relative_url }}" alt="Terug"></div></a>  -->
+
 <a href="{{ '/ideas/waar-gaat-het-hier-over/' | relative_url }}">
   <div class="icon"><img src="{{ '/images/doc.svg' | relative_url }}" alt="Document"></div>
   <div class="label">Waar gaat het hier over?</div>
@@ -36,5 +39,4 @@ parent_folder: ideas
 
 <a href="#"><div class="icon"><img src="{{ '/images/folder_empty.svg' | relative_url }}" alt="Folder"></div></a>
 
-<a href="#"><div class="icon"><img src="{{ '/images/folder_empty.svg' | relative_url }}" alt="Folder"></div></a>
 </nav>
