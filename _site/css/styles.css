@@ -4,6 +4,11 @@
     box-sizing: border-box;
     text-decoration: none;
     -webkit-tap-highlight-color: transparent;
+
+    font-family: "Epunda Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 a,
@@ -25,8 +30,7 @@ em, h3 {
 }
 
 h3 {
-    text-align: left !important;
-
+margin-left: -10px;
 }
 
 h1 {
@@ -39,19 +43,15 @@ h1 {
 }
 
 h2 {
-    background-color:rgb(244, 244, 230);
-    border-radius: 20px;
-    padding: 4px 10px 6px 10px;
-    font-size: 1.2em;
-    font-style: italic;
-    font-weight: 500;
+    font-size: 1.7em;
+    font-weight: 300;
     text-align: center;
     line-height: 80%;
-    box-shadow: 0 4px 8px rgba(46, 93, 125, 0.3);
+    color: rgb(254, 254, 254);
     z-index: 102;
     position: fixed;
-    top: 100px;
-    left: 50%;
+    top: 120px;
+    left: 52%;
     transform: translateX(-50%);
 }
 
@@ -62,7 +62,7 @@ body {
 
     min-height: 100vh;
 
-    background: rgb(154, 210, 76);
+    background-color: rgb(124, 245, 68);
 
     display: flex;
     flex-direction: column;
@@ -97,7 +97,7 @@ body {
 }
 
 #top-mus img {
-    width: 270px;
+    width: 220px;
 }
 
 #avontuur {
@@ -145,7 +145,7 @@ main, .main-kop, #folder {
     justify-content: center;
     align-items:center;
 
-    background-color:rgb(244, 244, 230);
+    background-color:rgb(130, 205, 205);
 
     padding: 160px 20px 70px 20px;
 }
@@ -159,8 +159,13 @@ main, .main-kop, #folder {
     justify-content: flex-start;
 }
 
-.article_1 main, .article_2 main, .submenu_1 main, .submenu_2 main {
+.article_1 main, .article_2 main {
     padding: 190px 40px 0px 58px;
+    justify-content: flex-start;
+}
+
+.submenu_1 main, .submenu_2 main {
+    justify-content: flex-start;
 }
 
 .short main {
@@ -170,20 +175,19 @@ main, .main-kop, #folder {
     padding: 220px 55px 70px 55px;
 }
 
-.article_1 main {
-    justify-content: flex-start;
-}
-
 #folder {
-
     width: 50px;
     height: 30px;
-    top: 100px;
     background: transparent;
     position: fixed;
     z-index: 1000;
+
     padding: 0;
-    margin-left: 270px;
+    margin-right: 330px;
+    margin-top: 200px;
+}
+#folder img {
+    width: 60px;
 }
 
 
@@ -231,19 +235,22 @@ main, .main-kop, #folder {
     justify-content: center;
     height: 40px;
     width: 90px;
+    margin-top: -10px;
+    color: white;
     text-align: center;
     overflow: visible;
+    font-size: 1.1em;
     line-height: 1rem;
+    font-weight: 400;
 }
-.section .label {
-        overflow: visible;
-        font-style: italic;
+.home .label {
+    font-style: normal;
 }
 
 
 /* ---------- ROUND IMAGE PLACEHOLDER ---------- */
 
-.home .icon, .home .icon-empty, .section_index .icon,  .section_index .icon-empty {
+.home .icon, .home .icon-empty, .section_index .icon,  .section_index .icon-empty, .submenu_1 .icon, .submenu_2 .icon, .submenu_1 .icon_empty, .submenu_2 .icon_empty {
 
     width: 70px;
     height: 70px;
@@ -253,19 +260,19 @@ main, .main-kop, #folder {
 
     border-radius: 50%;
 
-    background-color: rgba(145, 206, 189, 0.9);
+    background-color: rgb(130, 238, 227);
 
     margin-bottom: 4px;
 }
 
 .home .icon-empty {
-    background-color: rgba(145, 206, 189, 0.4);
+    background-color: rgb(130, 238, 227);
 }
 
-.section_index .icon {
+.section_index .icon, .submenu_1 .icon, .submenu_2 .icon {
     margin: 4px 0px 8px 0px;
     background: transparent;
-    background-color: antiquewhite;
+    background-color: rgb(106, 196, 196);
 }
 
 .icon img {
@@ -284,16 +291,9 @@ footer {
     max-width: 430px;
 
 
-    height: 56px;
+    height: 20px;
 
-    background: linear-gradient(
-    to top,
-    rgb(144, 204, 72) 0,
-    rgba(154, 210, 76, 0.35) 12%,
-    rgba(154, 210, 76, 0.1) 40%,
-    rgba(154, 210, 76, 0) 70%,
-    transparent 100%
-    );
+    background-color: rgb(124, 245, 68);
     position: fixed;
     bottom: 0px;
 

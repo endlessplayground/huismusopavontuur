@@ -7,9 +7,10 @@
 
 <link rel="icon" type="image/svg+xml" href="{{ '/images/favicon.svg' | relative_url }}">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="{{ '/css/styles.css' | relative_url }}">
 </head>
@@ -20,13 +21,12 @@
   {% include header.html %}
 </header>
 
-{% if page.page_type == "article_1" or page.page_type == "article_2" or page.page_type == "submenu_1" %}
+
   <div id="folder">
     <a href="{{ '/' | append: page.parent_folder | append: '/' | relative_url }}">
-      <img src="{{ '/images/folder_menu.svg' | relative_url }}" alt="Folder">
+      <img src="{{ '/images/menu_back.svg' | relative_url }}" alt="Folder">
     </a>
   </div>
-{% endif %}
 
 <main>
 {% assign parts = page.path | split: '/' %}
