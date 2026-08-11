@@ -32,7 +32,7 @@ parent_folder: about
 
 <a href="{{ '/about/muziek/' | relative_url }}">
   <div class="icon"><img src="{{ '/images/folder.svg' | relative_url }}" alt="Folder"></div>
-  <div class="label">‘Mijn’ muziek</div>
+  <div class="label">‘Mijn’&nbsp;muziek</div>
 </a>
 
 <a href="#"><div class="icon"><img src="{{ '/images/folder_empty.svg' | relative_url }}" alt="Folder"></div></a>
