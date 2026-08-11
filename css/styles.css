@@ -235,7 +235,7 @@ main, .main-kop, #folder {
     justify-content: center;
     height: 40px;
     width: 90px;
-    margin-top: -10px;
+    margin-top: -13px;
     color: white;
     text-align: center;
     overflow: visible;
@@ -250,23 +250,37 @@ main, .main-kop, #folder {
 
 /* ---------- ROUND IMAGE PLACEHOLDER ---------- */
 
-.home .icon, .home .icon-empty, .section_index .icon,  .section_index .icon-empty, .submenu_1 .icon, .submenu_2 .icon, .submenu_1 .icon_empty, .submenu_2 .icon_empty {
-
-    width: 70px;
-    height: 70px;
+.icon {
+        width: 100px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
 
     border-radius: 50%;
 
-    background-color: rgb(130, 238, 227);
+    background-color: rgb(185, 238, 227);
+
+    margin-bottom: 4px;
+}
+
+.home .icon, .home .icon-empty, .section_index .icon,  .section_index .icon-empty, .submenu_1 .icon, .submenu_2 .icon, .submenu_1 .icon_empty, .submenu_2 .icon_empty {
+
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+
+    background-color: rgb(185, 238, 227);
 
     margin-bottom: 4px;
 }
 
 .home .icon-empty {
-    background-color: rgb(130, 238, 227);
+    background-color: rgb(185, 238, 227);
 }
 
 .section_index .icon, .submenu_1 .icon, .submenu_2 .icon {
@@ -276,7 +290,8 @@ main, .main-kop, #folder {
 }
 
 .icon img {
-    width: 90px;
+    width: 128px !important;
+    height: 128px;
 }
 
 
