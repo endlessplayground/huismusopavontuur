@@ -26,7 +26,7 @@
      showgrid="false"
      inkscape:zoom="5.2913969"
      inkscape:cx="53.672028"
-     inkscape:cy="60.759004"
+     inkscape:cy="30.521241"
      inkscape:window-width="1536"
      inkscape:window-height="793"
      inkscape:window-x="-8"
@@ -83,7 +83,7 @@
        y="22.020014"
        ry="1.4170778" /><g
        id="g3"
-       transform="translate(-0.52916667,-1.0583333)"><g
+       transform="matrix(0.94886505,0,0,0.94886505,0.07384609,-1.6001147)"><g
          id="g2"
          transform="matrix(0.91137239,0,0,0.91137239,1.0451477,1.377561)"><rect
            style="fill:#fdf2d1;fill-opacity:1;stroke:#fff7f7;stroke-width:0"
