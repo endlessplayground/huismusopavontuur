@@ -20,7 +20,7 @@ parent_folder: ideas
 
 <a href="{{ '/ideas/interesting/' | relative_url }}">
   <div class="icon"><img src="{{ '/images/folder.svg' | relative_url }}" alt="Folder"></div>
-  <div class="label">...Interessant (wetenschap&nbsp;en&nbsp;zo)</div> 
+  <div class="label">...Interessant (wetenschap en&nbsp;zo)</div> 
 </a>
 
 <a href="#"><div class="icon"><img src="{{ '/images/folder_empty.svg' | relative_url }}" alt="Folder"></div></a>
