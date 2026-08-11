@@ -105,11 +105,11 @@ body {
     justify-content: center;
     width: 100%;
     top: 0px;
-    left: 33px;
+    left: 22px;
     z-index: 10;
 }
 #avontuur img {
-    width: 451  px;
+    width: 438px;
 }
 
 header {
@@ -250,8 +250,8 @@ main, .main-kop, #folder {
 /* ---------- ROUND IMAGE PLACEHOLDER ---------- */
 
 .icon {
-    width: 90px;
-    height: 90px;
+    width: 88px;
+    height: 88px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -265,8 +265,8 @@ main, .main-kop, #folder {
 
 .home .icon, .home .icon-empty, .section_index .icon,  .section_index .icon-empty, .submenu_1 .icon, .submenu_2 .icon, .submenu_1 .icon_empty, .submenu_2 .icon_empty {
 
-    width: 90px;
-    height: 90px;
+    width: 88px;
+    height: 88px;
     display: flex;
     justify-content: center;
     align-items: center;
