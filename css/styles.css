@@ -30,7 +30,6 @@ em, h3 {
 }
 
 h3 {
-margin-left: -10px;
 }
 
 h1 {
@@ -251,8 +250,8 @@ main, .main-kop, #folder {
 /* ---------- ROUND IMAGE PLACEHOLDER ---------- */
 
 .icon {
-        width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -266,8 +265,8 @@ main, .main-kop, #folder {
 
 .home .icon, .home .icon-empty, .section_index .icon,  .section_index .icon-empty, .submenu_1 .icon, .submenu_2 .icon, .submenu_1 .icon_empty, .submenu_2 .icon_empty {
 
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -290,8 +289,8 @@ main, .main-kop, #folder {
 }
 
 .icon img {
-    width: 128px !important;
-    height: 128px;
+    width: 115px !important;
+    height: 115px;
 }
 
 
