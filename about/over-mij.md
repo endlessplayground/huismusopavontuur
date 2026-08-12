@@ -9,7 +9,7 @@ parent_folder: about
 
 
 
-<p>Hi! Ik ben <em>Yvon</em>, begin 60, en ik ben op zoek naar waar ik naar op zoek ben. Kan nog best lastig zijn... &#128556;</p>
+<p>Hi! Ik ben <em>Yvon</em>, en ik ben op zoek naar waar ik naar op zoek ben. Kan nog best lastig zijn... &#128529;</p>
 
 <p>Ik lees graag, vooral (semi-)wetenschappelijke <em>artikelen</em> en non-fictie. Daar wil ik op deze site iets mee doen.</p>
 
