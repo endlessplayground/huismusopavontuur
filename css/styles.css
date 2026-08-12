@@ -240,10 +240,14 @@ main, .main-kop, #folder {
     color: white;
     text-align: center;
     overflow: visible;
-    font-size: 1.1em;
+    font-size: 1em;
     line-height: 1rem;
     font-weight: 400;
-text-shadow: 1px 1px 2px rgba(52, 163, 188, 0.882);
+text-shadow: 1px 1px 2px rgba(41, 137, 158, 0.882);
+
+  font-family: "Hammersmith One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .home .label {
     font-style: normal;
