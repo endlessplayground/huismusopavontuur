@@ -22,10 +22,18 @@ page_type: home
 
 <a href="#"><div class="icon"></div></a>
 
-<a href="{{ '/coffee/' | relative_url }}">
+<!-- <a href="{{ '/coffee/' | relative_url }}">
   <div class="icon"><img src="{{ '/images/coffee.svg' | relative_url }}" alt="Koffie"></div>
   <div class="label">{{ site.labels.coffee }}</div>
-</a>
+</a> -->
+
+<a href="{{ '/coffee/' | relative_url }}">
+   <div class="icon"><img src="{{ '/images/today.svg' | relative_url }}" alt="Vandaag">
+   <div id="month"></div>
+   <div id="date"></div></div>
+  <div class="label">Vandaag</div>
+</div></a>
+
 
 <a href="#"><div class="icon"></div></a>
 
@@ -38,7 +46,7 @@ page_type: home
 
 <a href="{{ '/random/' | relative_url }}">
   <div class="icon"><img src="{{ '/images/random.svg' | relative_url }}" alt="Dobbelsteen"></div>
-  <div class="label">{{ site.labels.random }}</div>
+  <div class="label"><span style="display: inline-block; transform: rotate(180deg); font-family: var(--heading-font);">{{ site.labels.random }}</span></div>
 </a>
 
 <a href="#"><div class="icon"></div></a>
