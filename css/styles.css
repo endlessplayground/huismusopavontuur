@@ -16,7 +16,7 @@
     --heading-font: "Hammersmith One", sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3, em {
     font-family: var(--heading-font);
 }
 
