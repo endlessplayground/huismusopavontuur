@@ -5,22 +5,27 @@
         <div id="top-mus"><img src="{{ '/images/mus.svg' | relative_url }}" alt="Mus"></div>
     {% endif %}
 
-
-    {% if page.page_type != "home" %}
-    <div id="top-icon"><img src="{{ '/images/' | append: page.parent_folder | append: '.svg' | relative_url }}" alt="">
-    </div>
+    {% if page.parent_folder == "about" %}
+        <div id="top-icon"><img src="{{ '/images/about2.svg' | relative_url }}" alt="Ik"></div>
     {% endif %}
+
+
+    {% if page.page_type != "home" and page.parent_folder != "about" %}    <div id="top-icon"><img src="{{ '/images/' | append: page.parent_folder | append: '.svg' | relative_url }}" alt="">
+        </div>
+    {% endif %}
+
+
 
     {% if page.parent_folder == "today" %}
     
-<div id="top-icon">
+    <div id="top-icon">
 
-  <div class="date">
-    <div id="month"></div>
-    <div id="date"></div>
-  </div>
-  
-</div>
+    <div class="date">
+        <div id="month"></div>
+        <div id="date"></div>
+    </div>
+    
+    </div>
 
     {% endif %}
 
