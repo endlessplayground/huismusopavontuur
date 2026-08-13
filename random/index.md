@@ -2,6 +2,7 @@
 layout: default
 title: "Random"
 page_type: short
+parent_folder: random
 ---
 
 <p style="line-height: 1.4em;">Dit is ook nog wel een grappig <em>experiment</em>, al&nbsp;moet ik het <em>JavaScript</em>je er nog in zetten.</p>

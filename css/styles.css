@@ -1,4 +1,9 @@
-* {
+:root {
+    --main-font: "Epunda Slab", serif;
+    --heading-font: "Hammersmith One", sans-serif;
+}
+
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,11 +14,6 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-}
-
-:root {
-    --main-font: "Epunda Slab", serif;
-    --heading-font: "Hammersmith One", sans-serif;
 }
 
 h1, h2, h3, em {
@@ -100,7 +100,7 @@ body {
 
 
 #top-icon {
-    top: 65px;
+    top: 85px;
     right: 150px;
 }
 
@@ -155,7 +155,7 @@ main, .main-kop, #folder {
 
     background-color:rgb(130, 205, 205);
 
-    padding: 146px 20px 70px 20px;
+    padding: 146px 25px 70px 25px;
 }
 
 .article_1 main, .article_2 main, .submenu_1 main, .submenu_2 main, .section_index main, .short main {
@@ -268,6 +268,8 @@ text-shadow: 1px 1px 2px rgba(41, 137, 158, 0.882);
     width: 80px;
     height: 80px;
     display: flex;
+        flex-direction: column;
+
     justify-content: center;
     align-items: center;
 
@@ -304,26 +306,45 @@ text-shadow: 1px 1px 2px rgba(41, 137, 158, 0.882);
     height: 95px;
 }
 
+.date {
+    position: relative;
+    padding-top: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 95px;
+}
+
 #month {
-  position: absolute;
-  margin-top: -3.6em;
+  position: relative;
   color: white;
-  font-size: 0.6;
+  font-size: 0.9em;
   font-weight: 500;
   text-align: center;
+  font-family: var(--heading-font); 
   z-index: 1000;
 }
 
 #date {
-  position: absolute;
-  margin-top: 0.2em;
+  position: relative;
   font-size: 1.7em;
   font-weight: 700;
   text-align: center;
   font-family: var(--heading-font); 
 }
 
+.date #month, .date #date  {
+    position: absolute;
+    transform: translateY(62%);
+}
 
+.date #date {
+        transform: translateY(97%);
+}
+
+#top-icon .date {
+    margin-top: -10px;
+}
 
 /* ---------- FOOTER ---------- */
 

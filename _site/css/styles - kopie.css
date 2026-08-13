@@ -253,7 +253,7 @@ main, .main-kop, #folder {
 
 /* ---------- ROUND IMAGE PLACEHOLDER ---------- */
 
-.home .icon, .home .icon-empty, .section_index .icon,  .section_index .icon-empty, .submenu_1 .icon, .submenu_2 .icon, .submenu_1 .icon_empty, .submenu_2 .icon_empty {
+.home .icon, .home .icon_empty, .section_index .icon,  .section_index .icon_empty, .submenu_1 .icon, .submenu_2 .icon, .submenu_1 .icon_empty, .submenu_2 .icon_empty {
 
     width: 70px;
     height: 70px;
@@ -268,7 +268,7 @@ main, .main-kop, #folder {
     margin-bottom: 4px;
 }
 
-.home .icon-empty {
+.home .icon_empty {
     background-color: rgba(145, 206, 189, 0.4);
 }
 
