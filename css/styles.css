@@ -18,6 +18,11 @@
 
 h1, h2, h3, em {
     font-family: var(--heading-font);
+    text-align: left;
+}
+
+#today-text h3 {
+    text-align: center;
 }
 
 a,
@@ -27,14 +32,14 @@ a:visited {
 }
 
 p, h3 {
-    line-height: 1.4;
-    margin-bottom: 1.0em;
+    line-height: 1.3;
+    margin-bottom: 0.95em;
 }
 
 em, h3 {
     font-weight: 500;
     font-style: normal;
-    font-size: 1.3em;
+    font-size: 1.1em;
     color: rgb(10, 187, 184);
 }
 
@@ -100,9 +105,11 @@ body {
 
 
 #top-icon {
+    position: absolute;
     top: 85px;
     right: 110px;
     transform: scale(1.2);
+    z-index: 100000000000000000000000;
 }
 
 #top-mus img {
@@ -136,6 +143,7 @@ header {
     rgba(130, 205, 205, 0.99) 70%,
     transparent 100%
 );
+z-index: 99;
 }
 
 
@@ -244,8 +252,8 @@ main, .main-kop, #folder {
     justify-content: center;
     height: 40px;
     width: 90px;
-    margin-top: -13px;
-    margin-bottom: 16px;
+    margin-top: -10px;
+    margin-bottom: 8px;
     color: white;
     text-align: center;
     overflow: visible;
@@ -293,7 +301,7 @@ text-shadow: 1px 1px 2px rgba(41, 137, 158, 0.882);
 
     background-color: rgb(185, 238, 227);
 
-    margin-bottom: 2px;
+    margin-bottom: 0px;
 }
 
 .section_index .icon, .submenu_1 .icon, .submenu_2 .icon {
