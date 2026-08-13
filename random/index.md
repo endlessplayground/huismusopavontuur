@@ -16,12 +16,17 @@ parent_folder: random
 <div id="output"></div>
 
 <style>
+.random-text {
+  text-align: left;
+}
+
 .dice {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 90px;
+  margin: -24px 0px -30px 0px;
 }
 
 #roll {
@@ -66,30 +71,31 @@ parent_folder: random
 
 <script>
 const randomContent = [
-  { type: "quote", text: "Hier komen straks leuke random dingen." },
-  { type: "quote", text: "Gooi nóg een keer...." },
-  { type: "quote", text: "Hey! <span style=\"font-size:1.5em;\">&#128522;</span>" },
-  { type: "quote", text: "Vandaag is de dag. &#128527;" }
+  {% for item in site.data.random.items %}
+    "{{ '/random/content/' | append: item | relative_url }}"{% unless forloop.last %},{% endunless %}
+  {% endfor %}
 ];
 
 const dice = document.getElementById('roll');
 const output = document.getElementById('output');
 
 dice.addEventListener('click', () => {
-  output.textContent = "";
+  output.innerHTML = "";
 
   dice.classList.remove('roll-animation');
   void dice.offsetWidth;
-
   dice.classList.add('roll-animation');
 
   setTimeout(() => {
-    const randomItem =
+    const randomFile =
       randomContent[Math.floor(Math.random() * randomContent.length)];
 
-    output.innerHTML = `<p class="result">${randomItem.text}</p>`;
-
-    dice.classList.remove('roll-animation');
+    fetch(randomFile)
+      .then(response => response.text())
+      .then(html => {
+        output.innerHTML = html;
+        dice.classList.remove('roll-animation');
+      });
   }, 700);
 });
 </script>
