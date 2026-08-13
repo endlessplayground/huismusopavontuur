@@ -11,7 +11,7 @@ parent_folder: about
 
 <p>Hi! Ik ben <em>Yvon</em>, en ik ben op zoek naar waar ik naar op zoek ben. Kan nog best lastig zijn... &#128529;</p>
 
-<p>Ik lees graag, vooral (semi-)wetenschappelijke <em>artikelen</em> en non-fictie. Daar wil ik op deze site iets mee doen.</p>
+<p>Ik lees graag, vooral non-fictie, en over <em>wetenschap</em>. Daar wil ik op deze site iets mee doen.</p>
 
-<p>Verder houd ik van praktisch bezig zijn, wandelen, koffie, praten met <em>mensen</em>, leuke stadjes en tweedehands winkels bezoeken...</p>
+<p>Verder houd ik van praktisch bezig zijn, wandelen, koffie, praten met <em>mensen</em>, en tweedehands winkels bezoeken.</p>
 
