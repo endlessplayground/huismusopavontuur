@@ -51,3 +51,25 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+
+  const specialDates = {
+    "08-13": `<p>Op juist <em>deze</em> dag heb ik van alles aan mijn site bijgeschaafd en leuke scriptjes geïmplementeerd. Met dank aan <em>ChatGPT</em> voor zijn hulp.</p>`,
+    "12-25": `<p><em>Kerstmis.</em> Bah.</p>`,
+    "01-01": `<p>Het is weer zover: nieuwjaar.</p>`,
+    "09-15": `<p>Vandaag gebeurt er iets bijzonders!</p>`
+  };
+
+  const today = new Date();
+  const key =
+    String(today.getMonth() + 1).padStart(2, '0') + "-" +
+    String(today.getDate()).padStart(2, '0');
+
+  const specialText = document.getElementById('special-text');
+
+  if (specialText && specialDates[key]) {
+    specialText.innerHTML = specialDates[key];
+  }
+
+});
