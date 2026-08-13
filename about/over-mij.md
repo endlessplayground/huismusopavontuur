@@ -5,9 +5,6 @@ page_type: article_1
 parent_folder: about
 ---
 
-<h3>Over mij</h3>
-
-
 
 <p>Hi! Ik ben <em>Yvon</em>, en ik ben op zoek naar waar ik naar op zoek ben. Kan nog best lastig zijn... &#128529;</p>
 

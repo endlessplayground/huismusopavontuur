@@ -10,7 +10,7 @@ parent_folder: projects
 <!-- <a href="{{ '/' | relative_url }}">
 <div class="icon"><img src="{{ '/images/menu_back.svg' | relative_url }}" alt="Terug"></div></a>  -->
 
-<a href="{{ '/ideas/waar-gaat-het-hier-over/' | relative_url }}">
+<a href="{{ '/projects/waar-mee-bezig/' | relative_url }}">
   <div class="icon"><img src="{{ '/images/doc.svg' | relative_url }}" alt="Document"></div>
   <div class="label">Waar&nbsp;ben&nbsp;ik mee bezig?</div>
 </a>
