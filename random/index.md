@@ -5,7 +5,7 @@ page_type: short
 parent_folder: random
 ---
 
-<p style="margin-top: -50px;">Rol de <em>dobbelsteen</em> voor een random tekst.</p>
+<p  id="roll-instruction" style="margin-top: -50px;">Rol de <em>dobbelsteen</em> voor een random tekst.</p>
 
 <div class="dice">
   <div id="roll">
@@ -89,6 +89,8 @@ dice.addEventListener('click', () => {
   setTimeout(() => {
     const randomFile =
       randomContent[Math.floor(Math.random() * randomContent.length)];
+
+  document.getElementById('roll-instruction').innerHTML = 'Rol nog een keer.';     
 
     fetch(randomFile)
       .then(response => response.text())
