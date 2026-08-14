@@ -37,6 +37,7 @@ p, h3 {
 }
 
 em, h3 {
+    font-family: var(--heading-font);
     font-weight: 500;
     font-style: normal;
     font-size: 1.1em;
@@ -183,7 +184,13 @@ main, .main-kop, #folder {
 }
 
 .article_1 nav a .icon {
-    transform: scale(0.8);
+    transform: scale(0.7);
+    font-size: 1.3em;
+    line-height: 1;
+}
+
+.article_1 nav a .label {
+    transform: scale(0.95);
 }
 
 .article_1 .menu-grid, .submenu-grid {
@@ -194,7 +201,7 @@ main, .main-kop, #folder {
 
     grid-template-columns: repeat(4, 1fr);
 
-    gap: 5px 4px;
+    gap: 0px 2px;
 }
 
 .label .extra {
@@ -268,7 +275,7 @@ main, .main-kop, #folder {
     align-items: center;
     color: rgb(46, 64, 86);
 }
-.label {
+.label, .icon {
     display: flex;
     align-items: flex-start;
     justify-content: center;

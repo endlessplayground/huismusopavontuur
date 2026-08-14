@@ -8,18 +8,15 @@ parent_folder: projects
 
 <nav class="menu-grid">
 <a href="{{ '/projects/andere-websites' | relative_url }}">
-  <div class="icon"></div>
-  <div class="label extra" style="margin-top: -60px; z-index:999999;">Andere websites</div> 
+  <div class="icon">Andere websites</div>
 </a>
 
 <a href="#">
-  <div class="icon"></div>
-  <div class="label extra" style="margin-top: -60px; z-index:999999;">Illustraties</div> 
+  <div class="icon">Illustraties</div>
 </a>
 
 <a href="#">
-  <div class="icon"></div>
-  <div class="label extra" style="margin-top: -60px; z-index:999999;">Nog iets leuks...</div> 
+  <div class="icon">Nog&nbsp;iets leuks...</div>
 </a>
 
 <a href="#">

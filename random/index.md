@@ -95,7 +95,7 @@ dice.addEventListener('click', () => {
     const randomFile =
       randomContent[Math.floor(Math.random() * randomContent.length)];
 
-  document.getElementById('roll-instruction').innerHTML = 'Rol <em>nog</em> een keer.';     
+  document.getElementById('roll-instruction').innerHTML = '<em>Nog</em> een keer<em>?</em>';     
 
     fetch(randomFile)
       .then(response => response.text())
