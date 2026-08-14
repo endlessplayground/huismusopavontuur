@@ -9,7 +9,7 @@ permalink: pretty
 
 labels:
   about: "Wie is die mus?"
-  ideas: "Wat vind ik..."
+  ideas: "Wat denk ik..."
   projects: "Projecten"
   today: "Vandaag…"
   random: "Random"
@@ -19,7 +19,7 @@ defaults:
   - scope:
       path: "ideas"
     values:
-      header: "Wat vind ik..."
+      header: "Wat denk ik..."
 
   - scope:
       path: "projects"
