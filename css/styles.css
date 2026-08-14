@@ -185,8 +185,6 @@ main, .main-kop, #folder {
 
 .article_1 nav a .icon {
     transform: scale(0.7);
-    font-size: 1.3em;
-    line-height: 1;
 }
 
 .article_1 nav a .label {
@@ -275,7 +273,7 @@ main, .main-kop, #folder {
     align-items: center;
     color: rgb(46, 64, 86);
 }
-.label, .icon {
+.label {
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -295,14 +293,13 @@ main, .main-kop, #folder {
   font-weight: 400;
   font-style: normal;
 }
-.home .label {
-    font-style: normal;
-}
+
+
 
 
 /* ---------- ROUND IMAGE PLACEHOLDER ---------- */
 
-.icon {
+.icon, .icon_txt {
     width: 80px;
     height: 80px;
     display: flex;
@@ -316,6 +313,18 @@ main, .main-kop, #folder {
     background-color: rgb(185, 238, 227);
 
     margin-bottom: 2px;
+}
+
+.icon_txt {    color: white;
+    text-align: center;
+    overflow: visible;
+    font-size: 0.9em;
+    line-height: 1em;
+    font-weight: 400;
+    text-shadow: 1px 1px 2px rgba(41, 137, 158, 0.882);
+    font-family: var(--heading-font);
+    width: 60px;
+    height: 60px;
 }
 
 .home .icon, .section_index .icon, .submenu_1 .icon, .submenu_2 .icon {
@@ -333,7 +342,7 @@ main, .main-kop, #folder {
     margin-bottom: 0px;
 }
 
-.section_index .icon, .submenu_1 .icon, .submenu_2 .icon, .article_1 .icon {
+.section_index .icon, .submenu_1 .icon, .submenu_2 .icon, .article_1 .icon, .icon_txt {
     margin: 4px 0px 8px 0px;
     background-color: rgb(106, 196, 196);
     margin-bottom: 2px;

@@ -6,7 +6,7 @@ parent_folder: ideas
 
 
 
-<nav class="menu-grid">
+<nav class="menu-grid" style="margin-bottom: 20px;">
 
 <!-- <a href="{{ '/' | relative_url }}">
 <div class="icon"><img src="{{ '/images/menu_back.svg' | relative_url }}" alt="Terug"></div></a>  -->

@@ -5,21 +5,21 @@ page_type: article_1
 parent_folder: ideas
 ---
 
-<nav class="menu-grid">
+<nav class="menu-grid" style="margin-bottom: 20px;">
 <a href="#">
-  <div class="icon">YouTube</div>
+  <div class="icon_txt">YouTube</div>
 </a>
 
 <a href="#">
-  <div class="icon">Over mensen</div>
+  <div class="icon_txt">Over mensen</div>
 </a>
 
 <a href="#">
-  <div class="icon">Nog&nbsp;iets leuks</div>
+  <div class="icon_txt">Nog&nbsp;iets leuks</div>
 </a>
 
 <a href="#">
-  <div class="icon"></div>
+  <div class="icon_txt"></div>
   <div class="label"></div>
 </a>
 

@@ -6,22 +6,21 @@ parent_folder: projects
 ---
 
 
-<nav class="menu-grid">
+<nav class="menu-grid" style="margin-bottom: 20px;">
 <a href="{{ '/projects/andere-websites' | relative_url }}">
-  <div class="icon">Andere websites</div>
+  <div class="icon_txt">Andere websites</div>
 </a>
 
 <a href="#">
-  <div class="icon">Illustraties</div>
+  <div class="icon_txt">Illustraties</div>
 </a>
 
 <a href="#">
-  <div class="icon">Nog&nbsp;iets leuks...</div>
+  <div class="icon_txt">Nog&nbsp;iets leuks...</div>
 </a>
 
 <a href="#">
-  <div class="icon"></div>
-  <div class="label"></div>
+  <div class="icon_txt"></div>
 </a>
 
 </nav>

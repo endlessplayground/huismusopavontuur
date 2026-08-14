@@ -5,22 +5,21 @@ page_type: article_1
 parent_folder: projects
 ---
 
-<nav class="menu-grid">
+<nav class="menu-grid" style="margin-bottom: 20px;">
 <a href="{{ '/projects/andere-websites' | relative_url }}">
-  <div class="icon">Andere websites</div>
+  <div class="icon_txt">Andere websites</div>
 </a>
 
 <a href="#">
-  <div class="icon">Illustraties</div>
+  <div class="icon_txt">Illustraties</div>
 </a>
 
 <a href="#">
-  <div class="icon">Nog&nbsp;iets leuks...</div>
+  <div class="icon_txt">Nog&nbsp;iets leuks...</div>
 </a>
 
 <a href="#">
-  <div class="icon"></div>
-  <div class="label"></div>
+  <div class="icon_txt"></div>
 </a>
 
 </nav>
@@ -29,7 +28,7 @@ parent_folder: projects
 
 <nav class="menu-grid">
 <a href="https://endlessplayground.github.io/ikzoeknietmijnkat/">
-  <div class="icon"><img src="{{ '/images/cat.svg' | relative_url }}" alt="Folder"></div>
+  <div class="icon_txt"><img src="{{ '/images/cat.svg' | relative_url }}" alt="Folder"></div>
   <div class="label">Ik zoek&nbsp;niet mijn kat...</div> 
 </a>
 
