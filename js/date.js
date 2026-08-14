@@ -36,11 +36,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     donderdag: `<h3>Donderdag</h3> <p>Dan ben ik eigenlijk altijd vrij. Ik ga dan o.a. meestal even naar de <em>markt</em>.</p>`,
 
-    vrijdag: `<h3>Vrijdag</h3> <p>ben ik vrijwel altijd vrij.</p>`,
+    vrijdag: `<h3>Vrijdag</h3> <p>...ben ik vrijwel altijd vrij.</p>`,
 
-    zaterdag: `<h3>Zaterdag</h3> <p>Dan ben ik eigenlijk altijd vrij en doe ik niet zoveel bijzonders, omdat ik zondag en maandag drukke dagen heb.</p>`,
+    zaterdag: `<h3>Zaterdag</h3> <p>Dan ben ik eigenlijk altijd vrij en doe ik niet zoveel bijzonders.</p>`,
 
-    zondag: `<h3>zondag</h3> <p>Op zondag werk ik vrijwel altijd, van zes uur 's morgens tot ongeveer één uur à half twee, en dat is ook een hele drukke dag!</p>`
+    zondag: `<h3>zondag</h3> <p>Op zondag werk ik vrijwel altijd, van zes uur ’s morgens tot ongeveer één uur à half twee ’s middags, en dat is ook altijd wel een hele drukke dag.</p>`
   };
 
   const today = days[new Date().getDay()];

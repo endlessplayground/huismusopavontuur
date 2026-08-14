@@ -178,7 +178,7 @@ main, .main-kop, #folder {
 }
 
 .article_1 main, .article_2 main {
-    padding: 204px 40px 0px 58px;
+    padding: 204px 40px 0px 48px;
     justify-content: flex-start;
 }
 
@@ -312,7 +312,7 @@ main, .main-kop, #folder {
 }
 
 .article_1 .menu-grid {
-    margin: 15px 10px 0px -10px;
+    margin: 15px 10px 0px -20px;
 }
 
 .icon img {
