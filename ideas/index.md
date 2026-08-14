@@ -24,7 +24,7 @@ parent_folder: ideas
   <div class="label">...het universum</div> 
 </a>
 
-<a href="{{ '/ideas/more/' | relative_url }}">
+<a href="{{ '/ideas/' | relative_url }}">
   <div class="icon"><img src="{{ '/images/folder.svg' | relative_url }}" alt="Folder"></div>
   <div class="label">...nog meer</div>
 </a>
