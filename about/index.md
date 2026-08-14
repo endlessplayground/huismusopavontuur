@@ -1,42 +1,14 @@
 ---
 layout: default
-title: "Wat vind ik ervan???"
-page_type: section_index
+title: "Over mij"
+page_type: article_1
 parent_folder: about
 ---
 
-<nav class="menu-grid">
 
-<!-- <a href="{{ '/' | relative_url }}">
-<div class="icon"><img src="{{ '/images/menu_back.svg' | relative_url }}" alt="Terug"></div></a>  -->
+<p>Hi! Ik ben <em>Yvon</em>, en ik ben op zoek naar waar ik naar op zoek ben. Kan nog best lastig zijn... &#128529;</p>
 
-<a href="{{ '/about/over-mij' | relative_url }}">
-  <div class="icon"><img src="{{ '/images/doc.svg' | relative_url }}" alt="Document"></div>
-  <div class="label">Over mij</div>
-</a>
+<p>Ik lees graag, vooral non-fictie, en over <em>wetenschap</em>. Daar wil ik op deze site iets mee doen. Daarnaast maak ik graag <em>websites</em> en digitale <em>illustraties</em>.</p>
 
-<a href="#"><div class="icon"><img src="{{ '/images/folder_empty.svg' | relative_url }}" alt="Folder"></div></a>
+<p>Verder houd ik van praktisch bezig zijn, wandelen, koffie, praten met <em>mensen</em>, en tweedehands winkels bezoeken.</p>
 
-<a href="{{ '/about/werk/' | relative_url }}">
-  <div class="icon"><img src="{{ '/images/folder.svg' | relative_url }}" alt="Folder"></div>
-  <div class="label">Werk</div>
-</a>
-
-<a href="#"><div class="icon"><img src="{{ '/images/folder_empty.svg' | relative_url }}" alt="Folder"></div></a>
-
-<a href="{{ '/about/gesprekken/' | relative_url }}">
-  <div class="icon"><img src="{{ '/images/folder.svg' | relative_url }}" alt="Folder"></div>
-  <div class="label">Gesprekken</div> 
-</a>
-<a href="#"><div class="icon"><img src="{{ '/images/folder_empty.svg' | relative_url }}" alt="Folder"></div></a>
-
-<a href="{{ '/about/muziek/' | relative_url }}">
-  <div class="icon"><img src="{{ '/images/folder.svg' | relative_url }}" alt="Folder"></div>
-  <div class="label">‘Mijn’&nbsp;muziek</div>
-</a>
-
-<a href="#"><div class="icon"><img src="{{ '/images/folder_empty.svg' | relative_url }}" alt="Folder"></div></a>
-
-<a href="#"><div class="icon"><img src="{{ '/images/folder_empty.svg' | relative_url }}" alt="Folder"></div></a>
-
-</nav>

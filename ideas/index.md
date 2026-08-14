@@ -1,44 +1,38 @@
 ---
 layout: default
-page_type: section_index
+title: "Waar gaat het hier over?"
+page_type: article_1
 parent_folder: ideas
 ---
 
-
+<p><em>JA</em>, wat denk ik ervan? Dat probeer ik <em>uit te zoeken</em> door heel veel te lezen en te volgen. En hier <em>schrijf</em> ik daarover.
 
 <nav class="menu-grid">
 
-<!-- <a href="{{ '/' | relative_url }}">
-<div class="icon"><img src="{{ '/images/menu_back.svg' | relative_url }}" alt="Terug"></div></a>  -->
-
-<a href="{{ '/ideas/waar-gaat-het-hier-over/' | relative_url }}">
-  <div class="icon"><img src="{{ '/images/doc.svg' | relative_url }}" alt="Document"></div>
-  <div class="label">Waar gaat het hier over?</div>
+<a href="{{ '/ideas/interesting/' | relative_url }}">
+  <div class="icon"><img src="{{ '/images/folder.svg' | relative_url }}" alt="Folder"></div>
+  <div class="label">...over bewustzijn</div> 
 </a>
-
-<a href="#"><div class="icon"><img src="{{ '/images/folder_empty.svg' | relative_url }}" alt="Folder"></div></a>
 
 <a href="{{ '/ideas/interesting/' | relative_url }}">
   <div class="icon"><img src="{{ '/images/folder.svg' | relative_url }}" alt="Folder"></div>
-  <div class="label">...Interessant (wetenschap en&nbsp;zo)</div> 
+  <div class="label">...mensen</div> 
 </a>
 
-<a href="#"><div class="icon"><img src="{{ '/images/folder_empty.svg' | relative_url }}" alt="Folder"></div></a>
+<a href="{{ '/ideas/interesting/' | relative_url }}">
+  <div class="icon"><img src="{{ '/images/folder.svg' | relative_url }}" alt="Folder"></div>
+  <div class="label">...het universum</div> 
+</a>
 
 <a href="{{ '/ideas/more/' | relative_url }}">
   <div class="icon"><img src="{{ '/images/folder.svg' | relative_url }}" alt="Folder"></div>
-  <div class="label">Nog meer</div>
-</a>
-
-<a href="#"><div class="icon"><img src="{{ '/images/folder_empty.svg' | relative_url }}" alt="Folder"></div></a>
-
-<a href="{{ '/ideas/everyday-life/' | relative_url }}">
-  <div class="icon"><img src="{{ '/images/folder.svg' | relative_url }}" alt="Folder"></div>
-  <div class="label">...In het dagelijks leven</div>
+  <div class="label">...nog meer</div>
 </a>
 
 <a href="#"><div class="icon"><img src="{{ '/images/folder_empty.svg' | relative_url }}" alt="Folder"></div></a>
 
 <a href="#"><div class="icon"><img src="{{ '/images/folder_empty.svg' | relative_url }}" alt="Folder"></div></a>
+
+
 
 </nav>

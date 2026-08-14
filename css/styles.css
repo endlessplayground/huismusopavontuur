@@ -41,7 +41,7 @@ em, h3 {
     font-style: normal;
     font-size: 1.1em;
     color: hsl(185, 100%, 38%);
-    text-shadow: 1px 2px 3px rgba(149, 216, 231, 0.9);
+    text-shadow: 0.5px 0.5px 0px rgba(149, 216, 231, 0.9);
 }
 
 h1 {
@@ -305,10 +305,14 @@ main, .main-kop, #folder {
     margin-bottom: 0px;
 }
 
-.section_index .icon, .submenu_1 .icon, .submenu_2 .icon {
+.section_index .icon, .submenu_1 .icon, .submenu_2 .icon, .article_1 .icon {
     margin: 4px 0px 8px 0px;
     background-color: rgb(106, 196, 196);
     margin-bottom: 2px;
+}
+
+.article_1 .menu-grid {
+    margin: 15px 10px 0px -10px;
 }
 
 .icon img {
