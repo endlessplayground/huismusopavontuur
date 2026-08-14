@@ -5,7 +5,7 @@ page_type: short
 parent_folder: random
 ---
 
-<div style="position: fixed; background-color: rgba(130, 205, 205, 0.99); heigth: 10px; width: 100%;  max-width: 430px; margin-top: -148px; padding-top: 100px; z-index: 97"><p  id="roll-instruction">Rol de <em>dobbelsteen</em> voor een random tekst.</p></div>
+<div style="position: fixed; background-color: rgba(130, 205, 205, 0.99); heigth: 10px; width: 100%;  max-width: 430px; margin-top: -148px; padding-top: 100px; z-index: 97"><p  id="roll-instruction">Rol de <em>dobbelsteen</em> voor iets randoms<em>…</em></p></div>
 
 <div class="dice"  style="position: fixed; background-color: rgba(43, 226, 52, 0.42); max-width: 430px; z-index: 98;     background: linear-gradient(
     to bottom,
