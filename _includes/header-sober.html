@@ -1,0 +1,49 @@
+<img src="{{ '/images/huismus.svg' | relative_url }}" alt="Huismus dreams on">
+
+<div id="img-and-title">
+    {% if page.page_type == "home" %}
+    <div id="header-mus">
+        <img src="{{ '/images/mus-nw.svg' | relative_url }}" alt="Mus">
+    </div>
+{% endif %}
+
+
+{% if page.parent_folder == "about" %}
+    <div id="header-icon">
+    <img src="{{ '/images/about2.svg' | relative_url }}" alt="Ik"></div>
+{% endif %}
+
+
+{% if page.page_type != "home" and page.parent_folder != "about" %} 
+    <div id="header-icon">
+    <img src="{{ '/images/' | append: page.parent_folder | append: '.svg' | relative_url }}" alt="">
+    </div>
+{% endif %}
+
+{% assign parts = page.path | split: '/' %}
+
+
+{% case parts[0] %}
+  {% when "ideas" %}
+    <h2>{{ site.labels.ideas }}</h2>
+
+  {% when "projects" %}
+    <h2>{{ site.labels.projects }}</h2>
+
+  {% when "about" %}
+    <h2>{{ site.labels.about }}</h2>
+
+  {% when "today" %}
+    <h2>{{ site.labels.today }}</h2>
+
+  {% when "random" %}
+    <h2>{{ site.labels.random }}</h2>
+
+  {% when "contact" %}
+    <h2>{{ site.labels.contact }}</h2>
+
+  {% when "sober" %}
+    <h2>{{ site.labels.sober }}</h2>
+
+{% endcase %}
+</div>

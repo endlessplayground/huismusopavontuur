@@ -9,7 +9,6 @@
     box-sizing: border-box;
     text-decoration: none;
     -webkit-tap-highlight-color: transparent;
-
     font-family: "Epunda Slab", serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -37,7 +36,6 @@ p, h3 {
 }
 
 em, h3 {
-    font-family: var(--heading-font);
     font-weight: 500;
     font-style: normal;
     font-size: 1.1em;
@@ -72,28 +70,18 @@ h2 {
 
 
 body {
-
     min-height: 100vh;
-
-    background-color: rgb(124, 245, 68);
-        background-color: rgb(102, 198, 17);
-
-
+    background-color: rgb(102, 198, 17);
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: system-ui, sans-serif;
     color: rgb(46, 64, 86);
-
-    font-family: "Alegreya Sans", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-
 }
 
 
 /* ---------- HEADER ---------- */
 
+/* nog! */
 #top-mus, #top-icon {
     position: fixed;
     display: flex;
@@ -103,8 +91,6 @@ body {
     right: 130px;
     z-index: 20;
 }
-
-
 
 #top-icon {
     position: absolute;
