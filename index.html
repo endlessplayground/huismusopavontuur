@@ -13,7 +13,8 @@ page_type: home
   <div class="label">{{ site.labels.about }}</div>
 </a>
 
-<a href="#"><div class="icon"></div></a>
+<a href="{{ '/sober/' | relative_url }}">
+  <div class="icon"></div></a>
 
 <a href="{{ '/ideas/' | relative_url }}">
   <div class="icon"><img src="{{ '/images/ideas.svg' | relative_url }}" alt="Wat vind ik"></div>
@@ -29,7 +30,7 @@ page_type: home
     <div id="month"></div>
     <div id="date"></div>
   </div>
-  <div class="label">{{ site.labels.ideas }}</div>
+  <div class="label">{{ site.labels.today }}</div>
   </div>
 </div>
 </a>

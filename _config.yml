@@ -14,6 +14,7 @@ labels:
   today: "Vandaag…"
   random: "Random"
   contact: "Contact"
+  sober: "Sober en opgeschoond!"
 
 defaults:
   - scope:
