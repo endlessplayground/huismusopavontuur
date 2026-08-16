@@ -108,7 +108,8 @@ header {
 }
 
 #huismus {
-    width
+    height: 70px;
+    width: 100%;
 }
 
 #header-img {
@@ -183,7 +184,7 @@ header {
     align-items: center;
     width: 54px;
     height: 54px;
-    background-color: rgb(106, 196, 196);
+    background-color: rgb(100, 188, 188);
     border-radius: 50%;
     font-family: var(--heading-font);
     font-size: 0.8em;
