@@ -1,5 +1,79 @@
 <img src="{{ '/images/huismus.svg' | relative_url }}" alt="Huismus dreams on">
 
+    {% if page.page_type == "home" %}
+        <div id="top-mus"><img src="{{ '/images/mus.svg' | relative_url }}" alt="Mus"></div>
+    {% endif %}
+
+<div id="img-and-title">
+
+ <!--      {% if page.page_type == "home" %}
+    <div id="header-img" class="header-mus">
+        <img src="{{ '/images/mus-nw.svg' | relative_url }}" alt="Mus">
+    </div>
+        {% endif %}--> 
+
+{% if page.parent_folder == "about" %}
+    <div id="header-img">
+    <img src="{{ '/images/about2.svg' | relative_url }}" alt="Ik"></div>
+{% endif %}
+
+
+{% if page.page_type != "home" and page.parent_folder != "about" %} 
+    <div id="header-img">
+    <img src="{{ '/images/' | append: page.parent_folder | append: '.svg' | relative_url }}" alt="">
+    </div>
+{% endif %}
+
+
+    
+
+    <div>    {% assign parts = page.path | split: '/' %}
+
+    {% case parts[0] %}
+  {% when "ideas" %}
+    <h2>{{ site.labels.ideas }}</h2>
+
+  {% when "projects" %}
+    <h2>{{ site.labels.projects }}</h2>
+
+  {% when "about" %}
+    <h2>{{ site.labels.about }}</h2>
+
+  {% when "today" %}
+    <h2>{{ site.labels.today }}</h2>
+
+  {% when "random" %}
+    <h2>{{ site.labels.random }}</h2>
+
+  {% when "contact" %}
+    <h2>{{ site.labels.contact }}</h2>
+
+  {% when "sober" %}
+    <h2>{{ site.labels.sober }}</h2>
+
+{% endcase %}
+</div>
+</div>
+
+{% if page.show_submenu %}
+  <div id="submenu">
+    <div class="submenu-icon">Andere websites</div>
+    <div class="submenu-icon">Illustraties</div>
+    <div class="submenu-icon">Nog&nbsp;iets leuks...</div>
+    <div class="submenu-icon">Muziekjes</div>
+    <div class="submenu-icon">Special content</div>
+  </div>
+{% endif %}
+
+
+
+
+
+
+
+
+<!--
+
 <div id="img-and-title">
     {% if page.page_type == "home" %}
     <div id="header-mus">
@@ -47,3 +121,4 @@
 
 {% endcase %}
 </div>
+ -->
