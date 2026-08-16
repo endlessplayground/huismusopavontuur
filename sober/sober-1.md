@@ -3,6 +3,7 @@ layout: default-sober
 title: "Sober"
 page_type: article
 parent_folder: sober
+show_submenu: true
 ---
 
 
