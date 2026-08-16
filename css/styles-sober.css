@@ -107,6 +107,10 @@ header {
 
 }
 
+#huismus {
+    width
+}
+
 #header-img {
     display: flex;
     justify-content: center;
@@ -164,6 +168,8 @@ header {
 #submenu {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     gap: 22px;
     width: calc(var(--max-width) - 40px);
     height: auto;
@@ -175,9 +181,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 55px;
-    height: 55px;
-    background-color: rgb(129, 196, 198);
+    width: 54px;
+    height: 54px;
     background-color: rgb(106, 196, 196);
     border-radius: 50%;
     font-family: var(--heading-font);
