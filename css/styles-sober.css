@@ -39,7 +39,7 @@ p, h3 {
 
 h2 {
     display: block;
-    padding: 0px 60px 0px 8px;
+    width: 200px;
     font-size: 1.7em;
     font-weight: 300;
     text-align: center;
@@ -103,7 +103,7 @@ header {
     justify-content: flex-start;
     align-items: center;
     z-index: 6;
-        overflow: visible;
+    overflow: visible;
 
 }
 
@@ -115,20 +115,20 @@ header {
 #header-img {
     display: flex;
     justify-content: center;
-    width: 150px;
+    width: 80px;
     height: 100px;
     background-color: rgba(235, 100, 237, var(--transparency));
     z-index: 8;
     overflow: visible !important;
 }
 
-#top-mus, #top-icon {
+#top-mus {
     position: fixed;
     display: flex;
     justify-content: center;
     width: 100%;
-    top: 37px;
-    right: 130px;
+    top: 27px;
+    right: 115px;
     z-index: 20;
 }
 
@@ -137,33 +137,18 @@ header {
     width: 220px;
 }
 
-
-/* #header-mus, #header-icon {
-    flex-shrink: 0;
-    display: flex;
-    justify-content: center;
-    width: 100px;
-    margin: 0px 5px 0px 5px;
-    background-color: rgba(235, 100, 237, var(--transparency));
-    z-index: 8;
-}
-
-#header-icon img {
-    width: 120px;
-    height: 120px;
-    margin-left: 20px; */
-
-
 #img-and-title {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: flex-start;
     width: 100%;
     height: 100px;
     margin-top: 0px;
+    padding-left: 80px;
     background-color: rgba(128, 255, 0, var(--transparency));
     overflow: visible !important;
-
+    gap: 10px;
 }
 
 #submenu {
@@ -212,12 +197,13 @@ main {
     background-color: rgba(210, 105, 30, var(--transparency));
 }
 
-.main-txt-left {
+.main-txt-left p {
     text-align: left;
-    margin-right: calc(var(--text-margin) - 15px);
+    margin-left: calc(var(--text-margin) + -4px);
+    margin-right: calc(var(--text-margin) - 20px);
 }
 
-.main-txt-center {
+.main-txt-center p {
     text-align: center;
 }
 
@@ -232,7 +218,6 @@ footer {
 
     height: 20px;
 
-    background-color: rgb(124, 245, 68);
     background-color: rgb(102, 198, 17);
     position: fixed;
     bottom: 0px;

@@ -1,4 +1,4 @@
-<img src="{{ '/images/huismus.svg' | relative_url }}" alt="Huismus dreams on">
+<div id="huismus"><img src="{{ '/images/huismus.svg' | relative_url }}" alt="Huismus dreams on"></div>
 
     {% if page.page_type == "home" %}
         <div id="top-mus"><img src="{{ '/images/mus.svg' | relative_url }}" alt="Mus"></div>
@@ -57,11 +57,13 @@
 
 {% if page.show_submenu %}
   <div id="submenu">
+    <div class="submenu-icon"><img src="{{ '/images/pijl-sober.svg' | relative_url }}" alt="at" style="width:28px; margin-right: 4px;">
+    
+    </div>
     <div class="submenu-icon">Andere websites</div>
     <div class="submenu-icon">Illustraties</div>
     <div class="submenu-icon">Nog&nbsp;iets leuks...</div>
     <div class="submenu-icon">Muziekjes</div>
-    <div class="submenu-icon">Special content</div>
   </div>
 {% endif %}
 
