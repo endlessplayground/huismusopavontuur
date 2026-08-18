@@ -1,5 +1,5 @@
 ---
-layout: default-sober
+layout: default
 title: "Sobertjes"
 page_type: article
 parent_folder: sober

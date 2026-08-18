@@ -1,8 +1,9 @@
 ---
-layout: default-sober
-title: "Sobertjes"
+layout: default
+title: "Sober-test"
 page_type: home
 parent_folder: sober
+show_submenu: false
 ---
 
 
