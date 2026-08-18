@@ -16,6 +16,58 @@ labels:
   contact: "Contact"
   sober: "Sober en opgeschoond!"
 
+
+submenus:
+
+  about:
+    - name: "Start"
+      url: "/about/"
+    - name: "Hobby's"
+      url: "/about/websites/"
+    - name: "Vrienden"
+      url: "/about/illustraties/"
+    - name: "Muziekjes"
+      url: "/about/muziek/"
+    - name: "Yes!!!"
+      url: "/about/yes/"
+
+  ideas:
+    - name: "Start"
+      url: "/ideas/"
+    - name: "Favoriete denkers"
+      url: "/ideas/websites/"
+    - name: "Speculaties"
+      url: "/ideas/illustraties/"
+    - name: "Bijzondere fenomenen"
+      url: "/ideas/muziek/"
+    - name: "Psychologie"
+      url: "/ideas/muziek/"
+
+  projects:
+    - name: "Start"
+      url: "/projects/"
+    - name: "Andere websites"
+      url: "/projects/websites/"
+    - name: "Illustraties"
+      url: "/projects/illustraties/"
+    - name: "Muziekjes"
+      url: "/projects/muziek/"
+    - name: "Debate club"
+      url: "/projects/muziek/"
+
+  sober:
+    - name: "Start"
+      url: "/sober/"
+    - name: "Opgeschoond"
+      url: "/sober/websites/"
+    - name: "Experimenteren"
+      url: "/sober/illustraties/"
+    - name: "Nog iets"
+      url: "/sober/muziek/"
+    - name: ""
+      url: ""
+
+
 defaults:
   - scope:
       path: "ideas"
