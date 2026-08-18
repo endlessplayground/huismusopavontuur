@@ -16,6 +16,10 @@ show_submenu: false
 
 <style>
 #header-img {
-  transform: scale(1.2) rotate(-20deg);
+  transform: scale(1.1) rotate(-20deg);
+  margin: 12px 0px 0px -60px;
+}
+h2 {
+  margin-left: -10px;
 }
 </style>

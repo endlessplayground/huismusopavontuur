@@ -21,5 +21,7 @@ h3 {
 .date #month, .date #date  {
     margin-right: 74px;
 }
-
+.short main {
+    padding: 200px 0px 0px 0px;
+}
 </style>
