@@ -1,0 +1,355 @@
+:root {
+    --main-font: "Epunda Slab", serif;
+    --heading-font: "Hammersmith One", sans-serif;
+    --max-width: 430px;
+    --text-margin: 30px;
+    --transparency: 0.0;
+
+}
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+
+    font-family: "Epunda Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a,
+a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+h1, h2, h3, em {
+    font-family: var(--heading-font);
+}
+
+em, h3 {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.1em;
+    color: hsl(185, 100%, 38%);
+    text-shadow: 0.5px 0.5px 0px rgba(149, 216, 231, 0.9);
+}
+
+p, h3 {
+    line-height: 1.3;
+    margin-bottom: 0.95em;
+}
+
+h2 {
+    display: block;
+    width: 200px;
+    font-size: 1.7em;
+    font-weight: 300;
+    text-align: center;
+    line-height: 90%;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(52, 163, 188, 0.882);
+    background-color: rgba(248, 248, 64, var(--transparency));
+}
+
+body {
+    min-height: 100vh;
+    background-color: rgb(102, 198, 17);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(46, 64, 86);
+}
+
+.header-back-wide {
+    position: fixed;
+    width: 100%;
+    height: 166px;
+    background: linear-gradient(
+    to bottom,
+    rgba(58, 185, 213, 0.99) 0,
+    rgba(130, 205, 205, 0.99) 70%,
+    transparent 100%
+    );
+    z-index: 4;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 280px;
+
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: visible;
+    z-index: 105;
+    background: linear-gradient(
+    to bottom,
+    rgba(58, 185, 213, 0.99) 0,
+    rgba(130, 205, 205, 0.99) 80%,
+    transparent 100%
+    );
+    max-width: var(--max-width);
+    z-index: 300;
+
+}
+
+.header-nav {
+    margin-top: 78px;
+    max-width: var(--max-width);
+
+}
+
+.home header {
+    height: 180px;
+}
+
+.short header {
+    height: 150px;
+}
+
+#huismus {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 60px;
+    width: 100%;
+    padding-left: 45px;
+    background-color: rgba(232, 207, 178, 0.4);
+    z-index: 360;
+}
+#huismus img {
+    width: 438px;
+  }
+
+#header-img {
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    height: 100px;
+    margin-left: -20px;
+    background-color: rgba(235, 100, 237, var(--transparency));
+    z-index: 8;
+}
+#header-img img {
+    width: 105px;
+}
+
+#top-mus {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    top: 27px;
+    right: 115px;
+    z-index: 4100;
+}
+
+#top-mus img {
+    width: 220px;
+}
+
+#img-and-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100px;
+    padding: 0px 0px 0px 22px;
+    overflow: visible !important;
+    gap: 0px;
+    background-color: rgba(245, 93, 240, var(--transparency));
+}
+
+#back-1 {
+    width: 37px;
+    height: 30px;
+    position: relative;
+    left: -6px;
+    top: 0px;
+    background-color: rgba(0, 0, 255, var(--transparency));
+}
+#back-1 img {
+    transform: scale(1.2);
+}
+
+.menu-grid {
+/* margin-top adjusted because content on landing page has to start higher, locally*/
+    margin-top: -40px;
+    width: calc(100% - 40px);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0 2px;
+    z-index: 200;
+}
+.menu-grid a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+
+    background-color: rgb(185, 238, 227);
+
+    margin-bottom: 2px;
+}
+
+.label {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 40px;
+    width: 90px;
+    margin-top: -10px;
+    margin-bottom: 8px;
+    color: white;
+    text-align: center;
+    overflow: visible;
+    font-size: 1em;
+    line-height: 1rem;
+    font-weight: 400;
+    text-shadow: 1px 1px 2px rgba(41, 137, 158, 0.882);
+
+}
+
+#submenu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+    width: calc(var(--max-width) - 40px);
+    height: auto;
+    margin: 0px 10px 0px 10px;
+    background-color: rgba(66, 227, 174, var(--transparency));
+}
+
+.submenu-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 54px;
+    height: 54px;
+    background-color: rgb(100, 188, 188);
+    border-radius: 50%;
+    font-family: var(--heading-font);
+    font-size: 0.8em;
+    font-weight: 300;
+    text-align: center;
+    line-height: 100%;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(52, 163, 188, 0.882);
+}
+
+main {
+    width: 100%;
+    max-width: 430px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:center;
+    background-color:rgb(130, 205, 205);
+    padding: 260px 0px 0px 0px;
+}
+
+.home main {
+    padding: 200px 0px 0px 0px;
+}
+
+.short main {
+    padding: 230px 0px 0px 0px;
+}
+
+.main-txt, .main-txt-left, .main-txt-center {
+    margin: 0px var(--text-margin) 0px var(--text-margin);
+    background-color: rgba(210, 105, 30, var(--transparency));
+}
+
+.main-txt-left p {
+    text-align: left;
+    margin-left: calc(var(--text-margin) + -4px);
+    margin-right: calc(var(--text-margin) - 20px);
+}
+
+.main-txt-center p {
+    text-align: center;
+}
+
+footer {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    max-width: 430px;
+
+
+    height: 20px;
+
+    background-color: rgb(102, 198, 17);
+    position: fixed;
+    bottom: 0px;
+    z-index: 300;
+
+}
+
+.date {
+    position: relative;
+    padding-top: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 95px;
+    z-index: 1000;
+}
+
+#month {
+  position: relative;
+  color: white;
+  font-size: 0.9em;
+  font-weight: 500;
+  text-align: center;
+  font-family: var(--heading-font); 
+  z-index: 1000;
+}
+
+#date {
+  position: relative;
+  font-size: 1.7em;
+  font-weight: 700;
+  text-align: center;
+  font-family: var(--heading-font); 
+}
+
+.date #month, .date #date  {
+    position: absolute;
+    transform: translateY(62%);
+}
+
+.date #date {
+        transform: translateY(97%);
+}
+
+#top-icon .date {
+    margin-top: -10px;
+}
