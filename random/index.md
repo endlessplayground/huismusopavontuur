@@ -3,24 +3,30 @@ layout: default
 title: "Random"
 page_type: short
 parent_folder: random
+show_submenu: false
 ---
 
-<div style="position: fixed; background-color: rgba(130, 205, 205, 0.99); heigth: 10px; width: 100%;  max-width: 430px; margin-top: -148px; padding-top: 100px; z-index: 97"><p  id="roll-instruction">Rol de <em>dobbelsteen</em> voor iets randoms<em>…</em></p></div>
 
-<div class="dice"  style="position: fixed; background-color: rgba(43, 226, 52, 0.42); max-width: 430px; z-index: 98;     background: linear-gradient(
-    to bottom,
-    rgba(130, 205, 205, 0.99) 0,
-    rgba(130, 205, 205, 0.99) 70%,
-    transparent 100%
-);">
+<div class="instruction" style=""><p  id="roll-instruction">Rol de <em>dobbelsteen</em> voor iets randoms<em>…</em></p></div>
+
+<div class="dice"  style="">
   <div id="roll">
     <img src="{{ '/images/dice.svg' | relative_url }}" alt="Dobbelsteen">
   </div>
 </div>
 
+<div class="main-txt-left">  
 <div id="output"></div>
+</div>  
+
+
+
 
 <style>
+.instruction {
+  position: fixed; background-color: rgba(130, 205, 205, 0.99); heigth: 10px; width: 100%;  max-width: 430px; margin-top: -148px; padding-top: 100px; z-index: 97; text-align: center; 
+}
+
 .random-text {
   text-align: left;
 }
@@ -31,7 +37,7 @@ parent_folder: random
   align-items: center;
   width: 100%;
   height: 70px;
-  margin: -16px 0px 30px 0px;
+  margin: -16px 0px 20px 0px;
 }
 
 #roll {
@@ -68,7 +74,7 @@ parent_folder: random
 }
 
 #output {
-  margin-top: 60px;
+  margin-top: 0px;
   min-height: 50px;
   text-align: center;
 }
