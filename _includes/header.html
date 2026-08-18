@@ -1,0 +1,82 @@
+
+
+<div class="header-nav">
+<div id="img-and-title">
+
+    <a href="{{ '/sober' | relative_url }}">
+        {% if page.show_submenu %}<div id="back-1"><img src="{{ '/images/pijl-sober.svg' | relative_url }}" alt="pijltje terug" style="width:28px;"></div>{% endif %}
+    </a>
+
+    {% if page.parent_folder == "about" %}
+        <div id="header-img">
+        <a href="{{ '/sober' | relative_url }}"><img src="{{ '/images/about2.svg' | relative_url }}" alt="Ik"></a>
+        </div>
+    {% endif %}
+
+    {% if page.page_type != "home" and page.parent_folder != "about" %} 
+        <div id="header-img">
+        <a href="{{ '/sober' | relative_url }}"><img src="{{ '/images/' | append: page.parent_folder | append: '.svg' | relative_url }}" alt=""></a>
+        </div>
+    {% endif %}
+
+        {% if page.parent_folder == "today" %}
+    
+    <div id="top-icon">
+
+    <div class="date">
+        <div id="month"></div>
+        <div id="date"></div>
+    </div>
+    
+    </div>
+
+    {% endif %}
+
+{% if page.page_type != "home" %}
+    <div>
+    {% assign parts = page.path | split: '/' %}
+
+        {% case parts[0] %}
+    {% when "ideas" %}
+        <h2>{{ site.labels.ideas }}</h2>
+
+    {% when "projects" %}
+        <h2>{{ site.labels.projects }}</h2>
+
+    {% when "about" %}
+        <h2>{{ site.labels.about }}</h2>
+
+    {% when "today" %}
+        <h2>{{ site.labels.today }}</h2>
+
+    {% when "random" %}
+        <h2>{{ site.labels.random }}</h2>
+
+    {% when "contact" %}
+        <h2>{{ site.labels.contact }}</h2>
+
+    {% when "sober" %}
+        <h2>{{ site.labels.sober }}</h2>
+
+    {% endcase %}
+    </div>
+</div>
+{% endif %}
+
+
+{% if page.show_submenu %}
+<div id="submenu">
+    <div class="submenu-icon">Begin menu</div>
+    <div class="submenu-icon">Andere websites</div>
+    <div class="submenu-icon">Illustraties</div>
+    <div class="submenu-icon">Nog&nbsp;iets leuks...</div>
+    <div class="submenu-icon">Muziekjes</div>
+  </div>
+{% endif %}
+
+</div>
+
+<!--{% if page.show_submenu %}
+    <div id="arrow-back"><img src="{{ '/images/pijl-sober.svg' | relative_url }}" alt="pijltje terug" style="width:28px;"></div>
+<!--{% endif %}-->
+
