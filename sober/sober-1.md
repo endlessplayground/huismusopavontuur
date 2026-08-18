@@ -1,6 +1,6 @@
 ---
 layout: default-sober
-title: "Sober"
+title: "Sobertjes"
 page_type: article
 parent_folder: sober
 show_submenu: true

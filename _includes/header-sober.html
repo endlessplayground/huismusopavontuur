@@ -4,54 +4,53 @@
         <div id="top-mus"><img src="{{ '/images/mus.svg' | relative_url }}" alt="Mus"></div>
     {% endif %}
 
+
 <div id="img-and-title">
 
+    <a href="{{ '/sober' | relative_url }}"><div id="back-1">{% if page.show_submenu %}<img src="{{ '/images/pijl-sober.svg' | relative_url }}" alt="pijltje terug" style="width:28px;">{% endif %}</div></a>
 
-<div id="back-1">{% if page.show_submenu %}<img src="{{ '/images/pijl-sober.svg' | relative_url }}" alt="pijltje terug" style="width:28px;">{% endif %}</div>
+    {% if page.parent_folder == "about" %}
+        <div id="header-img">
+        <a href="{{ '/sober' | relative_url }}"><img src="{{ '/images/about2.svg' | relative_url }}" alt="Ik"></a>
+        </div>
+    {% endif %}
 
-{% if page.parent_folder == "about" %}
-    <div id="header-img">
-    <img src="{{ '/images/about2.svg' | relative_url }}" alt="Ik"></div>
-{% endif %}
+    {% if page.page_type != "home" and page.parent_folder != "about" %} 
+        <div id="header-img">
+        <a href="{{ '/sober' | relative_url }}"><img src="{{ '/images/' | append: page.parent_folder | append: '.svg' | relative_url }}" alt=""></a>
+        </div>
+    {% endif %}
 
+{% if page.page_type != "home" %}
+    <div>
+    {% assign parts = page.path | split: '/' %}
 
-{% if page.page_type != "home" and page.parent_folder != "about" %} 
-    <div id="header-img">
-    <img src="{{ '/images/' | append: page.parent_folder | append: '.svg' | relative_url }}" alt="">
+        {% case parts[0] %}
+    {% when "ideas" %}
+        <h2>{{ site.labels.ideas }}</h2>
+
+    {% when "projects" %}
+        <h2>{{ site.labels.projects }}</h2>
+
+    {% when "about" %}
+        <h2>{{ site.labels.about }}</h2>
+
+    {% when "today" %}
+        <h2>{{ site.labels.today }}</h2>
+
+    {% when "random" %}
+        <h2>{{ site.labels.random }}</h2>
+
+    {% when "contact" %}
+        <h2>{{ site.labels.contact }}</h2>
+
+    {% when "sober" %}
+        <h2>{{ site.labels.sober }}</h2>
+
+    {% endcase %}
     </div>
+</div>
 {% endif %}
-
-
-    
-
-    <div>    {% assign parts = page.path | split: '/' %}
-
-    {% case parts[0] %}
-  {% when "ideas" %}
-    <h2>{{ site.labels.ideas }}</h2>
-
-  {% when "projects" %}
-    <h2>{{ site.labels.projects }}</h2>
-
-  {% when "about" %}
-    <h2>{{ site.labels.about }}</h2>
-
-  {% when "today" %}
-    <h2>{{ site.labels.today }}</h2>
-
-  {% when "random" %}
-    <h2>{{ site.labels.random }}</h2>
-
-  {% when "contact" %}
-    <h2>{{ site.labels.contact }}</h2>
-
-  {% when "sober" %}
-    <h2>{{ site.labels.sober }}</h2>
-
-{% endcase %}
-</div>
-</div>
-
 
 
 {% if page.show_submenu %}

@@ -115,7 +115,7 @@ header {
     justify-content: center;
     width: 80px;
     height: 100px;
-    margin-left: -15px;
+    margin-left: -20px;
     background-color: rgba(235, 100, 237, var(--transparency));
     z-index: 8;
     overflow: visible !important;
@@ -142,7 +142,7 @@ header {
     justify-content: flex-start;
     width: 100%;
     height: 100px;
-    padding-left: 15px;
+    padding-left: 22px;
     overflow: visible !important;
     gap: 0px;
     background-color: rgba(245, 93, 240, var(--transparency));
@@ -155,6 +155,9 @@ header {
     left: 0%;
     top: 0px;
     background-color: rgba(0, 0, 255, var(--transparency));
+}
+#back-1 img {
+    transform: scale(1.2);
 }
 
 #submenu {
