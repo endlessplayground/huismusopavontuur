@@ -222,6 +222,7 @@ header {
     width: 90px;
     margin-top: -10px;
     margin-bottom: 8px;
+    font-family: var(--heading-font);
     color: white;
     text-align: center;
     overflow: visible;
