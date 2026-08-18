@@ -3,7 +3,7 @@
     --heading-font: "Hammersmith One", sans-serif;
     --max-width: 430px;
     --text-margin: 30px;
-    --transparency: 0.5;
+    --transparency: 0.0;
 
 }
 
@@ -106,7 +106,7 @@ header {
 }
 
 #huismus {
-    height: 66px;
+    height: 74px;
     width: 100%;
 }
 
@@ -115,6 +115,7 @@ header {
     justify-content: center;
     width: 80px;
     height: 100px;
+    margin-left: -15px;
     background-color: rgba(235, 100, 237, var(--transparency));
     z-index: 8;
     overflow: visible !important;
@@ -130,7 +131,6 @@ header {
     z-index: 20;
 }
 
-
 #top-mus img {
     width: 220px;
 }
@@ -142,11 +142,19 @@ header {
     justify-content: flex-start;
     width: 100%;
     height: 100px;
-    padding-left: 50px;
-    background-color: rgba(128, 255, 0, var(--transparency));
+    padding-left: 15px;
     overflow: visible !important;
-    gap: 10px;
-    background-color: rgb(245, 93, 240);
+    gap: 0px;
+    background-color: rgba(245, 93, 240, var(--transparency));
+}
+
+#back-1 {
+    width: 37px;
+    height: 30px;
+    position: relative;
+    left: 0%;
+    top: 0px;
+    background-color: rgba(0, 0, 255, var(--transparency));
 }
 
 #submenu {
