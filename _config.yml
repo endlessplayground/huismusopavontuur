@@ -14,7 +14,7 @@ labels:
   today: "Vandaag…"
   random: "Random"
   contact: "Contact"
-  sober: "Sober en opgeschoond!"
+  test: "Test gedeelte"
 
 
 submenus:
@@ -23,25 +23,25 @@ submenus:
     - name: "Start"
       url: "/about/"
     - name: "Hobby's"
-      url: "/about/websites/"
-    - name: "Vrienden"
-      url: "/about/illustraties/"
-    - name: "Muziekjes"
+      url: "/about/hobbys/"
+    - name: "Werk"
+      url: "/about/werk/"
+    - name: "Favoriete muziek"
       url: "/about/muziek/"
-    - name: "Yes!!!"
-      url: "/about/yes/"
+    - name: ""
+      url: "#"
 
   ideas:
     - name: "Start"
       url: "/ideas/"
     - name: "Favoriete denkers"
-      url: "/ideas/websites/"
+      url: "/ideas/denkers/"
     - name: "Speculaties"
-      url: "/ideas/illustraties/"
+      url: "/ideas/speculaties/"
     - name: "Bijzondere fenomenen"
-      url: "/ideas/muziek/"
+      url: "/ideas/bijzonder/"
     - name: "Psychologie"
-      url: "/ideas/muziek/"
+      url: "/ideas/psycho/"
 
   projects:
     - name: "Start"
@@ -50,22 +50,22 @@ submenus:
       url: "/projects/websites/"
     - name: "Illustraties"
       url: "/projects/illustraties/"
-    - name: "Muziekjes"
-      url: "/projects/muziek/"
+    - name: "Studie"
+      url: "/projects/studie/"
     - name: "Debate club"
-      url: "/projects/muziek/"
+      url: "/projects/debate/"
 
-  sober:
+  test:
     - name: "Start"
-      url: "/sober/"
+      url: "/test/"
     - name: "Opgeschoond"
-      url: "/sober/websites/"
-    - name: "Experimenteren"
-      url: "/sober/illustraties/"
+      url: "/test/opgeschoond/"
+    - name: "Experiment"
+      url: "/test/experiment/"
     - name: "Nog iets"
-      url: "/sober/muziek/"
+      url: "/test/muziek/"
     - name: ""
-      url: ""
+      url: "#"
 
 
 defaults:
