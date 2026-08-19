@@ -9,7 +9,7 @@ show_submenu: true
 
 <div class="main-txt-left">  
 
- <p>Wat wordt er allemaal <em>gedacht</em> omtrent bijvoorbeeld <em>bewustzijn</em> en <em>materie<e/m> en het <em>universum</em>?</p>
+ <p>Wat wordt er allemaal <em>gedacht</em> omtrent bijvoorbeeld <em>bewustzijn</em> en <em>materie</em> en het <em>universum</em>?</p>
  
 </div>
 
