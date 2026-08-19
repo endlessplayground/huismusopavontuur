@@ -18,8 +18,11 @@ h3 {
     width: 100%;
     text-align: center;
 }
+.date {
+      transform: scale(1.09);
+}
 .date #month, .date #date  {
-    margin-right: 74px;
+    margin-right: 70px;
 }
 .short main {
     padding: 200px 0px 0px 0px;
