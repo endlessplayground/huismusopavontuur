@@ -65,17 +65,6 @@
 </div>
 {% endif %}
 
-
-<!--{% if page.show_submenu %}
-<div id="submenu">
-    <div class="submenu-icon" id="active">Start</div>
-    <div class="submenu-icon">Andere websites</div>
-    <div class="submenu-icon">Illustraties</div>
-    <div class="submenu-icon">Nog&nbsp;iets leuks</div>
-    <div class="submenu-icon">Muziekjes</div>
-  </div>
-{% endif %}-->
-
 {% if page.show_submenu %}
 
   {% assign section = page.parent_folder %}
@@ -83,19 +72,17 @@
 
   <div id="submenu">
 
-    {% for item in submenu %}
-
-      <a href="{{ item.url | relative_url }}"
-         class="submenu-icon{% if page.url == item.url %} active{% endif %}">
-        {{ item.name }}
-      </a>
-
-    {% endfor %}
+{% for item in submenu %} 
+  <a class="submenu-item" href="{{ item.url | relative_url }}"> 
+    <div class="submenu-icon{% if page.url == item.url %} active{% endif %}">
+      {{ item.name }}
+    </div> 
+  </a> 
+{% endfor %}
 
   </div>
 
 {% endif %}
 
 </div>
-
 

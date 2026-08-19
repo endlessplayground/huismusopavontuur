@@ -15,11 +15,11 @@ show_submenu: false
 </div>
 
 <style>
-#header-img {
-  transform: scale(1.1) rotate(-20deg);
-  margin: 12px 0px 0px -60px;
-}
-h2 {
-  margin-left: -10px;
-}
+  #header-img {
+    transform: scale(1.1) rotate(-20deg);
+    margin: 12px 0px 0px -60px;
+  }
+  h2 {
+    margin-left: -10px;
+  }
 </style>
