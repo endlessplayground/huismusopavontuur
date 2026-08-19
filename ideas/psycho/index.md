@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Bijzondere fenomenen"
+title: "Psychologie"
 page_type: article
 parent_folder: ideas
 show_submenu: true
@@ -9,9 +9,7 @@ show_submenu: true
 
 <div class="main-txt-left">  
 
- <p>Sommige <em>fenomenen</em> zijn zó ongelooflijk <em>bijzonder</em> dat ik daar wel over wil vertellen op mijn site.</p>
-
- <p>Bijvoorbeeld <em>slime molds</em>.</p>
+ <p>Waarom <em>doen</em> en <em>zijn</em> mensen zoals ze doen en zijn? Vooral <em>persoonlijkheids</em>afwijkingen en criminaliteit vind ik erg boeiend.</p>
  
 </div>
 
