@@ -15,12 +15,12 @@
 <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="{{ '/css/styles.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/css/styles-exeptions.css' | relative_url }}">
 </head>
 
-<body class="{{ page.page_type }}">
+<body class="{{ page.parent_folder }}">
 
-<div class="header-back-wide"></div>
-<!-- <div class="header-back-small"></div> -->
+<div class="header-back-small"></div>
     {% if page.page_type == "home" %}
         <div id="top-mus"><img src="{{ '/images/mus.svg' | relative_url }}" alt="Mus"></div>
     {% endif %}
