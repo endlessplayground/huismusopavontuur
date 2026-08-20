@@ -277,6 +277,7 @@ header {
     background-color: rgb(149, 229, 241);
     background-color: hsl(168, 61%, 78%);
     transform: scale(1.1);
+    color: rgb(88, 103, 121);
 }
 
 .submenu-icon,
