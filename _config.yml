@@ -26,7 +26,7 @@ submenus:
       url: "/about/hobbys/"
     - name: "Werk"
       url: "/about/werk/"
-    - name: "Favoriete muziek"
+    - name: "Muziek"
       url: "/about/muziek/"
     - name: ""
       url: "#"
@@ -63,7 +63,7 @@ submenus:
     - name: "Experiment"
       url: "/test/experiment/"
     - name: "Nog iets"
-      url: "/test/muziek/"
+      url: "/test/iets/"
     - name: ""
       url: "#"
 
