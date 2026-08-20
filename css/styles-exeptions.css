@@ -25,7 +25,7 @@ body.projects  h2 {
   }
 
 body.about #header-img {
-    transform: scale(1.2);
+    transform: scale(1.1);
     margin: -10px 0px 0px -40px;
   }
 body.about h2 {

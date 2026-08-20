@@ -336,7 +336,7 @@ footer {
 
 .date {
     position: absolute;
-    margin-top: -6px;
+    margin-top: -8px;
     text-align: center;
     z-index: 1000;
 }
@@ -358,6 +358,6 @@ footer {
 .date #date {
     font-size: 1.8em;
     font-weight: 700;
-    margin-top: 0px;
+    margin-top: 2px;
 }
 

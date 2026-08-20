@@ -67,6 +67,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
   const specialDates = {
     "08-13": `<p>Op juist <em>deze</em> dag heb ik van alles aan mijn site bijgeschaafd en leuke scriptjes geïmplementeerd. Met dank aan <em>ChatGPT</em> voor zijn hulp.</p>`,
+    "08-20": `<p>Vandaag <em>opnieuw</em> van alles aan mijn site gedaan. O.a.&nbsp;de illustratie van die <em>plant</em> gemaakt.</p>`,
+    "08-21": `<p>Nog <em>één</em> dag werken en dan vertrek ik weer eens naar het  <em>oosten</em>, voor een familie<em>bijeenkomst</em> van de Philipsen.</p>`,
+    "08-22": `<p>De dag van de familie<em>bijeenkomst</em> van de Philipsen.</p>`,
+    "08-23": `<p>Ik reis vanuit het oosten weer terug naar <em>huis</em>.</p>`,
+    "08-24": `<p>Op juist <em>deze</em> dag ga ik <em>alwéér</em> van alles aan mijn site doen.</p>`,
     "12-25": `<p><em>Kerstmis.</em> Bah.</p>`,
     "01-01": `<p>Het is weer zover: nieuwjaar.</p>`,
     "09-15": `<p>Vandaag gebeurt er iets bijzonders!</p>`
