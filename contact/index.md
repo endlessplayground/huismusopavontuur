@@ -14,7 +14,7 @@ show_submenu: false
 </a></p>
 </div>
 
-<style>
+<!--<style>
   #header-img {
     transform: scale(1.1) rotate(-20deg);
     margin: 12px 0px 0px -60px;
@@ -22,4 +22,4 @@ show_submenu: false
   h2 {
     margin-left: -10px;
   }
-</style>
+</style>-->
