@@ -16,13 +16,3 @@ show_submenu: true
 
 <p>En natuurlijk van het maken van deze site waar ik vééééél teveel tijd in steek. &#128529;</p>
 </div>
-
-<style>
-  #header-img {
-    transform: scale(1);
-    margin: -10px 0px 0px -40px;
-  }
-  h2 {
-    margin-left: 25px;
-  }
-</style>

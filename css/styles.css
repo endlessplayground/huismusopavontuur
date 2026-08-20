@@ -65,19 +65,25 @@ body {
     color: rgb(46, 64, 86);
 }
 
-.header-back-wide {
+.header-back-small {
     position: fixed;
     width: 100%;
-    height: 166px;
-/*    background: linear-gradient(
+    height: 280px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: visible;
+    z-index: 105;
+   background: linear-gradient(
     to bottom,
     rgba(58, 185, 213, 0.99) 0,
-    rgba(130, 205, 205, 0.99) 70%,
+    rgba(130, 205, 205, 0.99) 40%,
+    rgba(130, 205, 205, 0.99) 86%,
     transparent 100%
-    ); */
-    background-color: transparent;
-    z-index: 4;
-}
+    );
+    max-width: var(--max-width);}
 
 header {
     position: fixed;
@@ -91,22 +97,14 @@ header {
     align-items: center;
     overflow: visible;
     z-index: 105;
-    background: linear-gradient(
-    to bottom,
-    rgba(58, 185, 213, 0.99) 0,
-    rgba(130, 205, 205, 0.99) 40%,
-    rgba(130, 205, 205, 0.99) 86%,
-    transparent 100%
-    );
     max-width: var(--max-width);
-    z-index: 300;
+    z-index: 9999900;
 
 }
 
 .header-nav {
     margin-top: 78px;
     max-width: var(--max-width);
-
 }
 
 .short header {
@@ -143,7 +141,8 @@ header {
     z-index: 8;
 }
 #header-img img {
-    width: 105px;
+    max-width: none;
+    flex-shrink: 0;
 }
 
 #top-mus {
@@ -336,43 +335,29 @@ footer {
 }
 
 .date {
-    position: relative;
-    padding-top: 8px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    position: absolute;
+    margin-top: -6px;
     text-align: center;
-    height: 95px;
     z-index: 1000;
 }
 
-#month {
-  position: relative;
-  color: white;
-  font-size: 1em;
-  font-weight: 500;
-  text-align: center;
-  font-family: var(--heading-font); 
-  z-index: 1000;
+
+.date #month,
+.date #date {
+    width: auto;
+    text-align: center;
+    font-family: var(--heading-font);
 }
 
-#date {
-  position: relative;
-  font-size: 1.8em;
-  font-weight: 700;
-  text-align: center;
-  font-family: var(--heading-font); 
-}
-
-.date #month, .date #date  {
-    position: absolute;
-    transform: translateY(62%);
+.date #month {
+    color: white;
+    font-size: 1em;
+    font-weight: 500;
 }
 
 .date #date {
-        transform: translateY(97%);
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-top: 0px;
 }
 
-#top-icon .date {
-    margin-top: -4px;
-}

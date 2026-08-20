@@ -1,0 +1,48 @@
+body.contact #header-img {
+    transform: scale(1.1) rotate(-20deg);
+    margin: 12px 0px 0px -60px;
+  }
+
+body.contact h2 {
+    margin-left: -10px;
+  }
+
+body.ideas  #header-img {
+    transform: scale(1.1);
+    margin: -15px 0px 0px -70px;
+  }
+body.ideas  h2 {
+    margin-left: -5px;
+  }
+
+body.projects  #header-img {
+    transform: scale(1.1);
+    margin: -120px 0px 0px -70px;
+  }
+
+body.projects  h2 {
+    margin-left: -5px;
+  }
+
+body.about #header-img {
+    transform: scale(1.2);
+    margin: -10px 0px 0px -40px;
+  }
+body.about h2 {
+    margin-left: 25px;
+  }
+
+
+body.today #date {
+    margin: 4px;
+}
+
+body.today .header-back-small, body.random .header-back-small, body.contact .header-back-small {
+    height: 180px;
+}
+
+body.today main {
+        padding: 220px 0px 0px 0px;
+
+}
+
