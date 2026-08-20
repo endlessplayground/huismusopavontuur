@@ -17,13 +17,3 @@ show_submenu: true
  <p>Leven in een computer: Soms denken wetenschappers hardop na of ons hele heelal een grote <em>computergame</em> of simulatie is.</p>
  
 </div>
-
-<style>
-  #header-img {
-    transform: scale(1.1);
-    margin: -15px 0px 0px -70px;
-  }
-  h2 {
-    margin-left: -5px;
-  }
-</style>
