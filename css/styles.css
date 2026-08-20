@@ -200,7 +200,7 @@ header {
     align-items: center;
 }
 
-.icon {
+.icon, .icon-empty {
     width: 70px;
     height: 70px;
     display: flex;
@@ -211,6 +211,10 @@ header {
 
     border-radius: 50%;
     background-color: rgb(185, 238, 227);
+}
+
+.icon-empty {
+    background-color: rgba(185, 238, 227, 0.7);
 }
 
 .label {
