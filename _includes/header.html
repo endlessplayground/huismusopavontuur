@@ -8,27 +8,28 @@
 
     {% if page.parent_folder == "about" %}
         <div id="header-img">
-        <a href="#"><img src="{{ '/images/about2.svg' | relative_url }}" alt="Ik"></a>
+        <img src="{{ '/images/about2.svg' | relative_url }}" alt="Ik">
         </div>
     {% endif %}
 
-    {% if page.page_type != "home" and page.parent_folder != "about" %} 
+    {% if page.page_type != "home" and page.parent_folder != "about" and page.parent_folder != "today" %} 
         <div id="header-img">
         <a href="#"><img src="{{ '/images/' | append: page.parent_folder | append: '.svg' | relative_url }}" alt=""></a>
         </div>
     {% endif %}
 
-        {% if page.parent_folder == "today" %}
-    
-        <div id="top-icon">
+    {% if page.parent_folder == "today" %}
+    <div id="header-img">
 
-        <div class="date">
+      <img style="transform: scale(1.1)" src="{{ '/images/today.svg' | relative_url }}" alt="Vandaag">
+
+        <div class="date" style="margin-top: 24px; transform: scale(1.1);">
             <div id="month"></div>
             <div id="date"></div>
         </div>
-        
-        </div>
 
+    </div>
+        
     {% endif %}
 
 {% endif %}
@@ -49,7 +50,7 @@
         <h2>{{ site.labels.about }}</h2>
 
     {% when "today" %}
-        <h2>{{ site.labels.today }}</h2>
+    <h2 id="actual-day">TEST</h2>
 
     {% when "random" %}
         <h2>{{ site.labels.random }}</h2>
