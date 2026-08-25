@@ -29,10 +29,10 @@
      inkscape:document-units="mm"
      inkscape:zoom="1.3975043"
      inkscape:cx="203.21941"
-     inkscape:cy="193.55934"
-     inkscape:window-width="1536"
-     inkscape:window-height="793"
-     inkscape:window-x="-8"
+     inkscape:cy="193.55933"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="1912"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
@@ -40,10 +40,10 @@
      id="defs1"><linearGradient
        id="linearGradient56"
        inkscape:collect="always"><stop
-         style="stop-color:#719394;stop-opacity:0.71830988;"
+         style="stop-color:#222d2d;stop-opacity:0.30303031;"
          offset="0"
          id="stop55" /><stop
-         style="stop-color:#add4d4;stop-opacity:0;"
+         style="stop-color:#162c2c;stop-opacity:0;"
          offset="1"
          id="stop56" /></linearGradient><linearGradient
        id="linearGradient74"
