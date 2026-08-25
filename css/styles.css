@@ -57,7 +57,6 @@ h2 {
 
 body {
     min-height: 100vh;
-    background-color: rgb(102, 198, 17);
     background-color: rgb(26, 26, 26);
     display: flex;
     flex-direction: column;
@@ -65,10 +64,11 @@ body {
     color: rgb(46, 64, 86);
 }
 
-.header-back-small {
+.header-back-small, .background-blue {
     position: fixed;
+    top: 62px;
     width: 100%;
-    height: 280px;
+    height: 180px;
   
     display: flex;
     flex-direction: column;
@@ -76,14 +76,25 @@ body {
     align-items: center;
     overflow: visible;
     z-index: 105;
-   background: linear-gradient(
+
+    max-width: var(--max-width);}
+
+.header-back-small {
+    background: linear-gradient(
     to bottom,
     rgba(58, 185, 213, 0.99) 0,
     rgba(130, 205, 205, 0.99) 40%,
     rgba(130, 205, 205, 0.99) 86%,
     transparent 100%
     );
-    max-width: var(--max-width);}
+}
+
+.background-blue {
+    height: 100vh;
+    z-index: -10;
+    background-color: rgba(130, 205, 205);
+
+}
 
 header {
     position: fixed;
@@ -269,15 +280,14 @@ header {
     text-align: center;
     line-height: 100%;
     color: white;
-    text-shadow: 1px 1px 2px rgba(88, 103, 121, 0.52);
+    text-shadow: 1px 1px 2px rgba(77, 89, 92, 0.882);
 }
 
 .submenu-icon.active {
-    text-shadow: 1px 1px 2px rgba(88, 103, 121, 0.4);
+    text-shadow: 1px 1px 2px rgba(47, 146, 168, 0.882);
     background-color: rgb(149, 229, 241);
     background-color: hsl(168, 61%, 78%);
-    transform: scale(1.2);
-    color: rgb(88, 103, 121);
+    transform: scale(1.1);
 }
 
 .submenu-icon,
@@ -287,6 +297,7 @@ header {
 }
 
 main {
+    margin-top: 0px;
     width: 100%;
     max-width: 430px;
     flex: 1;
@@ -294,7 +305,8 @@ main {
     flex-direction: column;
     justify-content: flex-start;
     align-items:center;
-    background-color:rgb(130, 205, 205);
+    /*background-color:rgb(130, 205, 205);*/
+    background-color:none;
     padding: 260px 0px 0px 0px;
 }
 
@@ -328,7 +340,7 @@ footer {
 
     height: 22px;
 
-    background-color: rgba(96, 160, 24, 0.99);
+    background-color: rgba(73, 132, 18, 0.99);
     position: fixed;
     bottom: 0px;
     z-index: 300;
