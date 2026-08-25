@@ -9,7 +9,7 @@ permalink: pretty
 
 labels:
   about: "Wie is die mus?"
-  ideas: "Wat boeit mij..."
+  ideas: "Wat denk ik..."
   projects: "Projecten"
   today: "Vandaag…"
   random: "Random"
@@ -51,7 +51,7 @@ submenus:
     - name: "Illustraties"
       url: "/projects/illustraties/"
     - name: "Blog"
-      url: "/projects/studie/"
+      url: "/projects/blog/"
     - name: "Debate club"
       url: "/projects/debate/"
 

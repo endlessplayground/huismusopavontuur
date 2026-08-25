@@ -9,7 +9,7 @@ body.contact h2 {
 
 body.ideas  #header-img {
     transform: scale(1.1);
-    margin: -15px 0px 0px -70px;
+    margin: -15px 0px 0px -60px;
   }
 body.ideas  h2 {
     margin-left: -5px;
@@ -38,7 +38,7 @@ body.today #date {
 }
 
 body.today .header-back-small, body.random .header-back-small, body.contact .header-back-small {
-    height: 180px;
+    height: 150px;
 }
 
 body.today main {

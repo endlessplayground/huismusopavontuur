@@ -26,11 +26,11 @@ a:visited {
     text-decoration: none;
 }
 
-h1, h2, h3, em {
+h1, h2, h3, em,   .main-txt-left a {
     font-family: var(--heading-font);
 }
 
-em, h3 {
+em, h3,  .main-txt-left a {
     font-weight: 500;
     font-style: normal;
     font-size: 1.1em;
@@ -38,8 +38,25 @@ em, h3 {
     text-shadow: 0.5px 0.5px 0px rgba(149, 216, 231, 0.9);
 }
 
+em, .main-txt-left a {
+    display: inline-block;
+    font-size: 0.9em;
+transform: scaleY(1.3) translateY(-0.5px);
+}
+
+.main-txt-left a {
+    text-decoration: none;
+    padding-right: 22px;
+    font-weight: 400;
+    background-image: url("../images/pijl-inline.svg");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 19.5px auto;
+    color: rgb(91, 99, 110);
+}
+
 p, h3 {
-    line-height: 1.3;
+    line-height: 1.5;
     margin-bottom: 0.95em;
 }
 
@@ -323,6 +340,21 @@ main {
     text-align: left;
     margin-left: calc(var(--text-margin) + -4px);
     margin-right: calc(var(--text-margin) - 20px);
+}
+
+.main-txt-left .linkjes p {
+    text-align: center;
+    margin: 0px -10px 0px -10px;
+}
+
+.main-txt-left .linkjes.plus {
+    margin-bottom: 16px;
+}
+
+
+.main-txt-left .linkjes a {
+    margin-right: 10px;
+    line-height: 2.2;
 }
 
 .main-txt-center p {
