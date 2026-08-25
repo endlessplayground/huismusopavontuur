@@ -46,11 +46,11 @@ submenus:
   projects:
     - name: "Start"
       url: "/projects/"
-    - name: "Websites"
+    - name: "Andere websites"
       url: "/projects/websites/"
     - name: "Illustraties"
       url: "/projects/illustraties/"
-    - name: "Studie"
+    - name: "Blog"
       url: "/projects/studie/"
     - name: "Debate club"
       url: "/projects/debate/"
@@ -72,7 +72,7 @@ defaults:
   - scope:
       path: "ideas"
     values:
-      header: "Wat denk ik..."
+      header: "Wat boeit mij..."
 
   - scope:
       path: "projects"
