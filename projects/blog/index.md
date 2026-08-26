@@ -9,7 +9,7 @@ show_submenu: true
 
 <div class="main-txt-left">
 
-<div class="linkjes plus"><p><a href="#">Swedish Death Cleaning</a> <a href="#">Brain in a vat</a> <a href="#">De trein</a> <a href="#">Goed idee</a> <a href="#">Elke dag eentje</a> <a href="#">Antwerpen</a> <a href="#">Mensen...</a> <a href="#">Het 80-20 principe</a><a href="#">Collegaʼs en zo</a> <a href="#">Amsterdam</a> <a href="#">De trein</a> <a href="#">YouTube</a> <a href="#">Elke dag eentje</a> <a href="#">Crime videoʼs</a> <a href="#">Kattenvoer</a> <a href="#">50 tinten blauw</a></p></div>
+<div class="subsublink"><a href="#">Swedish Death Cleaning</a> <a href="#">Brain in a vat</a> <a href="#">De trein</a> <a href="#">Goed idee</a> <a href="#">Elke dag eentje</a> <a href="#">Antwerpen</a> <a href="#">Mensen...</a> <a href="#">Het 80-20 principe</a><a href="#">Collegaʼs en zo</a> <a href="#">Amsterdam</a> <a href="#">De trein</a> <a href="#">YouTube</a> <a href="#">Elke dag eentje</a> <a href="#">Crime videoʼs</a> <a href="#">Kattenvoer</a> <a href="#">50 tinten blauw</a></div>
 
 <p>Een <em>blog</em> of <em>weblog</em> is een persoonlijk dagboek of verslag op een website dat regelmatig, soms meermalen per dag, wordt bijgehouden. Meestal gaat het om teksten die in chronologische volgorde verschijnen.</p> 
 
