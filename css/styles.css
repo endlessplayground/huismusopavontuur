@@ -408,9 +408,10 @@ footer {
     max-width: 430px;
 
 
-    height: 22px;
+    height: 10px;
 
     background-color: rgba(73, 132, 18, 0.99);
+    background-color: var(--dark-grey);
     position: fixed;
     bottom: 0px;
     z-index: 300;
