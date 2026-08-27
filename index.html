@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-page_type: home
+
 ---
 
 <style>
@@ -12,22 +12,23 @@ page_type: home
     header {
       height: 100px;
     }
+    .dropshadow {
+filter: drop-shadow(3px 3px 3px rgba(64, 96, 105, 0.6));    }
 </style>
 
 <nav class="menu-grid">
 
-<a href="#"><div class="icon-empty"></div></a>
+<a href="https://endlessplayground.github.io/"><div class="icon-empty"></div></a>
 
 <a href="{{ '/about/' | relative_url }}">
   <div class="icon"><img src="{{ '/images/about.svg' | relative_url }}" alt="Ik"></div>
   <div class="label">{{ site.labels.about }}</div>
 </a>
 
-<a href="{{ '/test/' | relative_url }}">
-  <div class="icon-empty"></div></a>
+<a href="https://endlessplayground.github.io/ikzoeknietmijnkat"><div class="icon-empty"></div></a>
 
 <a href="{{ '/ideas/' | relative_url }}">
-  <div class="icon"><img src="{{ '/images/ideas.svg' | relative_url }}" alt="Wat vind ik"></div>
+  <div class="icon"><img src="{{ '/images/ideas.svg' | relative_url }}" alt="boomkikkertje"></div>
   <div class="label">{{ site.labels.ideas }}</div>
 </a>
 
