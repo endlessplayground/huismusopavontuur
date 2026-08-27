@@ -364,17 +364,17 @@ main {
     align-items: center;
     font-family: var(--heading-font);
     text-shadow: none;
-    box-shadow: 2px 2px 2px rgba(66, 95, 97, 0.3);
+    box-shadow: 0.5px 0.5px 1.5px rgba(20, 29, 29, 0.3);
     transform: scaleY(1.3) translateY(-0.5px);
     font-size: 0.8em;
     border-radius: 10px;
     height: 16px;
-    margin: 0px 20px 0px 0px;
-    padding: 4px 14px 4px 8px;
+    margin: 0px 4px 0px 4px;
+    padding: 4px 6px;
     background-color: blanchedalmond;
 }
 
-.subsublink a::after {
+/*.subsublink a::after {
     content: "";
     position: absolute;
     width: 19px;
@@ -382,7 +382,7 @@ main {
     background: url("../images/pijl-inline.svg") no-repeat center / contain;
     right: -10px;
     top: 0px;
-}
+}*/
 
 
 .main-txt-center p {
