@@ -410,8 +410,7 @@ footer {
 
     height: 10px;
 
-    background-color: rgba(73, 132, 18, 0.99);
-    background-color: var(--dark-grey);
+    background-color: rgb(89, 122, 27);
     position: fixed;
     bottom: 0px;
     z-index: 300;
