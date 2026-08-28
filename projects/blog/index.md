@@ -4,7 +4,7 @@ title: "Projecten"
 page_type: article
 parent_folder: projects
 show_submenu: true
-show_subsubmenu: true
+show_subsubmenu: false
 ---
 
 

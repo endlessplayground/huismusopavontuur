@@ -4,13 +4,16 @@ title: "Favoriete muziek"
 page_type: article
 parent_folder: about
 show_submenu: true
-show_subsubmenu: true
+show_subsubmenu: false
 ---
 
 
 <div class="main-txt-left">  
-<p>Ik houd heel veel van <em>muziek</em>... &#127911;</p>
 
-<p>Zelf maken lukt niet, maar <em>luisteren</em> natuurlijk wel. Ik ga wat laten horen, maar dat komt allemaal <em>later</em>. Stay <em style="margin-right: 2px;">tuned</em>!</p>
+<div class="testsubsublinkjes">
+
+<p><a>Phonk</a> — Donkere, zware beats met invloeden uit Memphis-rap, vaak rauw, dreigend en hypnotiserend.</p> <p><a>Dance</a> — Alles van aanstekelijke dance en house tot elektronische muziek waarop je onmogelijk stil kunt blijven zitten.</p> <p><a>Jaren ʼ80</a> — Synthesizers, drumcomputers en grote melodieën: van new wave en synthpop tot onvervalste eighties-hits.</p> <p><a>Diversen</a> — Muziek die nergens netjes in past, maar toch leuk is.</p>>
+
+</div>
 
 </div>
