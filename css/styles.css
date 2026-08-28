@@ -284,7 +284,7 @@ header {
     gap: 22px;
     width: calc(var(--max-width) - 40px);
     height: auto;
-    margin: 0px 10px -10px 10px;
+    margin: 0px 10px -20px 10px;
     background-color: rgba(66, 227, 174, var(--transparency));
     z-index: 99999999999999999999999999;
 }
@@ -349,7 +349,7 @@ main {
 .main-txt, .main-txt-left, .main-txt-center {
     margin: 0px var(--text-margin) 45px var(--text-margin);
     background-color: rgba(210, 105, 30, var(--transparency));
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 .main-txt-left p {
