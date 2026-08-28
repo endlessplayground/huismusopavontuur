@@ -1,5 +1,4 @@
 
-
 <div class="header-nav">
 
 {% if page.page_type != "home" %}
@@ -68,22 +67,42 @@
 
 {% if page.show_submenu %}
 
-  {% assign section = page.parent_folder %}
-  {% assign submenu = site.submenus[section] %}
+  {% assign submenu = site.data.submenus[page.parent_folder] %}
 
   <div id="submenu">
 
-{% for item in submenu %} 
-  <a class="submenu-item" href="{{ item.url | relative_url }}"> 
-    <div class="submenu-icon{% if page.url == item.url %} active{% endif %}">
-      {{ item.name }}
-    </div> 
-  </a> 
-{% endfor %}
+    {% for item in submenu %} 
+      <a class="submenu-item" href="{{ item.url | relative_url }}"> 
+        <div class="submenu-icon{% if page.url == item.url %} active{% endif %}">
+          {{ item.name }}
+        </div> 
+      </a> 
+    {% endfor %}
 
   </div>
 
 {% endif %}
+
+{% if page.show_subsubmenu %}
+
+{% assign subsubmenu = site.data.submenus.subsubmenus[page.url] %}
+
+  <div id="subsubmenu">
+    {% for item in subsubmenu %}
+      <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+    {% endfor %}
+  </div>
+
+{% endif %}
+
+
+
+
+
+
+
+
+
 
 </div>
 
