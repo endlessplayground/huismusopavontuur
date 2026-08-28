@@ -66,20 +66,3 @@ submenus:
       url: "/test/iets/"
     - name: ""
       url: "#"
-
-
-defaults:
-  - scope:
-      path: "ideas"
-    values:
-      header: "Wat boeit mij..."
-
-  - scope:
-      path: "projects"
-    values:
-      header: "Projecten"
-
-  - scope:
-      path: "mus"
-    values:
-      header: "Wie is die mus?"
