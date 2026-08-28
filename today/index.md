@@ -15,3 +15,4 @@ show_submenu: false
 
 </div>
 
+<script src="{{ '/js/date.js' | relative_url }}"></script>

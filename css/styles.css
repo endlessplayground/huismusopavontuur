@@ -314,15 +314,14 @@ header {
 .submenu-icon.active {
     text-shadow: 1px 1px 1px rgba(209, 225, 229, 0.882);
     background-color: hsl(168, 61%, 78%);
-    transform: scale(1.1);
+    font-size: 0.5em;
+    transform: scale(1.6);
     color: var(--txt-color);
-    text-transform: scaleY(1.8) translateY(-0.5px);
-
 }
 
 .submenu-icon,
 .submenu-icon:visited {
-    color: white;
+    color: white; 
     text-decoration: none;
 }
 

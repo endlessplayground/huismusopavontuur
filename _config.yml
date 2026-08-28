@@ -9,7 +9,7 @@ permalink: pretty
 
 labels:
   about: "Wie is die mus?"
-  ideas: "Wat boeit mij..."
+  ideas: "Wat denk ik..."
   projects: "Projecten"
   today: "Vandaag…"
   random: "Random"
@@ -37,7 +37,7 @@ submenus:
     - name: "Favoriete denkers"
       url: "/ideas/denkers/"
     - name: "Interessante hypotheses"
-      url: "/ideas/speculaties/"
+      url: "/ideas/hypotheses/"
     - name: "Bijzondere fenomenen"
       url: "/ideas/bijzonder/"
     - name: "Psychologie"
