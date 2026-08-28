@@ -284,7 +284,7 @@ header {
     gap: 22px;
     width: calc(var(--max-width) - 40px);
     height: auto;
-    margin: 0px 10px -20px 10px;
+    margin: 0px 10px -14px 10px;
     background-color: rgba(66, 227, 174, var(--transparency));
     z-index: 99999999999999999999999999;
 }
