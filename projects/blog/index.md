@@ -4,11 +4,10 @@ title: "Projecten"
 page_type: article
 parent_folder: projects
 show_submenu: true
-show_subsubmenu: false
 ---
 
 
-<div class="main-txt-left">
+<div class="main-txt">
 
 <p>Een blog of weblog is een persoonlijk dagboek of verslag op een website dat regelmatig, soms meermalen per dag, wordt bijgehouden. Meestal gaat het om teksten die in chronologische volgorde verschijnen.</p> 
 

@@ -5,8 +5,9 @@ page_type: short
 parent_folder: today
 show_submenu: false
 ---
+  {% include date-styles.html %}
 
-<div class="main-txt-center">
+<div class="main-txt">
 
 <h2 id='actual-day'></h2>
 

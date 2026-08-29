@@ -7,6 +7,6 @@ show_submenu: true
 ---
 
 
-<div class="main-txt-left">  
+<div class="main-txt">  
 <p>Hier gaat het over een <em>Debate Club</em>.</p>
 </div>

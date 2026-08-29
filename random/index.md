@@ -3,7 +3,7 @@ layout: default
 title: "Random"
 page_type: short
 parent_folder: random
-show_submenu: false
+show_submenu: true
 ---
 
 
@@ -15,7 +15,7 @@ show_submenu: false
   </div>
 </div>
 
-<div class="main-txt-left">  
+<div class="main-txt">  
 <div id="output"></div>
 </div>  
 
@@ -23,13 +23,6 @@ show_submenu: false
 
 
 <style>
-  #header-img {
-    transform: scale(1.1);
-    margin: 12px 0px 0px -40px;
-  }
-  h2 {
-    margin-left: -25px;
-  }
 
 .instruction {
   position: fixed; background-color: rgba(130, 205, 205, 0.99); heigth: 10px; width: 100%;  max-width: 430px; margin-top: -148px; padding-top: 100px; z-index: 97; text-align: center; 
