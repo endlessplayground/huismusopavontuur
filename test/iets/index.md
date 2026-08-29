@@ -7,7 +7,7 @@ show_submenu: true
 ---
 
 
-<div class="main-txt-left">  
+<div class="main-txt">  
 <p>Gewoon <em>nog</em> iets, wat weet ik nog niet precies.</p>
 
 </div>
