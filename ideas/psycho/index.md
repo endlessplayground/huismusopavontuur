@@ -7,7 +7,7 @@ show_submenu: true
 ---
 
 
-<div class="main-txt-left">  
+<div class="main-txt">  
 
  <p>Waarom <em>doen</em> en <em>zijn</em> mensen zoals ze doen en zijn? Vooral <em>persoonlijkheids</em>afwijkingen en criminaliteit vind ik erg boeiend.</p>
  

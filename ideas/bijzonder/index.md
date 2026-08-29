@@ -7,7 +7,7 @@ show_submenu: true
 ---
 
 
-<div class="main-txt-left">  
+<div class="main-txt">  
 
 <div class="testsubsublinkjes">
 

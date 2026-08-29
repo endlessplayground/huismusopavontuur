@@ -1,14 +1,14 @@
 about:
   - name: "Start"
     url: "/about/"
+  - name: "Wie ben&nbsp;ik"
+    url: "#"
   - name: "Hobby's"
     url: "/about/hobbys/"
   - name: "Werk"
     url: "/about/werk/"
   - name: "Muziek"
     url: "/about/muziek/"
-  - name: ""
-    url: "#"
 
 ideas:
   - name: "Start"
@@ -19,8 +19,6 @@ ideas:
     url: "/ideas/hypotheses/"
   - name: "Bijzondere fenomenen"
     url: "/ideas/bijzonder/"
-  - name: "Psychologie"
-    url: "/ideas/psycho/"
 
 projects:
   - name: "Start"
@@ -45,34 +43,3 @@ test:
     url: "/test/iets/"
   - name: ""
     url: "#"
-
-
-subsubmenus:
-  "/projects/blog/":
-    - name: "September"
-      url: "#"
-    - name: "Volgende maand"
-      url: "#"
-    - name: "De laatste"
-      url: "#"
-
-  "/about/werk/":
-    - name: "Jeugd"
-      url: "#"
-    - name: "Grafisch"
-      url: "#"
-    - name: "Uitprobeersels"
-      url: "#"
-    - name: "Huidige baan"
-      url: "#"
-      
-  "/about/muziek/":
-    - name: "Phonk"
-      url: "#"
-    - name: "Dance"
-      url: "#"
-    - name: "Oud"
-      url: "#"
-    - name: "Diversen"
-      url: "#"
-      

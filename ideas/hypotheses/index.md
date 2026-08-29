@@ -7,7 +7,7 @@ show_submenu: true
 ---
 
 
-<div class="main-txt-left">  
+<div class="main-txt">  
 
 <div class="testsubsublinkjes">
 <p><a>Panpsychisme</a> — De hypothese dat bewustzijn, of een zeer elementaire vorm ervan, een fundamenteel onderdeel van de werkelijkheid is.</p>

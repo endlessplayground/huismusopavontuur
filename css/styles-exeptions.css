@@ -7,12 +7,25 @@ body.contact h2 {
     margin-left: -10px;
   }
 
+body.contact .main {
+    padding: 80px 0px 0px 0px;
+}
+
+body.contact .main-txt {
+    text-align: center;
+    margin-right: var(--text-margin-left);
+}
+
 body.ideas  #header-img {
     transform: scale(1.1);
     margin: -15px 0px 0px -60px;
   }
 body.ideas  h2 {
     margin-left: -5px;
+  }
+
+ body.ideas #submenu {
+    gap: 32px;
   }
 
 body.projects  #header-img {
@@ -37,12 +50,15 @@ body.today #date {
     margin: 4px;
 }
 
-body.today .header-back-small, body.random .header-back-small, body.contact .header-back-small {
+body.today .header-fade, body.random .header-fade, body.contact .header-fade {
     height: 150px;
 }
 
 body.today main {
-        padding: 220px 0px 0px 0px;
-
+    padding: 220px 0px 0px 0px;
 }
 
+body.today .main-txt {
+    text-align: center;
+    margin-right: var(--text-margin-left);
+}
