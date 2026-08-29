@@ -79,7 +79,7 @@ header {
 
 .icon, .icon-empty {
     display: flex;  flex-direction: column; justify-content: center;  align-items: center;
-    width: 70px;  height: 70px; border-radius: 50%;  }  .icon-empty { background-color: rgba(185, 238, 227, 0.7); }
+    width: 70px;  height: 70px; border-radius: 50%; background-color: var(--icon-color);  }  .icon-empty { background-color: rgba(185, 238, 227, 0.7); }
 
 .label {
     display: flex; align-items: flex-start; justify-content: center;
