@@ -1,6 +1,6 @@
 :root {
     --main-font: "Epunda Slab", serif; --heading-font: "Hammersmith One", sans-serif;
-    --max-width: 430px; --text-margin-left: 40px;  --text-margin-right: 20px;
+    --max-width: 430px; --speechmargin-left: 80px; --text-margin-left: 40px;  --text-margin-right: 20px;
     --background-blue: rgb(130, 205, 205); --background-color: rgb(26, 26, 26); --txt-color: rgb(46, 64, 86); --icon-color: rgb(185, 238, 227); --transparency: 0.0;  }
 
  * {
@@ -115,6 +115,53 @@ main {
 .testsubsublinkjes a {
     display: inline-block; padding-right: 4px; height: 1.8em;
     font-family: var(--heading-font); font-size: 1.05em; color: var(--txt-color); border-bottom: 16px solid rgb(185, 238, 227, 0.4);  }  .testsubsublinkjes a::before { display: inline-block; width: 30px;  height: 30px; border-radius: 50%; margin: 3px -18px -9px -13px; background: var(--icon-color); content: "";   }
+
+#speech {
+    position: absolute;
+    bottom: 100px;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%; max-width: var(--max-width);
+    z-index: 400;
+}
+
+#speech-bubble {
+    margin-right: var(--text-margin-right);
+    width: 75%;
+    height: auto;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    border: 1px grey solid;
+    padding: 3px 8px 8px 12px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+#speech-close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -12px;
+    right: 40px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: lightgray;
+    border: 1px grey solid;
+}
+
+#speech-pointer {
+    position: absolute;
+    bottom: -23px;
+    right: 95px;
+    width: 24px;
+    height: 24px;
+}
+
+#speech-bubble p {
+    margin: 14px 2px 14px 8px;
+    line-height: 1.28;
+}
 
 footer {
     position: fixed; bottom: 0px; width: 100%; max-width: 430px; height: 20px; z-index: 20;
