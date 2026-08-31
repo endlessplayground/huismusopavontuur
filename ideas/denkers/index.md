@@ -4,6 +4,7 @@ title: "Favoriete denkers"
 page_type: article
 parent_folder: ideas
 show_submenu: true
+speech: denkers
 ---
 
 
