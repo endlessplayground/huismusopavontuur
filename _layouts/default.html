@@ -33,6 +33,26 @@
   {{ content }}
 </main>
 
+
+{% if page.speech %}
+<div id="speech">
+    <div id="speech-close">
+        <img src="{{ '/images/close.svg' | relative_url }}" alt="x">
+    </div>
+
+    <div id="speech-bubble">
+        {% for paragraph in site.data.speeches[page.speech] %}
+            <p>{{ paragraph }}</p>
+        {% endfor %}
+    </div>
+
+    <div id="speech-pointer">
+        <img src="{{ '/images/speech-pointer.svg' | relative_url }}" alt="">
+    </div>
+</div>
+{% endif %}
+
+
 <footer>
   {% include footer.html %}
 </footer>

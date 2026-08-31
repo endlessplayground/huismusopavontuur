@@ -1,17 +1,17 @@
 about:
-  - name: "Start"
-    url: "/about/"
   - name: "Wie ben&nbsp;ik"
-    url: "#"
+    url: "/about/"
   - name: "Hobby's"
     url: "/about/hobbys/"
   - name: "Werk"
     url: "/about/werk/"
   - name: "Muziek"
     url: "/about/muziek/"
+  - name: "...Nog iets"
+    url: "#"
 
 ideas:
-  - name: "Start"
+  - name: "...in het algemeen"
     url: "/ideas/"
   - name: "Favoriete denkers"
     url: "/ideas/denkers/"

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Wat denk ik..."
+title: "Wat boeit mij..."
 page_type: article
 parent_folder: ideas
 show_submenu: true

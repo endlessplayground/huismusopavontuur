@@ -4,6 +4,7 @@ title: "Favoriete muziek"
 page_type: article
 parent_folder: about
 show_submenu: true
+speech: muziek
 ---
 
 
