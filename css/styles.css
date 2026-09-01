@@ -129,16 +129,11 @@ main {
     border-radius: 50%;
     margin: -5px 0px -6px 4px;
     background: rgba(255, 255, 255, 0.612);
-    background-image: url('../images/dots.svg');
+    background-image: url("/huismusopavontuur/images/dots.svg");;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     content: "";
-
-}
-
-.subsublinkjes p::after {
-
 }
 
 #speech {
