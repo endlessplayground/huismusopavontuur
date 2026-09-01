@@ -3,8 +3,8 @@
 
 <svg
    width="25"
-   height="35"
-   viewBox="0 0 6.614583 9.2604164"
+   height="26"
+   viewBox="0 0 6.614583 6.8791667"
    version="1.1"
    id="svg1"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
@@ -24,8 +24,8 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="8.5094276"
-     inkscape:cx="29.614213"
-     inkscape:cy="14.513315"
+     inkscape:cx="24.208444"
+     inkscape:cy="13.338147"
      inkscape:window-width="1536"
      inkscape:window-height="793"
      inkscape:window-x="-8"
@@ -40,8 +40,8 @@
      id="layer1">
     <path
        style="opacity:1;fill:#faebd7;fill-opacity:1;stroke:#808080;stroke-width:0.264583;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
-       d="m 0.35180512,-0.0219506 c 0,0 4.30241488,5.4054401 4.60750228,5.7318657 0.3527944,0.3774681 0.4224971,0.526304 0.702667,0.526304 0.2335308,0 0.4234368,-0.097482 0.3946519,-0.6914197 -0.018531,-0.3822845 -0.5291667,-5.56675 -0.5291667,-5.56675"
+       d="m 0.71946443,-0.0219506 c 0,0 2.25751867,5.3469483 2.36880877,5.597843 0.1112902,0.2508947 0.2451697,0.6914197 0.50202,0.6914197 0.2568504,0 0.3779864,-0.3510002 0.50202,-0.6914197 0.1240337,-0.3404196 1.8028057,-5.597843 1.8028057,-5.597843"
        id="path1"
-       sodipodi:nodetypes="csssc" />
+       sodipodi:nodetypes="czzzc" />
   </g>
 </svg>
