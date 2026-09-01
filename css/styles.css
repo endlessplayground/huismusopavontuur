@@ -6,11 +6,11 @@
  * {
     margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent;
     text-decoration: none;
-    font-family: "Epunda Slab", serif; font-optical-sizing: auto; font-weight: 400; font-style: normal;  }
+    font-optical-sizing: auto; font-weight: 400; font-style: normal;  }
 
 body {
     min-height: 100vh; display: flex; flex-direction: column; align-items: center;
-    background-color: var(--background-color); color: var(--txt-color);  }
+    background-color: var(--background-color); color: var(--txt-color); font-family: var(--main-font); }
 
 a, a:visited {
     color: inherit; text-decoration: none;  }
@@ -25,7 +25,7 @@ em, h3 {
 em {
     display: inline-block;  font-size: 0.9em; transform: scaleY(1.3) translateY(-0.5px);  }
 
-p, h3 {
+p {
     line-height: 1.5;  margin-bottom: 0.95em;  }
 
 h2 {
@@ -132,7 +132,7 @@ main {
 
     width: auto;
     min-width: 70px;
-    max-width: 70%;
+    max-width: 75%;
     height: auto;
 
     border-radius: 20px;
@@ -181,7 +181,7 @@ main {
 
     border-radius: 50%;
     background-color: rgb(145, 144, 144);
-    border: 1px grey solid;
+    border: 1px antiquewhite solid;
     cursor: pointer;
 }
 
@@ -201,9 +201,9 @@ main {
 /* NORMAL TEXT */
 
 #speech-bubble p {
-
     margin: 14px 0px 14px 0px;
     line-height: 1.28;
+    font-family: var(--main-font);
 }
 
 

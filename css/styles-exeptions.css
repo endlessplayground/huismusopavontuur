@@ -62,3 +62,7 @@ body.today .main-txt {
     text-align: center;
     margin-right: var(--text-margin-left);
 }
+
+body.home #speech-bubble {
+background-color: yellow;
+}

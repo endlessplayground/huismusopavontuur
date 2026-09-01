@@ -1,5 +1,4 @@
-<body class="{{ page.parent_folder }}">
-
+<body class="{% if page.page_type == 'home' %}home{% else %}{{ page.parent_folder }}{% endif %}">
 <div class="balk"></div>
 <div class="background-blue"></div>
 <div class="header-fade"></div>

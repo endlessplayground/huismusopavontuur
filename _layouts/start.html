@@ -10,27 +10,55 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
+<link href="https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
 <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="{{ '/css/styles.css' | relative_url }}">
 
   <style>
-    .home {
-      position: absolute;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      font-family: var(--heading-font);
-      top: 120px;
-      width: 200px;
-      left: 50%;
-      margin-left: -100px;
-      height: 40px;
-      background-color: rgba(255, 255, 0, 0.179);
-      z-index: 99999999999999999999999;
-    }
+#speech {
+  position: fixed;
+  top: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 100%; max-width: var(--max-width);
+  z-index: 400;
+}
+#speech-bubble {
+  background-color: yellow;
+  margin-right: -7px;
+
+  width: auto;
+  width: 44%;
+  height: auto;
+
+  border-radius: 20px;
+  background-color: antiquewhite;
+  border: 1px grey solid;
+  padding: 3px 8px 8px 12px;
+
+  font-size: 0.8em;
+
+}   
+
+#speech-bubble p {
+    margin: 6px 0px 2px 2px;
+}
+
+#speech-pointer {
+
+    position: relative;
+    left:0px;
+    top: 45px;
+    width: 24px;
+    height: 24px;
+    bottom: 2px;
+}
   </style>
+
 </head>
 
   {% include basics.html %}
@@ -39,7 +67,17 @@
   {% include header.html %}
 </header>
 
-<!--<div class="home">Dit is homepage!</div>-->
+<div id="speech">
+    <div id="speech-pointer">
+        <img src="{{ '/images/speech-pointer-start.svg' | relative_url }}" alt="">
+    </div>
+
+    <div id="speech-bubble">
+            <p>Hi!, welkom op mijn site. Dit is het hoofdmenu. Vanuit de andere delen kun je terug naar deze startpagina via de mus rechtsonder.</p>
+    </div>
+
+</div>
+
 
 <main>
 {% assign parts = page.path | split: '/' %}
