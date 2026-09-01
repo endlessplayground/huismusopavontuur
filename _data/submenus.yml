@@ -1,14 +1,12 @@
 about:
   - name: "Wie ben&nbsp;ik"
     url: "/about/"
-  - name: "Hobby's"
-    url: "/about/hobbys/"
   - name: "Werk"
     url: "/about/werk/"
   - name: "Muziek"
     url: "/about/muziek/"
   - name: "...Nog iets"
-    url: "#"
+    url: "/about/nog/"
 
 ideas:
   - name: "...in het algemeen"

@@ -24,7 +24,7 @@ body.ideas  h2 {
     margin-left: -5px;
   }
 
- body.ideas #submenu {
+ body.ideas #submenu, body.about #submenu {
     gap: 32px;
   }
 

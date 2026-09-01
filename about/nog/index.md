@@ -8,5 +8,5 @@ show_submenu: true
 
 
 <div class="main-txt">  
-<p>Hier gaat het over hobbyʼs.</p>
+<p></p>
 </div>
