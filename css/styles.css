@@ -70,7 +70,7 @@ h2 {
     background-color: rgba(235, 100, 237, var(--transparency));
     z-index: 38;  }    
 
-#section-img img { flex-shrink: 0;  max-width: none; }
+#section-img img { flex-shrink: 0; width: 20%; max-width: none; }
 
 #top-mus {
     position: fixed; display: flex; justify-content: center; width: 100%; top: 27px; right: 115px; z-index: 35;  } #top-mus img {  width: 220px; } 
@@ -110,7 +110,7 @@ h2 {
 
 main {
     display: flex; flex: 1; flex-direction: column; justify-content: flex-start;  align-items:center;
-    width: 100%; max-width: var(--max-width);  margin-top: 0px; padding: 200px 0px 0px 0px; font-size: 0.98em;  }
+    width: 100%; max-width: var(--max-width);  margin-top: 0px; padding: 220px 0px 0px 0px; font-size: 0.98em;  }
 
 .main-txt {
     display: flex; flex-direction: column; justify-content: flex-start;  align-self:flex-start; text-align: left; margin: 0px var(--text-margin-right) 45px var(--text-margin-left); padding-top: 6px;  }
