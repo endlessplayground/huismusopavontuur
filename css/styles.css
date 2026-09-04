@@ -47,11 +47,6 @@ h2 {
 
 .background-blue {
     height: 100vh; background-color: var(--background-blue); z-index: -10; }
-    
-header {
-    position: fixed; width: 100%; height: 280px;  max-width: var(--max-width);
-    display: flex; flex-direction: column; justify-content: flex-start; align-items: center;
-    z-index: 100;  }
 
 .header-nav {
     max-width: var(--max-width); margin-top: 78px;  }
@@ -59,13 +54,23 @@ header {
 #huismus {
     position: fixed; display: flex; justify-content: center; align-items: flex-start; height: 60px; width: 100%; padding-left: 45px;  z-index: 25; }  #huismus img { width: 438px;  }
 
-#img-and-title {
-    display: flex; flex-direction: row; align-items: center;  justify-content: center; width: 100%; height: 100px;  gap: 0px; padding: 0px 0px 0px 22px;   }
+.section-header {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+    top: 100px;
+    width: 100%;
+    z-index: 9999999999999;
+}
 
 #section-img {
-    display: flex; justify-content: center; width: 80px; height: 100px;  margin-left: -20px;
+    position: fixed; top: 35px;
+    display: flex; align-items: flex-start; justify-content: flex-start; width: 100%; max-width: var(--max-width); height: 100px;  margin-left: 50px;
     background-color: rgba(235, 100, 237, var(--transparency));
-    z-index: 2;  }    #section-img img { flex-shrink: 0;  max-width: none; }
+    z-index: 38;  }    
+
+#section-img img { flex-shrink: 0;  max-width: none; }
 
 #top-mus {
     position: fixed; display: flex; justify-content: center; width: 100%; top: 27px; right: 115px; z-index: 35;  } #top-mus img {  width: 220px; } 
@@ -87,6 +92,7 @@ header {
     font-family: var(--heading-font); font-size: 1em; font-weight: 400; text-align: center; line-height: 1rem;  color: white; text-shadow: 1px 1px 2px rgba(41, 137, 158, 0.882);  }
 
 #submenu {
+    position: fixed; top: 170px;
     display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 22px;
     width: calc(var(--max-width) - 40px); height: auto;  margin: 0px 10px 10px 10px;  z-index: 40;   }
 
@@ -104,7 +110,7 @@ header {
 
 main {
     display: flex; flex: 1; flex-direction: column; justify-content: flex-start;  align-items:center;
-    width: 100%; max-width: var(--max-width);  margin-top: 0px; padding: 260px 0px 0px 0px; font-size: 0.98em;  }
+    width: 100%; max-width: var(--max-width);  margin-top: 0px; padding: 200px 0px 0px 0px; font-size: 0.98em;  }
 
 .main-txt {
     display: flex; flex-direction: column; justify-content: flex-start;  align-self:flex-start; text-align: left; margin: 0px var(--text-margin-right) 45px var(--text-margin-left); padding-top: 6px;  }
