@@ -25,7 +25,7 @@ show_submenu: true
 <style>
 
 .instruction {
-  position: fixed; background-color: rgba(130, 205, 205, 0.99); heigth: 10px; width: 100%;  max-width: 430px; margin-top: -148px; padding-top: 100px; z-index: 97; text-align: center; 
+  position: fixed; background-color: white; heigth: 10px; width: 100%;  max-width: 430px; margin-top: -148px; padding-top: 100px; z-index: 1; text-align: center; 
 }
 
 .random-text {
