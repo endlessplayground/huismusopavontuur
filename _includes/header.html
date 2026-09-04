@@ -1,24 +1,21 @@
 
-<div class="header-nav">
 
 {% if page.page_type != "home" %}
 
-<div id="img-and-title">
-
     {% if page.parent_folder == "about" %}
-        <div id="header-img">
+        <div id="section-img">
         <img src="{{ '/images/about2.svg' | relative_url }}" alt="Ik">
         </div>
     {% endif %}
 
     {% if page.page_type != "home" and page.parent_folder != "about" and page.parent_folder != "today" %} 
-        <div id="header-img">
+        <div id="section-img">
         <a href="#"><img src="{{ '/images/' | append: page.parent_folder | append: '.svg' | relative_url }}" alt=""></a>
         </div>
     {% endif %}
 
     {% if page.parent_folder == "today" %}
-    <div id="header-img">
+    <div id="section-img">
 
       <img style="transform: scale(1.1)" src="{{ '/images/today.svg' | relative_url }}" alt="Vandaag">
 
@@ -35,7 +32,7 @@
 
 
 {% if page.page_type != "home" %}
-    <div>
+    <div class="section-header">
     {% assign parts = page.path | split: '/' %}
 
         {% case parts[0] %}
@@ -83,5 +80,4 @@
 
 {% endif %}
 
-</div>
 

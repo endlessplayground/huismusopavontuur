@@ -64,9 +64,7 @@
 
   {% include basics.html %}
 
-<header>
   {% include header.html %}
-</header>
 
 <div id="speech">
     <div id="speech-pointer">
@@ -80,7 +78,7 @@
 </div>
 
 
-<main>
+<main style="z-index: 999;">
 {% assign parts = page.path | split: '/' %}
 
   {{ content }}

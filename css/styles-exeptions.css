@@ -1,6 +1,5 @@
-body.contact #header-img {
+body.contact #section-img {
     transform: scale(1.1) rotate(-20deg);
-    margin: 12px 0px 0px -60px;
   }
 
 body.contact h2 {
@@ -16,7 +15,7 @@ body.contact .main-txt {
     margin-right: var(--text-margin-left);
 }
 
-body.ideas  #header-img {
+body.ideas  #section-img {
     transform: scale(1.1);
     margin: -15px 0px 0px -60px;
   }
@@ -28,32 +27,26 @@ body.ideas  h2 {
     gap: 32px;
   }
 
-body.projects  #header-img {
+body.projects  #section-img {
     transform: scale(1.1);
-    margin: -120px 0px 0px -70px;
   }
 
 body.projects  h2 {
     margin-left: -5px;
   }
 
-body.about #header-img {
+body.about #section-img {
     transform: scale(1.1);
-    margin: -10px 0px 0px -40px;
   }
-body.about h2 {
-    margin-left: 25px;
-  }
-
 
 body.today #date {
     margin: 4px;
 }
 
 /*body.today .header-fade, body.random .header-fade, body.contact .header-fade {
-    height: 150px;*/
+    height: 150px;
 }
-
+*/
 body.today main {
     padding: 220px 0px 0px 0px;
 }
