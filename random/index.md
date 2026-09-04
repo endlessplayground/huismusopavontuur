@@ -25,7 +25,7 @@ show_submenu: true
 <style>
 
 .instruction {
-  position: fixed; background-color: white; heigth: 10px; width: 100%;  max-width: 430px; margin-top: -148px; padding-top: 100px; z-index: 1; text-align: center; 
+  position: fixed; background-color: transparent; heigth: 10px; width: 100%;  max-width: 430px; margin-top: -168px; padding-top: 100px; z-index: 1; text-align: center; z-index: 999999;
 }
 
 .random-text {
@@ -33,12 +33,15 @@ show_submenu: true
 }
 
 .dice {
+  position: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
+  max-width: var(--max-width);
   height: 70px;
-  margin: -16px 0px 20px 0px;
+  margin: -36px 0px 20px 0px;
+  z-index: 100;
 }
 
 #roll {
@@ -75,7 +78,7 @@ show_submenu: true
 }
 
 #output {
-  margin-top: 0px;
+  margin-top: 50px;
   min-height: 50px;
   text-align: center;
 }
