@@ -1,0 +1,118 @@
+.section-header {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+    top: 100px;
+    width: 100%;
+    z-index: 9999999999999;
+}
+
+h2 {
+    display: block;
+    width: 200px;
+    font-size: 1.7em;
+    font-weight: 300;
+    line-height: 90%;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(52, 163, 188, 0.882);
+}
+
+#section-img {
+    position: fixed;
+    top: 35px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: var(--max-width);
+    height: 100px;
+    margin-left: 50px;
+    background-color: rgba(235, 100, 237, var(--transparency));
+    z-index: 38;
+}
+
+#section-img img {
+    flex-shrink: 0;
+    max-width: none;
+}
+
+#submenu {
+    position: fixed;
+    top: 170px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+    width: calc(var(--max-width) - 40px);
+    height: auto;
+    margin: 0px 10px 10px 10px;
+    z-index: 40;
+}
+
+.submenu-item {
+    width: 54px;
+    height: 54px;
+    flex: 0 0 54px;
+}
+
+.submenu-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background-color: rgb(88, 103, 121);
+    font-family: var(--heading-font);
+    font-size: 0.8em;
+    font-weight: 300;
+    text-align: center;
+    line-height: 100%;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(77, 89, 92, 0.882);
+}
+
+.submenu-icon.active {
+    transform: scale(1.6);
+    background-color: var(--icon-color);
+    font-size: 0.5em;
+    color: var(--txt-color);
+    text-shadow: 1px 1px 1px rgba(209, 225, 229, 0.882);
+}
+
+.subsublinkjes a {
+    display: inline-block;
+    padding-right: 4px;
+    height: 2em;
+    font-family: var(--heading-font);
+    font-size: 0.95em;
+    color: var(--txt-color);
+    border-bottom: 22px solid rgb(185, 238, 227, 0.4);
+}
+
+.subsublinkjes a::before {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 3px -18px -9px -13px;
+    background: var(--icon-color);
+    content: "";
+}
+
+.subsublinkjes p::after {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin: -5px 0px -6px 4px;
+    background: rgba(255, 255, 255, 0.612);
+    background-image: url("{{ '/images/dots.svg' | relative_url }}");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    content: "";
+}

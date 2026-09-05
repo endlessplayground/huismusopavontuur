@@ -25,7 +25,15 @@ show_submenu: true
 <style>
 
 .instruction {
-  position: fixed; background-color: transparent; heigth: 10px; width: 100%;  max-width: 430px; margin-top: -168px; padding-top: 100px; z-index: 1; text-align: center; z-index: 999999;
+  position: fixed; 
+  background-color: transparent; 
+  heigth: 10px; 
+  width: 100%;  
+  max-width: 430px; 
+  margin-top: -140px; 
+  padding-top: 100px; z-index: 1; 
+  text-align: center; 
+  z-index: 999999;
 }
 
 .random-text {
@@ -40,7 +48,7 @@ show_submenu: true
   width: 100%;
   max-width: var(--max-width);
   height: 70px;
-  margin: -36px 0px 20px 0px;
+  margin: -4px 0px 20px 0px;
   z-index: 100;
 }
 
@@ -78,7 +86,7 @@ show_submenu: true
 }
 
 #output {
-  margin-top: 50px;
+  margin-top: 60px;
   min-height: 50px;
   text-align: center;
 }

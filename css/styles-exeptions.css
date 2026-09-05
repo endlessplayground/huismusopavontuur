@@ -1,0 +1,61 @@
+body.contact #section-img {
+    transform: scale(1.1) rotate(-20deg);
+  }
+
+body.contact h2 {
+    margin-left: -10px;
+  }
+
+body.contact .main {
+    padding: 80px 0px 0px 0px;
+}
+
+body.contact .main-txt {
+    text-align: center;
+    margin-right: var(--text-margin-left);
+}
+
+body.ideas  #section-img {
+    transform: scale(1.1);
+  }
+body.ideas  h2 {
+    margin-left: -5px;
+  }
+
+ body.ideas #submenu, body.about #submenu {
+    gap: 32px;
+  }
+
+body.projects  #section-img {
+    transform: scale(1.1);
+  }
+
+body.projects  h2 {
+    margin-left: -5px;
+  }
+
+body.about #section-img {
+    transform: scale(1.1);
+  }
+
+body.today #date {
+    margin: 4px;
+}
+
+/*body.today .header-fade, body.random .header-fade, body.contact .header-fade {
+    height: 150px;
+}
+*/
+body.today main {
+    padding: 220px 0px 0px 0px;
+}
+
+body.today .main-txt {
+    text-align: center;
+    margin-right: var(--text-margin-left);
+}
+
+body.random header {
+    position: fixed; width: 100%; height: 200px;  max-width: var(--max-width);
+    display: flex; flex-direction: column; justify-content: flex-start; align-items: center;
+    z-index: 100;  }

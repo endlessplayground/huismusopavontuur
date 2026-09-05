@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    text-decoration: none;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--background-color);
+    background-color: var(--background-color);
+    color: var(--txt-color);
+    font-family: var(--main-font);
+}
+
+a,
+a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+em {
+    font-family: var(--heading-font);
+}
+
+em,
+h3 {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.1em;
+    color: hsl(185, 100%, 38%);
+}
+
+em {
+    display: inline-block;
+    font-size: 0.9em;
+    transform: scaleY(1.3) translateY(-0.5px);
+}
+
+p {
+    line-height: 1.5;
+    margin-bottom: 0.95em;
+}
+
+.header-fade,
+.background-blue {
+    position: fixed;
+    top: 62px;
+    width: 100%;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: var(--max-width);
+    overflow: visible;
+    z-index: 10;
+}
+
+.header-fade {
+    background: linear-gradient(
+        to bottom,
+        rgba(58, 185, 213, 0.99) 0,
+        var(--background-blue) 40%,
+        var(--background-blue) 86%,
+        transparent 100%
+    );
+}
+
+.balk {
+    display: flex;
+    position: fixed;
+    top: 0px;
+    height: 62px;
+    background-color: var(--background-color);
+    color: aliceblue;
+    width: 100%;
+    z-index: 5;
+}
+
+#page-top {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 60px;
+    width: 100%;
+    padding-left: 45px;
+    z-index: 25; }
+
+.background-blue {
+    height: 100vh;
+    background-color: var(--background-blue);
+    z-index: -10;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    max-width: var(--max-width);
+    margin-top: 0px;
+    padding: 256px 0px 0px 0px;
+    font-size: 0.98em;
+}
+
+.main-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: flex-start;
+    text-align: left;
+    margin: 0px var(--text-margin-right) 45px var(--text-margin-left);
+    padding-top: 6px;
+}
+
+.short main {
+    padding: 230px 0px 0px 0px;
+}
+
+footer {
+    position: fixed;
+    bottom: -2px;
+    width: 100%;
+    max-width: 430px;
+    height: 6px;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background: var(--background-color)
+}
