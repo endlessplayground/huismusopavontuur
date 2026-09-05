@@ -37,15 +37,17 @@
     justify-content: center;
     height: 40px;
     width: 90px;
-    margin: -8px 0px 18px 0px;
+    margin: -6px 0px 18px 0px;
     font-family: var(--heading-font);
-    font-size: 1em;
+    font-size: 1.25em;
     font-weight: 400;
     text-align: center;
     line-height: 1rem;
+    color: var(--header-pink);
     color: white;
     text-shadow: 1px 1px 2px var(--label-text-shadow);
 }
+
 .date {
     position: absolute;
     margin: -15px 0px 0px 2px;

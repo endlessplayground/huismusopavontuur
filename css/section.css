@@ -1,7 +1,7 @@
 
 header {
     position: fixed;
-    top:110px;
+    top: 98px;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -20,7 +20,7 @@ header {
 
 h2 {
     display: block;
-    width: 200px;
+    width: 400px;
     padding-left: 70px;
     font-size: 1.7em;
     font-weight: 400;
@@ -32,25 +32,26 @@ h2 {
 #section-img {
     position: fixed;
     top: 35px;
+    margin-right: 300px;
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    width: 100%;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
     max-width: var(--max-width);
-    height: 100px;
+    height: 180px;
     margin-left: 50px;
-    background-color: rgba(235, 100, 237, var(--transparency));
     z-index: 38;
 }
 
 #section-img img {
+    transform: scale(1.15);
     flex-shrink: 0;
     max-width: none;
 }
 
 #submenu {
     position: fixed;
-    top: 170px;
+    top: 160px;
     display: flex;
     flex-direction: row;
     align-items: flex-end;

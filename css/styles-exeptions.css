@@ -1,6 +1,7 @@
 body.contact #section-img {
-    transform: scale(1.3) rotate(-20deg);
-  }
+    transform: scale(1.2) rotate(-20deg);
+    padding: 30px 0px 0px 0px;  
+}
 
 body.contact .main {
     padding: 80px 0px 0px 0px;
@@ -23,15 +24,12 @@ body.ideas  h2 {
   }
 
 body.projects  #section-img {
-    transform: scale(1.1);
+    transform: scale(1);
+    margin-top: -10px;
   }
 
 body.projects  h2 {
     margin-left: -5px;
-  }
-
-body.about #section-img {
-    transform: scale(1.1);
   }
 
 body.today #date {
@@ -57,6 +55,22 @@ body.today main {
 body.today .main-txt {
     text-align: center;
     margin-right: var(--text-margin-left);
+    width: calc( var(--max-width) - 2 * var(--text-margin-left));
+}
+
+body.today #section-img {
+    transform: scale(1.2) ;
+    padding: 18px 0px 0px 0px;  
+}
+
+body.today #section-img img {
+    transform: scale(1.2) ;
+    margin: 10px 0px 0px 0px;  
+}
+
+body.random #section-img {
+    transform: scale(1.2) ;
+    padding: 18px 0px 0px 0px;  
 }
 
 body.random header {
