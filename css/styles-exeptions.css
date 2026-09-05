@@ -1,9 +1,5 @@
 body.contact #section-img {
-    transform: scale(1.1) rotate(-20deg);
-  }
-
-body.contact h2 {
-    margin-left: -10px;
+    transform: scale(1.3) rotate(-20deg);
   }
 
 body.contact .main {
@@ -42,10 +38,18 @@ body.today #date {
     margin: 4px;
 }
 
-/*body.today .header-fade, body.random .header-fade, body.contact .header-fade {
+
+body.today .header-fade, body.random .header-fade, body.contact .header-fade {
     height: 150px;
+    background: linear-gradient(
+        to bottom,
+        rgba(58, 185, 213, 0.99) 0,
+        var(--background-light) 56%,
+        var(--background-light) 100%,
+        transparent 100%
+    );
 }
-*/
+
 body.today main {
     padding: 220px 0px 0px 0px;
 }
@@ -56,6 +60,19 @@ body.today .main-txt {
 }
 
 body.random header {
-    position: fixed; width: 100%; height: 200px;  max-width: var(--max-width);
-    display: flex; flex-direction: column; justify-content: flex-start; align-items: center;
+    position: fixed; 
+    width: 100%; 
+    max-width: var(--max-width);
+    height: 210px;  
+    display: flex; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center;
+    background: linear-gradient(
+        to bottom,
+        transparent 0%,
+        var(--background-light) 40%,
+        var(--background-light) 90%,
+        transparent 100%
+    );   
     z-index: 100;  }

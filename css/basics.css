@@ -56,12 +56,12 @@ p {
     position: fixed;
     top: 62px;
     width: 100%;
+    max-width: var(--max-width);
     height: 210px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    max-width: var(--max-width);
     overflow: visible;
     z-index: 10;
 }
@@ -74,6 +74,12 @@ p {
         var(--background-light) 86%,
         transparent 100%
     );
+}
+
+.background-light {
+    height: 100vh;
+    background-color: var(--background-light);
+    z-index: -10;
 }
 
 .balk {
@@ -95,12 +101,7 @@ p {
     height: 60px;
     width: 100%;
     padding-left: 45px;
-    z-index: 25; }
-
-.background-light {
-    height: 100vh;
-    background-color: var(--background-light);
-    z-index: -10;
+    z-index: 25; 
 }
 
 main {

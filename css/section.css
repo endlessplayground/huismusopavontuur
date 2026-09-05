@@ -1,22 +1,32 @@
-.section-header {
+
+header {
     position: fixed;
+    top:110px;
     display: flex;
+    align-items: flex-start;
     justify-content: center;
-    padding-left: 50px;
-    top: 100px;
     width: 100%;
-    z-index: 9999999999999;
+    max-width: var(--max-width);
+    height: 150px;
+    z-index: 39;
+}
+
+.section-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 h2 {
     display: block;
     width: 200px;
+    padding-left: 70px;
     font-size: 1.7em;
-    font-weight: 300;
-    line-height: 90%;
+    font-weight: 400;
     text-align: center;
     color: white;
-    text-shadow: 1px 1px 2px rgba(52, 163, 188, 0.882);
+    text-shadow: 1px 1px 2px rgba(53, 54, 54, 0.34);
 }
 
 #section-img {
@@ -43,12 +53,12 @@ h2 {
     top: 170px;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     gap: 22px;
     width: calc(var(--max-width) - 40px);
     height: auto;
-    margin: 0px 10px 10px 10px;
+    margin-top: 15px;
     z-index: 40;
 }
 

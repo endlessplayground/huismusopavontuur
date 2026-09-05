@@ -32,6 +32,8 @@
 
 
 {% if page.page_type != "home" %}
+<header>
+
     <div class="section-header">
     {% assign parts = page.path | split: '/' %}
 
@@ -80,4 +82,4 @@
 
 {% endif %}
 
-
+</header>
