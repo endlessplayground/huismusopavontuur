@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     zaterdag: `<p>Dan ben ik eigenlijk altijd vrij en doe ik niet zoveel bijzonders.</p>`,
 
-    zondag: `<p>Op zondag werk ik vrijwel altijd, van zes uur ’s morgens tot ongeveer één uur à half twee ’s middags, en dat is ook altijd wel een hele drukke dag.</p>`
+    zondag: `<p>Op zondag werk ik vrijwel altijd, van zes uur ’s&nbsp;morgens tot ongeveer één uur à half twee ’s&nbsp;middags, en dat is ook altijd wel een hele drukke dag.</p>`
   };
 
   const today = days[new Date().getDay()];

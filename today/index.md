@@ -9,8 +9,6 @@ show_submenu: false
 
 <div class="main-txt">
 
-<h2 id='actual-day'></h2>
-
 <div id="today-text"></div>
 <div id="special-text"></div>
 

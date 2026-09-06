@@ -32,8 +32,9 @@ body.projects  h2 {
     margin-left: -5px;
   }
 
-body.today #date {
-    margin: 4px;
+body.today .date {
+    margin: 22px 4px 4px 4px;
+    transform: scale(1.2);
 }
 
 
@@ -54,8 +55,9 @@ body.today main {
 
 body.today .main-txt {
     text-align: center;
+    width: calc(100% - (2 * var(--text-margin-left)));
+    margin-left: var(--text-margin-left);
     margin-right: var(--text-margin-left);
-    width: calc( var(--max-width) - 2 * var(--text-margin-left));
 }
 
 body.today #section-img {
