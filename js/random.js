@@ -1,5 +1,5 @@
 const dice = document.getElementById('roll');
-const diceImage = dice.querySelector('img');
+const diceImage = document.querySelector('#roll img');
 const output = document.getElementById('output');
 
 const diceImages = [
@@ -11,22 +11,28 @@ const diceImages = [
   '/images/dice6.svg'
 ];
 
+// Preload all dice images
+diceImages.forEach(src => {
+  const img = new Image();
+  img.src = src;
+});
+
 dice.addEventListener('click', () => {
   output.innerHTML = "";
 
-  // Restart the animation
+  // Choose the next face
+  const randomDice =
+    diceImages[Math.floor(Math.random() * diceImages.length)];
+
+  // Start the roll
   dice.classList.remove('roll-animation');
   void dice.offsetWidth;
   dice.classList.add('roll-animation');
 
-  // Choose the final dice face
-  const randomDice =
-    diceImages[Math.floor(Math.random() * diceImages.length)];
-
-  // Change it shortly after the roll has started
+  // Change the face while it is still rotating
   setTimeout(() => {
     diceImage.src = randomDice;
-  }, 100);
+  }, 350);
 
   setTimeout(() => {
 
@@ -38,21 +44,6 @@ dice.addEventListener('click', () => {
 
     fetch(randomFile)
       .then(response => response.text())
-      .then(html => {
-        output.innerHTML = html;
-        dice.classList.remove('roll-animation');
-      });
-
-  }, 700);
-});    fetch(randomFile)
-      .then(response => response.text())
-      .then(html => {
-        output.innerHTML = html;
-        dice.classList.remove('roll-animation');
-      });
-
-  }, 700);
-});      .then(response => response.text())
       .then(html => {
         output.innerHTML = html;
         dice.classList.remove('roll-animation');
