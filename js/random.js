@@ -3,12 +3,12 @@ const diceImage = dice.querySelector('img');
 const output = document.getElementById('output');
 
 const diceImages = [
-  '/images/dice1.svg',
-  '/images/dice2.svg',
-  '/images/dice3.svg',
-  '/images/dice4.svg',
-  '/images/dice5.svg',
-  '/images/dice6.svg'
+  '../images/dice1.svg',
+  '../images/dice2.svg',
+  '../images/dice3.svg',
+  '../images/dice4.svg',
+  '../images/dice5.svg',
+  '../images/dice6.svg'
 ];
 
 dice.addEventListener('click', () => {
