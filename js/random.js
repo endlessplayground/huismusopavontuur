@@ -14,17 +14,18 @@ const diceImages = [
 dice.addEventListener('click', () => {
   output.innerHTML = "";
 
+  // Choose the next dice face BEFORE the roll
+  const randomDice =
+    diceImages[Math.floor(Math.random() * diceImages.length)];
+
+  // Put the new face in place while the dice is still rolling
+  diceImage.src = randomDice;
+
   dice.classList.remove('roll-animation');
   void dice.offsetWidth;
   dice.classList.add('roll-animation');
 
   setTimeout(() => {
-
-    // Choose a random final dice face
-    const randomDice =
-      diceImages[Math.floor(Math.random() * diceImages.length)];
-
-    diceImage.src = randomDice;
 
     // Choose a random text
     const randomFile =
@@ -35,6 +36,13 @@ dice.addEventListener('click', () => {
 
     fetch(randomFile)
       .then(response => response.text())
+      .then(html => {
+        output.innerHTML = html;
+        dice.classList.remove('roll-animation');
+      });
+
+  }, 700);
+});      .then(response => response.text())
       .then(html => {
         output.innerHTML = html;
         dice.classList.remove('roll-animation');
