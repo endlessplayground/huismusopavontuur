@@ -69,10 +69,10 @@ p {
     background: linear-gradient(
         to bottom,
         rgb(var(--color-1)) 0,
-        rgb(var(--color-1-lighter)) 30px,
-        rgb(var(--color-2)) 60px,
-        var(--background-light) 130px,
-        var(--background-light) 175px,
+        rgb(var(--color-1-lighter)) 25px,
+        rgb(var(--color-2)) 55px,
+        var(--background-light) 120px,
+        var(--background-light) 165px,
         transparent 210px
     );
 }
