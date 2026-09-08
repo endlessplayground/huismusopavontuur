@@ -137,10 +137,18 @@ footer {
     bottom: -2px;
     width: 100%;
     max-width: 430px;
-    height: 9px;
+    height: 120px;
     z-index: 20;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     background-color: rgb(var(--color-2));
+    background-color: rgb(16, 236, 248);
+    background-color: rgb(113, 219, 25);
+    background: transparent;
+    background-image: url(../images/grass.svg;);
+    background-image: url("/images/berm.svg");
+    background-size: 100% auto;
+background-repeat: no-repeat;
+background-position: center;
 }
