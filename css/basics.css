@@ -146,8 +146,7 @@ footer {
     background-color: rgb(16, 236, 248);
     background-color: rgb(113, 219, 25);
     background: transparent;
-    background-image: url("../images/grass.svg");
-    background-image: url("/images/berm.svg");
+    background-image: url("../images/berm.svg");
     background-size: 100% auto;
 background-repeat: no-repeat;
 background-position: center;
