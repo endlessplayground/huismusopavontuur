@@ -64,12 +64,11 @@ body.today .main-txt {
 }
 
 body.today #section-img {
-    transform: scale(1.2) ;
+    transform: scale(1.15) ;
     padding: 18px 0px 0px 0px;  
 }
 
 body.today #section-img img {
-    transform: scale(1.2) ;
     margin: 10px 0px 0px 0px;  
 }
 

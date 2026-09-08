@@ -48,10 +48,9 @@
 }
 
 .date {
-    margin: 0px 0px 0px 2px;
+    padding: 12px 0px 0px 2px;
     text-align: left;
     z-index: 1000;
-    background-color: chartreuse;
 }
 
 .date #month,
@@ -59,7 +58,6 @@
     width: auto;
     text-align: center;
     font-family: var(--heading-font);
-    color: red;
 }
 
 .date #month {

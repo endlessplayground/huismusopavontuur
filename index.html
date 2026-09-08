@@ -28,23 +28,29 @@ show_submenu: false
 <a href="https://endlessplayground.github.io/ikzoeknietmijnkat"><div class="icon-empty"></div></a>
 
 <a href="{{ '/ideas/' | relative_url }}">
-  <div class="icon"><img src="{{ '/images/ideas.svg' | relative_url }}" alt="boomkikkertje"></div>
+  <div class="icon"><img src="{{ '/images/ideas.svg' | relative_url }}" alt=""></div>
   <div class="label">{{ site.labels.ideas }}</div>
 </a>
 
 <a href="#"><div class="icon-empty"></div></a>
 
 <a href="{{ '/today/' | relative_url }}">
-<div class="icon">
-  <img src="{{ '/images/today.svg' | relative_url }}" alt="Vandaag">
+  <div class="icon"><img src="{{ '/images/today.svg' | relative_url }}" alt="Vandaag"></div>
   <div class="date">
     <div id="month"></div>
     <div id="date"></div>
   </div>
   <div class="label">{{ site.labels.today }}</div>
-  </div>
-</div>
 </a>
+
+
+<!--  <img src="{{ '/images/today.svg' | relative_url }}" alt="Vandaag">
+  <div class="date">
+    <div id="month"></div>
+    <div id="date"></div>
+  </div>
+  <div class="label">{{ site.labels.today }}</div>
+  </div>-->
 
 
 <a href="#"><div class="icon-empty"></div></a>
@@ -58,8 +64,7 @@ show_submenu: false
 
 <a href="{{ '/random/' | relative_url }}">
   <div class="icon"><img src="{{ '/images/random.svg' | relative_url }}" alt="Dobbelsteen"></div>
-  <div class="label" style="text-shadow: -1px -1px 2px var(--label-text-shadow);
-"><span style="display: inline-block; transform: rotate(180deg); font-family: var(--heading-font);">{{ site.labels.random }}</span></div>
+  <div class="label"><span style="display: inline-block; transform: rotate(180deg); font-family: var(--heading-font);">{{ site.labels.random }}</span></div>
 </a>
 
 <a href="#"><div class="icon-empty"></div></a>
