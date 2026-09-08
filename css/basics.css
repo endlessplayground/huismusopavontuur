@@ -70,7 +70,7 @@ p {
         to bottom,
         rgb(var(--color-1)) 0,
         rgb(var(--color-1-lighter)) 25px,
-        rgb(var(--color-2)) 55px,
+        rgb(var(--color-2-lighter)) 55px,
         var(--background-light) 120px,
         var(--background-light) 165px,
         transparent 210px
@@ -142,5 +142,5 @@ footer {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    background-color: var(--background-color);
+    background-color: rgb(var(--color-2));
 }

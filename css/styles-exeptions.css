@@ -44,7 +44,7 @@ body.today .header-fade, body.random .header-fade, body.contact .header-fade {
         to bottom,
         rgb(var(--color-1)) 0,
         rgba(var(--color-1), 1) 15px,
-        rgba(var(--color-2), 1) 60px,
+        rgba(var(--color-2-lighter), 1) 60px,
         var(--background-light) 130px,
         var(--background-light) 175px,
         transparent 210px
