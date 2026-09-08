@@ -25,9 +25,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.93539564"
-     inkscape:cx="388.07108"
-     inkscape:cy="146.99662"
+     inkscape:zoom="5.2913968"
+     inkscape:cx="32.127623"
+     inkscape:cy="33.356032"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="1912"
@@ -179,28 +179,12 @@
          sodipodi:nodetypes="sssssssss" />
       <ellipse
          style="mix-blend-mode:multiply;fill:#4d4d4d;fill-opacity:0.890443;fill-rule:evenodd;stroke-width:0.117707"
-         id="path26403-7-8-4-7-2"
-         cx="-8.6500349"
-         cy="42.971581"
-         rx="0.86334115"
-         ry="0.6419456"
-         transform="matrix(0.14489112,-0.9894476,0.99756355,-0.06976361,0,0)" />
-      <ellipse
-         style="mix-blend-mode:multiply;fill:#4d4d4d;fill-opacity:0.890443;fill-rule:evenodd;stroke-width:0.117707"
          id="path26403-7-8-4-7-6-2"
-         cx="-11.428677"
-         cy="41.721836"
-         rx="0.86334115"
-         ry="0.6419456"
-         transform="matrix(0.14489112,-0.9894476,0.99756355,-0.06976361,0,0)" />
-      <ellipse
-         style="mix-blend-mode:multiply;fill:#4d4d4d;fill-opacity:0.890443;fill-rule:evenodd;stroke-width:0.117707"
-         id="path26403-7-8-4-7-1-4"
-         cx="-14.207322"
-         cy="40.472092"
-         rx="0.86334115"
-         ry="0.6419456"
-         transform="matrix(0.14489112,-0.9894476,0.99756355,-0.06976361,0,0)" />
+         cx="-11.048773"
+         cy="42.067654"
+         rx="1.0147407"
+         ry="0.75452024"
+         transform="matrix(0.14489112,-0.98944761,0.99756355,-0.06976361,0,0)" />
       <path
          style="fill:url(#linearGradient16);fill-opacity:1;stroke:#5dafd4;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:8;paint-order:fill markers stroke;stop-color:#000000"
          d="M 36.116655,8.0659434 C 36.105911,7.1350756 36.139254,6.3483626 34.624548,5.4556391 33.064888,4.5364414 31.592873,3.7481922 31.085766,3.4370664 30.082514,2.8215419 29.46443,3.0565246 29.576518,4.0865549 c 0.259036,2.380379 0.466324,4.144762 0.577862,4.9247104 0.09325,0.6520933 0.131758,1.0885757 1.035084,1.7724737 1.244274,0.942031 3.934986,2.553176 4.358355,2.767812 0.423369,0.214636 0.699861,-0.26573 0.707806,-0.977024 0.01939,-1.739061 -0.128022,-3.5600629 -0.13897,-4.5085836 z"
