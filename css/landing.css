@@ -35,17 +35,16 @@
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    height: 40px;
-    width: 90px;
-    margin: -6px 0px 18px 0px;
+    border-radius: 10px;
+    margin: -2px 0px 18px 0px;
+    padding: 0px 8px 0px 8px;
     font-family: var(--heading-font);
-    font-size: 1.25em;
+    font-size: 1.15em;
     font-weight: 400;
     text-align: center;
-    line-height: 1rem;
-    color: var(--header-pink);
-    color: white;
-    text-shadow: 1px 1px 2px var(--label-text-shadow);
+     color: white;
+     background-color: var(--background-color);
+     box-shadow: 1px 1px 7px rgba(73, 93, 108, 0.7);
 }
 
 .date {

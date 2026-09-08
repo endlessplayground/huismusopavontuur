@@ -8,10 +8,16 @@
     --background-light: rgb(252, 245, 236);
     --background-color: rgb(26, 26, 26);
     --txt-color: rgb(46, 64, 86);
-    --icon-color-original: rgb(165, 233, 219);
-    --icon-color: rgba(151, 238, 236, 0.7);
-    --transparency: 0.0;
-    --header-pink: rgb(253, 53, 109);
-    --header-yellow: rgb(253, 229, 53);
+    --icon-color: rgba(190, 156, 255, 0.6);
+    --test-color: rgb(249, 61, 224);
+
+
+
+    --color-0: 63, 40, 145;
+    --color-1: 190, 0, 230;
+    --color-1-lighter: 236, 61, 249;
+    --color-2: 243, 140, 193;
+
     --label-text-shadow: rgba(32, 32, 32, 0.6);
+
 }
