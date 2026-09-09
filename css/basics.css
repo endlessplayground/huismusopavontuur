@@ -143,7 +143,7 @@ footer {
     align-items: center;
     justify-content: flex-end;
     background: transparent;
-    background-image: url("/images/berm.svg");
+    background-image: url("../images/berm.svg");
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: center;
@@ -162,8 +162,4 @@ footer {
         rgb(203, 245, 154) 90%,
         rgb(97, 204, 85) 100%
         );
-/*        var(--background-light) 120px,
-        var(--background-light) 165px,
-        transparent 210px;
-        */
 }
