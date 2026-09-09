@@ -142,12 +142,28 @@ footer {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    background-color: rgb(var(--color-2));
-    background-color: rgb(16, 236, 248);
-    background-color: rgb(113, 219, 25);
     background: transparent;
-    background-image: url("../images/berm.svg");
+    background-image: url("/images/berm.svg");
     background-size: 100% auto;
-background-repeat: no-repeat;
-background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer-back {
+    position: fixed;
+    bottom: 0px;
+    width:100%;
+    max-width: 430px;
+    height: 100px;
+    z-index: -1;
+    background: linear-gradient(
+        to bottom,
+        var(--background-light) 0,
+        rgb(203, 245, 154) 90%,
+        rgb(97, 204, 85) 100%
+        );
+/*        var(--background-light) 120px,
+        var(--background-light) 165px,
+        transparent 210px;
+        */
 }
