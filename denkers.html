@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Favoriete denkers — example</title>
+
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        padding: 40px 20px;
+        background: rgb(154, 210, 76);
+        font-family: Arial, sans-serif;
+        color: #222;
+    }
+
+    main {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    h1 {
+        margin: 0 0 10px;
+        font-size: 2rem;
+    }
+
+    .intro {
+        margin-bottom: 30px;
+        line-height: 1.5;
+    }
+
+    .thinker {
+        margin-bottom: 12px;
+        background: rgba(255, 255, 255, 0.55);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .thinker-button {
+        width: 100%;
+        border: 0;
+        padding: 18px 20px;
+        background: none;
+        font: inherit;
+        text-align: left;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .thinker-button:hover {
+        background: rgba(255, 255, 255, 0.25);
+    }
+
+    .name {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    .teaser {
+        display: block;
+        margin-top: 5px;
+        font-size: 0.95rem;
+        font-weight: normal;
+    }
+
+    .arrow {
+        font-size: 1.3rem;
+        margin-left: 15px;
+        flex-shrink: 0;
+    }
+
+    .content {
+        display: none;
+        padding: 0 20px 22px;
+        line-height: 1.55;
+    }
+
+    .content.open {
+        display: block;
+    }
+
+    .content h3 {
+        margin: 18px 0 6px;
+        font-size: 1rem;
+    }
+
+    .content a {
+        color: #222;
+    }
+
+    .close {
+        margin-top: 20px;
+        cursor: pointer;
+        font-size: 0.9rem;
+    }
+</style>
+</head>
+
+<body>
+
+<main>
+
+    <h1>Favoriete denkers</h1>
+
+    <p class="intro">
+        Mensen wier ideeën me om allerlei redenen zijn blijven bezighouden.
+        Klik op een naam om te kijken wat eronder zit.
+    </p>
+
+    <section class="thinker">
+        <button class="thinker-button" type="button" aria-expanded="false">
+            <span>
+                <span class="name">Michael Levin</span>
+                <span class="teaser">Over intelligence, biology and the strange things living systems can do.</span>
+            </span>
+            <span class="arrow">▼</span>
+        </button>
+
+        <div class="content">
+            <p>
+                Levin studies how cells and organisms solve problems and how
+                biological systems can display surprisingly sophisticated forms
+                of goal-directed behaviour.
+            </p>
+
+            <p>
+                What I find especially interesting is the possibility that
+                intelligence may exist at several levels of biological
+                organisation, rather than being something that suddenly appears
+                only in a brain.
+            </p>
+
+            <h3>Video</h3>
+            <p>▶ <a href="#" onclick="return false;">A video I'd like to include</a></p>
+
+            <h3>Article</h3>
+            <p>→ <a href="#" onclick="return false;">An interesting article</a></p>
+
+            <h3>My take</h3>
+            <p>
+                This could be the place for your own thoughts, questions,
+                disagreements or observations.
+            </p>
+
+            <div class="close">× close</div>
+        </div>
+    </section>
+
+
+    <section class="thinker">
+        <button class="thinker-button" type="button" aria-expanded="false">
+            <span>
+                <span class="name">Karl Friston</span>
+                <span class="teaser">A rather different way of thinking about brains, prediction and reality.</span>
+            </span>
+            <span class="arrow">▼</span>
+        </button>
+
+        <div class="content">
+            <p>
+                This one could contain a short introduction followed by whatever
+                material you happen to find worth keeping.
+            </p>
+
+            <h3>Video</h3>
+            <p>▶ <a href="#" onclick="return false;">Another video</a></p>
+
+            <h3>My take</h3>
+            <p>
+                And this section doesn't have to look exactly like the one above.
+            </p>
+
+            <div class="close">× close</div>
+        </div>
+    </section>
+
+
+    <section class="thinker">
+        <button class="thinker-button" type="button" aria-expanded="false">
+            <span>
+                <span class="name">Someone else</span>
+                <span class="teaser">A third example, perhaps with much less material.</span>
+            </span>
+            <span class="arrow">▼</span>
+        </button>
+
+        <div class="content">
+            <p>
+                This person might only have a paragraph or two, with perhaps a
+                link to something interesting. The structure doesn't require
+                every entry to contain the same things.
+            </p>
+
+            <div class="close">× close</div>
+        </div>
+    </section>
+
+</main>
+
+<script>
+    document.querySelectorAll(".thinker").forEach(function (thinker) {
+        const button = thinker.querySelector(".thinker-button");
+        const content = thinker.querySelector(".content");
+        const arrow = thinker.querySelector(".arrow");
+        const close = thinker.querySelector(".close");
+
+        function toggle() {
+            const isOpen = content.classList.toggle("open");
+            button.setAttribute("aria-expanded", isOpen);
+            arrow.textContent = isOpen ? "▲" : "▼";
+        }
+
+        button.addEventListener("click", toggle);
+        close.addEventListener("click", toggle);
+    });
+</script>
+
+</body>
+</html>
