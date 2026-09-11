@@ -9,7 +9,7 @@ about:
     url: "/about/nog/"
 
 ideas:
-  - name: "Wat boeit mij?!"
+  - name: "...in het algemeen"
     url: "/ideas/"
   - name: "Favoriete denkers"
     url: "/ideas/denkers/"
@@ -19,7 +19,7 @@ ideas:
     url: "/ideas/bijzonder/"
 
 projects:
-  - name: "Waar ben&nbsp;ik&nbsp;mee bezig?"
+  - name: "Start"
     url: "/projects/"
   - name: "Websites"
     url: "/projects/websites/"
@@ -27,6 +27,8 @@ projects:
     url: "/projects/illustraties/"
   - name: "Blog"
     url: "/projects/blog/"
+  - name: "Debate club"
+    url: "/projects/debate/"
 
 test:
   - name: "Start"

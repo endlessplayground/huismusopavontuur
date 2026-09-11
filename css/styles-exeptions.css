@@ -6,26 +6,39 @@ body.contact #section-img {
 body.contact .main {
     padding: 80px 0px 0px 0px;
 }
+ 
+body.today #section-img {
+    transform: scale(1.15);
+    padding: 18px 0px 0px 0px;  
+}
+
+body.ideas #section-img {
+    padding: 34px 0px 0px 0px;  
+}
+
+body.ideas #section-img img {
+    transform: scaleX(-1.4) scaleY(1.4) rotate(10deg) skewY(3deg);
+}
 
 body.contact .main-txt {
     text-align: center;
     margin-right: var(--text-margin-left);
 }
 
-body.ideas  #section-img {
-    transform: scale(1.1);
-  }
+
+
 body.ideas  h2 {
     margin-left: -5px;
   }
 
- body.ideas #submenu, body.about #submenu {
+/* body.ideas #submenu {
     gap: 32px;
-  }
+    padding-left: 30px;
+  }*/
 
 body.projects  #section-img {
-    transform: scale(1);
-    margin-top: -24px;
+    transform: scale(1.2);
+    margin-top: -20px;
   }
 
 body.projects  h2 {
@@ -78,6 +91,11 @@ body.today .main-txt {
     width: calc(100% - (2 * var(--text-margin-left)));
     margin-left: var(--text-margin-left);
     margin-right: var(--text-margin-left);
+}
+
+body.about #section-img {
+    transform: scale(1.15) ;
+    padding: 18px 0px 0px 0px;  
 }
 
 body.today #section-img {

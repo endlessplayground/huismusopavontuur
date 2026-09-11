@@ -20,20 +20,16 @@ labels:
 submenus:
 
   about:
-    - name: "Start"
-      url: "/about/"
     - name: "Hobby's"
       url: "/about/hobbys/"
     - name: "Werk"
       url: "/about/werk/"
     - name: "Muziek"
       url: "/about/muziek/"
-    - name: ""
-      url: "#"
+    - name: "…nog iets"
+      url: "/about/nog/"
 
   ideas:
-    - name: "Start"
-      url: "/ideas/"
     - name: "Favoriete denkers"
       url: "/ideas/denkers/"
     - name: "Interessante hypotheses"
@@ -44,8 +40,6 @@ submenus:
       url: "/ideas/psycho/"
 
   projects:
-    - name: "Start"
-      url: "/projects/"
     - name: "Websites"
       url: "/projects/websites/"
     - name: "Illustraties"
