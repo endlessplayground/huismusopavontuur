@@ -27,9 +27,11 @@
     }
 
 
-    /* section {
-        box-shadow: 0px 1px 4px rgba(175, 152, 218, 0.6);
-     }  */     
+    section {
+       /* box-shadow: 0px 1px 4px rgba(175, 152, 218, 0.6); */
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 4px;
+     }      
 
     .thinker-button, .expand {
         padding: 8px 8px 8px 14px;
