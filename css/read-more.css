@@ -1,0 +1,93 @@
+    :root {
+    --main-font: "Epunda Slab", serif;
+    --heading-font: "Hammersmith One", sans-serif;
+    --max-width: 430px;
+    --speechmargin-left: 80px;
+    --text-margin-left: 40px;
+    --text-margin-right: 20px;
+   --background-color: rgb(26, 26, 26);
+    --txt-color: rgb(46, 64, 86);
+    --icon-color: rgba(190, 156, 255, 0.6);
+    --test-color: rgb(236, 61, 249);
+    }
+    
+    .thinker {
+        margin-bottom: 12px;
+        width: 96%;
+/*   background: linear-gradient(
+    to bottom,
+    rgb(25, 33, 18) 0,
+    rgb(112, 149, 83) 54px,
+    rgb(191, 251, 141) 70px,
+    rgba(213, 255, 173, 0.6) 100%
+); 
+        background: rgba(253, 254, 253, 0.5);
+        border-radius: 10px;*/
+        overflow: hidden;
+    }
+
+
+    /* section {
+        box-shadow: 0px 1px 4px rgba(175, 152, 218, 0.6);
+     }  */     
+
+    .thinker-button, .expand {
+        padding: 8px 8px 8px 14px;
+    }
+
+    .thinker-button {
+        width: 100%;
+        border: 0;
+        background: none;
+        font: inherit;
+        text-align: left;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    /*    background: rgba(253, 254, 253, 0.6);
+        box-shadow: 1px 1px 2px rgba(190, 156, 255, 0.15); */
+    }
+
+/*    .thinker-button:hover {
+        background: rgba(52, 52, 52, 0.01);
+    } */
+
+    .name {
+        font-family: var(--heading-font);
+        font-weight: 400;
+        color: var(--txt-color);
+    }
+
+    .teaser {
+        display: block;
+        margin-top: 5px;
+        font-size: 0.95rem;
+        font-weight: normal;
+        font-style: italic;
+    }
+
+    .arrow {
+        font-size: 1.3rem;
+        margin-left: 15px;
+        flex-shrink: 0;
+    }
+
+    .expand {
+        display: none;
+        line-height: 1.55;
+    }
+
+    .expand.open {
+        display: block;
+    }
+
+    .expand h3 {
+        margin: 18px 0 6px;
+        font-family: var(--heading-font);
+        font-size: 0.8rem;
+    }
+
+    .expand a {
+        color: var(--txt-color)
+    }

@@ -11,6 +11,7 @@
 
 body {
     min-height: 100vh;
+    padding-bottom: 70px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -69,8 +70,8 @@ p {
     background: linear-gradient(
         to bottom,
         rgb(var(--color-1)) 0,
-        rgb(var(--color-1-lighter)) 25px,
-        rgb(var(--color-2-lighter)) 55px,
+ /*       rgb(var(--color-1-lighter)) 25px,
+        rgb(var(--color-2-lighter)) 55px, */
         var(--background-light) 120px,
         var(--background-light) 165px,
         transparent 210px
@@ -137,13 +138,12 @@ footer {
     bottom: -5px;
     width: 100%;
     max-width: 430px;
-    height: 120px;
+    height: 10px;
     z-index: 20;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     background: transparent;
-    background-image: url("../images/berm.svg");
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: center;
@@ -154,12 +154,13 @@ footer {
     bottom: 0px;
     width:100%;
     max-width: 430px;
-    height: 100px;
-    z-index: -1;
-    background: linear-gradient(
+    height: 15px;
+    z-index: 10;
+    background-color: rgb(255, 200, 0);
+/*    background: linear-gradient(
         to bottom,
         var(--background-light) 0,
         rgb(203, 245, 154) 90%,
-        rgb(97, 204, 85) 100%
-        );
+        rgb(120, 219, 103) 100%
+        ); */
 }

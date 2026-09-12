@@ -5,16 +5,17 @@
     --speechmargin-left: 80px;
     --text-margin-left: 40px;
     --text-margin-right: 20px;
-    --background-light: rgb(252, 245, 236);
+    --background-light: rgb(230, 235, 227);
+    --background-light: rgb(230, 235, 227);
     --background-color: rgb(26, 26, 26);
     --txt-color: rgb(46, 64, 86);
-    --icon-color: rgba(190, 156, 255, 0.6);
-    --test-color: rgb(236, 61, 249);
+    --icon-color: rgba(180, 240, 40, 0.642);
+    --test-color: rgb(1, 1, 1);
 
 
 
     --color-0: 63, 40, 145;
-    --color-1: 190, 0, 230;
+    --color-1: 61, 180, 2490;
     --color-1-lighter: 236, 61, 249;
     --color-2: 255, 65, 126;
     --color-2-lighter: 243, 140, 193;

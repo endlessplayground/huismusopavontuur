@@ -37,8 +37,9 @@ body.ideas  h2 {
   }*/
 
 body.projects  #section-img {
-    transform: scale(1.2);
+    transform: scale(1.1);
     margin-top: -20px;
+    margin-left: 20px;
   }
 
 body.projects  h2 {
@@ -53,11 +54,13 @@ body.today .date {
 
 body.today .header-fade, body.random .header-fade, body.contact .header-fade {
     height: 150px;
-    background: linear-gradient(
+
+
+        background: linear-gradient(
         to bottom,
         rgb(var(--color-1)) 0,
-        rgb(var(--color-1-lighter)) 25px,
-        rgb(var(--color-2-lighter)) 55px,
+ /*       rgb(var(--color-1-lighter)) 25px,
+        rgb(var(--color-2-lighter)) 55px, */
         var(--background-light) 120px,
         var(--background-light) 165px,
         transparent 210px
@@ -70,15 +73,6 @@ body.random main {
 
 body.random .header-fade {
     height: 250px;
-    background: linear-gradient(
-        to bottom,
-        rgb(var(--color-1)) 0,
-        rgb(var(--color-1-lighter)) 25px,
-        rgb(var(--color-2-lighter)) 55px,
-        var(--background-light) 120px,
-        var(--background-light) 230px,
-        transparent 268px
-    );
 }
 
 
@@ -94,8 +88,9 @@ body.today .main-txt {
 }
 
 body.about #section-img {
-    transform: scale(1.15) ;
-    padding: 18px 0px 0px 0px;  
+    transform: scale(1) ;
+    padding: 10px 0px 0px 0px;  
+    margin-left: 10px;
 }
 
 body.today #section-img {

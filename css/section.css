@@ -90,9 +90,11 @@ h2 {
 .submenu-icon.active {
     transform: scale(1.4);
     background-color: var(--icon-color);
+    background-color: rgba(180, 240, 40, 0.8);
     font-size: 0.6em;
     color: var(--txt-color);
-    text-shadow: 0px 0px 4px rgb(255, 255, 255);
+    color: white;
+    text-shadow: 0px 0px 2px rgb(57, 55, 55);
 }
 
 .subsublinkjes a {
@@ -102,7 +104,7 @@ h2 {
     font-family: var(--heading-font);
     font-size: 0.95em;
     color: var(--txt-color);
-    border-bottom: 22px solid rgb(185, 238, 227, 0.4);
+    border-bottom: 22px solid rgba(222, 242, 144, 0.822);
 }
 
 .subsublinkjes a::before {
@@ -112,6 +114,7 @@ h2 {
     border-radius: 50%;
     margin: 3px -18px -9px -13px;
     background: var(--icon-color);
+    background-color: rgba(154, 233, 75, 0.612);
     content: "";
 }
 
@@ -121,7 +124,7 @@ h2 {
     height: 24px;
     border-radius: 50%;
     margin: -5px 0px -6px 4px;
-    background: rgba(255, 255, 255, 0.612);
+    background: rgba(255, 255, 255, 0.7);
     background-image: url('../images/dots.svg');
     background-size: contain;
     background-repeat: no-repeat;
