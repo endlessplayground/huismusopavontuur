@@ -93,8 +93,7 @@ h2 {
     background-color: rgba(180, 240, 40, 0.8);
     font-size: 0.6em;
     color: var(--txt-color);
-    color: white;
-    text-shadow: 0px 0px 2px rgb(57, 55, 55);
+    text-shadow: 0px 0px 2px white;
 }
 
 .subsublinkjes a {
