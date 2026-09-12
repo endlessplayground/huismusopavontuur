@@ -126,8 +126,8 @@ main {
     align-self: flex-start;
     text-align: left;
     margin: 0px var(--text-margin-right) 45px var(--text-margin-left);
-    padding-top: 6px;
-    background-color: rgba(255, 255, 255, 0.6);
+    padding: 6px 2px 6px 6px;
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 .short main {
