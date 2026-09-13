@@ -17,7 +17,7 @@ speech: denkers
 <section class="thinker">
         <button class="thinker-button" type="button" aria-expanded="false">
             <span>
-                <span class="name">Michael Levin</span>
+                <span class="name"><em>Michael</em> Levin</span>
                 <span class="teaser">Over intelligence, biology and the strange things living systems can do.</span>
             </span>
             <span class="arrow">▼</span>
@@ -43,7 +43,7 @@ speech: denkers
 <section class="thinker">
         <button class="thinker-button" type="button" aria-expanded="false">
             <span>
-                <span class="name">Karl Friston</span>
+                <span class="name"><em>Anil</em> Seth</span>
                 <span class="teaser">A rather different way of thinking about brains.</span>
             </span>
             <span class="arrow">▼</span>
@@ -62,7 +62,7 @@ speech: denkers
 <section class="thinker">
         <button class="thinker-button" type="button" aria-expanded="false">
             <span>
-                <span class="name">Karly Carly Friston</span>
+                <span class="name"><em>Alex</em> OʼConnor</span>
                 <span class="teaser">Nog wat meer.</span>
             </span>
             <span class="arrow">▼</span>

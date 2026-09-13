@@ -6,7 +6,7 @@ parent_folder: contact
 show_submenu: false
 ---
 
-<div class="main-txt">  
+<div class="main-txt" style="margin-right: 20px; padding: 8px 0px 0px 0px;">  
 <p>Wil je ergens op <em>reageren</em>, of heb je een leuk gespreksonderwerp?</p>
 <p>Stuur me een <em>mail</em>.</p>
 <p><a href="mailto:unfinishedthoughtz1965@gmail.com">

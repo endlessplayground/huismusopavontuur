@@ -13,7 +13,10 @@
     
     .thinker {
         margin-bottom: 12px;
-        width: 96%;
+        padding-top: 2px;
+        padding-bottom: 0px;
+        width: 100%;
+        max-width: 398px;
 /*   background: linear-gradient(
     to bottom,
     rgb(25, 33, 18) 0,
@@ -27,14 +30,12 @@
     }
 
 
-    section {
-       /* box-shadow: 0px 1px 4px rgba(175, 152, 218, 0.6); */
-    background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 4px;
-     }      
+    /* section {
+        box-shadow: 0px 1px 4px rgba(175, 152, 218, 0.6);
+     }  */     
 
     .thinker-button, .expand {
-        padding: 8px 8px 8px 14px;
+        padding: 8px 0px 0px 0px;
     }
 
     .thinker-button {
@@ -56,23 +57,31 @@
     } */
 
     .name {
+        display: inline-block;
+        border-radius: 3px;
+        padding: 2px 6px 0px 6px;
+        background-color: rgba(179, 255, 0, 0.574);
         font-family: var(--heading-font);
         font-weight: 400;
         color: var(--txt-color);
+        margin: -6px 0px 0px -6px;
     }
+
+
 
     .teaser {
         display: block;
-        margin-top: 5px;
+        margin: 5px 0px 12px 0px;
         font-size: 0.95rem;
         font-weight: normal;
         font-style: italic;
     }
 
     .arrow {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         margin-left: 15px;
         flex-shrink: 0;
+        color: rgb(81, 160, 175);
     }
 
     .expand {

@@ -119,22 +119,6 @@ main {
     font-size: 0.98em;
 }
 
-.main-txt {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-self: flex-start;
-    text-align: left;
-    margin: 0px 20px 45px 20px;
-    padding: 6px 2px 2px 8px;
-    background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 4px;
-}
-
-.short main {
-    padding: 230px 0px 0px 0px;
-}
-
 footer {
     position: fixed;
     bottom: -5px;

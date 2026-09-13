@@ -68,8 +68,16 @@ body.today .header-fade, body.random .header-fade, body.contact .header-fade {
 }
 
 body.random main {
-    padding-top: 240px;
+    padding-top: 230px;
 }
+body.random .main-txt {
+    background-color: transparent;
+}
+body.random .random-txt {
+    background-color: transparent;
+}
+
+
 
 body.random .header-fade {
     height: 250px;

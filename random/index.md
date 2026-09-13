@@ -9,15 +9,13 @@ show_submenu: true
 
 <div class="instruction" style=""><p  id="roll-instruction">Rol de <em>dobbelsteen</em> voor iets randoms<em>…</em></p></div>
 
-<div class="dice"  style="">
+<div class="dice">
   <div id="roll">
     <img src="{{ '/images/dice.svg' | relative_url }}" alt="Dobbelsteen">
   </div>
 </div>
 
-<div class="main-txt">  
 <div id="output"></div>
-</div>  
 
 
 
@@ -44,11 +42,9 @@ show_submenu: true
   position: fixed;
   display: flex;
   justify-content: center;
-  align-items: center;
   width: 100%;
   max-width: var(--max-width);
-  height: 70px;
-  margin: -4px 0px 20px 0px;
+  height: 50px;
   z-index: 100;
 }
 

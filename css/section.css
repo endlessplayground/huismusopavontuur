@@ -93,7 +93,8 @@ h2 {
     background-color: rgba(180, 240, 40, 0.8);
     font-size: 0.6em;
     color: var(--txt-color);
-    text-shadow: 0px 0px 2px white;
+    color: white;
+    text-shadow: 0px 0px 2px rgb(57, 55, 55);
 }
 
 .subsublinkjes a {
@@ -111,7 +112,7 @@ h2 {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    margin: 3px -18px -9px -13px;
+    margin: 3px -15px -9px -18px;
     background: var(--icon-color);
     background-color: rgba(154, 233, 75, 0.612);
     content: "";
@@ -129,4 +130,26 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
     content: "";
+}
+
+.main-txt, .random-text, section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: flex-start;
+    text-align: left;
+    margin: 0px 16px 45px 16px;
+    padding: 8px 6px 0px 12px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 4px;
+    box-shadow: 0px 1px 16px rgba(77, 89, 92, 0.2);
+
+}
+
+.random-text {
+    margin-top: 10px;
+}
+
+.short main {
+    padding: 230px 0px 0px 0px;
 }
