@@ -69,19 +69,23 @@ p {
 .header-fade {
     background: linear-gradient(
         to bottom,
-        rgb(var(--color-1)) 0,
+        rgb(var(--color-dreams-on)) 0,
  /*       rgb(var(--color-1-lighter)) 25px,
         rgb(var(--color-2-lighter)) 55px, */
         var(--background-light) 120px,
         var(--background-light) 165px,
         transparent 210px
     );
+
+    
+    
 }
 
 .background-light {
     height: 100vh;
     background-color: var(--background-light);
     z-index: -10;
+    background-image: url('../images/pattern.svg');
 }
 
 .balk {
