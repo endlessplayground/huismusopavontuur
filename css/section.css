@@ -50,6 +50,17 @@ h2 {
     max-width: none;
 }
 
+#home {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    padding-top: 6px;
+}
+
+#home img {
+    width: 100%;
+}
+
 #submenu {
     position: fixed;
     top: 160px;

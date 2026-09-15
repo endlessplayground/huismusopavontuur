@@ -85,10 +85,13 @@ p {
 
 .balk {
     display: flex;
+    justify-content: flex-end;
     position: fixed;
     width: 100%;
-    top: 0px;
+    max-width: var(--max-width);
     height: 62px;
+    top: 0px;
+    padding-right: 30px;
     background-color: var(--background-color);
     color: aliceblue;
     z-index: 5;
