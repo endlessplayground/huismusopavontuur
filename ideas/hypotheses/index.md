@@ -7,15 +7,76 @@ show_submenu: true
 ---
 
 
-<div class="main-txt">  
+<section class="expand-item">
 
-<div class="subsublinkjes">
-<p><a>Panpsychisme</a> De hypothese dat bewustzijn, of een zeer elementaire vorm ervan, een fundamenteel onderdeel van de werkelijkheid is.</p>
-<p><a>De simulatiehypothese</a> Het idee dat onze werkelijkheid mogelijk een kunstmatig gesimuleerde werkelijkheid is.</p>
-<p><a>De veelwereldeninterpretatie</a> De hypothese dat alle mogelijke uitkomsten van kwantumgebeurtenissen daadwerkelijk plaatsvinden, elk in een eigen tak van de werkelijkheid.</p>
-<p><a>De Gaia-hypothese</a> Het idee dat de aarde en haar levende organismen samen een systeem vormen dat omstandigheden voor leven actief in stand kan houden.</p>
-<p><a>De Fermi-paradox</a> De merkwaardige tegenstelling tussen de enorme kans op buitenaards leven en het feit dat we daar tot nu toe geen overtuigend spoor van hebben gevonden.</p>
+    <button class="expand-trigger" type="button" aria-expanded="false">
+        <span class="expand-heading">
+            <span class="expand-title">Panpsychisme</span>
+            <span class="expand-teaser"></span>
+        </span>
+        <span class="expand-arrow">▼</span>
+    </button>
 
-</div>
- 
-</div>
+    <div class="expand-content">
+        <p>
+            De hypothese dat bewustzijn, of een zeer elementaire vorm ervan, een fundamenteel onderdeel van de werkelijkheid is.
+        </p>
+    </div>
+
+</section>
+
+<section class="expand-item">
+
+    <button class="expand-trigger" type="button" aria-expanded="false">
+        <span class="expand-heading">
+            <span class="expand-title">De simulatiehypothese</span>
+            <span class="expand-teaser"></span>
+        </span>
+        <span class="expand-arrow">▼</span>
+    </button>
+
+    <div class="expand-content">
+        <p>
+            Het idee dat onze werkelijkheid mogelijk een kunstmatig gesimuleerde werkelijkheid is.
+        </p>
+    </div>
+
+</section>
+
+<section class="expand-item">
+
+    <button class="expand-trigger" type="button" aria-expanded="false">
+        <span class="expand-heading">
+            <span class="expand-title">De veelwereldeninterpretatie</span>
+            <span class="expand-teaser"></span>
+        </span>
+        <span class="expand-arrow">▼</span>
+    </button>
+
+    <div class="expand-content">
+        <p>
+            De hypothese dat alle mogelijke uitkomsten van kwantumgebeurtenissen daadwerkelijk plaatsvinden, elk in een eigen tak van de werkelijkheid.
+        </p>
+    </div>
+
+</section>
+
+<section class="expand-item">
+
+    <button class="expand-trigger" type="button" aria-expanded="false">
+        <span class="expand-heading">
+            <span class="expand-title">De Fermi-paradox</span>
+            <span class="expand-teaser"></span>
+        </span>
+        <span class="expand-arrow">▼</span>
+    </button>
+
+    <div class="expand-content">
+        <p>
+            De merkwaardige tegenstelling tussen de enorme kans op buitenaards leven en het feit dat we daar tot nu toe geen overtuigend spoor van hebben gevonden.
+        </p>
+    </div>
+
+</section>
+
+<script src="{{ '/js/expand.js' | relative_url }}"></script>

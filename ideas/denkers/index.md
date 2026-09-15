@@ -10,7 +10,7 @@ show_submenu: true
 
     <button class="expand-trigger" type="button" aria-expanded="false">
         <span class="expand-heading">
-            <span class="expand-title"><em>Michael</em> Levin</span>
+            <span class="expand-title">Michael Levin</span>
             <span class="expand-teaser">Over intelligence, biology and the strange things living systems can do.</span>
         </span>
         <span class="expand-arrow">▼</span>
@@ -38,7 +38,7 @@ show_submenu: true
 
     <button class="expand-trigger" type="button" aria-expanded="false">
         <span class="expand-heading">
-            <span class="expand-title"><em>Anil</em> Seth</span>
+            <span class="expand-title">Anil Seth</span>
             <span class="expand-teaser">A rather different way of thinking about brains.</span>
         </span>
         <span class="expand-arrow">▼</span>
@@ -58,7 +58,7 @@ show_submenu: true
 
     <button class="expand-trigger" type="button" aria-expanded="false">
         <span class="expand-heading">
-            <span class="expand-title"><em>Alex</em> OʼConnor</span>
+            <span class="expand-title">Alex OʼConnor</span>
             <span class="expand-teaser">Nog wat meer.</span>
         </span>
         <span class="expand-arrow">▼</span>
@@ -77,24 +77,7 @@ show_submenu: true
 
 </section>
 
-<script>
-document.querySelectorAll(".expand-item").forEach(function (item) {
-
-    const trigger = item.querySelector(".expand-trigger");
-    const content = item.querySelector(".expand-content");
-    const arrow = item.querySelector(".expand-arrow");
-
-    trigger.addEventListener("click", function () {
-
-        const isOpen = content.classList.toggle("open");
-
-        trigger.setAttribute("aria-expanded", isOpen);
-        arrow.textContent = isOpen ? "▲" : "▼";
-
-    });
-
-});
-</script>
+<script src="{{ '/js/expand.js' | relative_url }}"></script>
 
 
 

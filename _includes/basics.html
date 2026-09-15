@@ -3,7 +3,7 @@
 <body class="{% if page.page_type == 'home' %}home{% else %}{{ page.parent_folder }}{% endif %}">
 <div id="main-menu"><a href="{{ '/' | relative_url }}"><div></div></a></div>
 <div class="balk">
-    {% if page.page_type != "home" %}<div id="home"><img src="{{ '/images/main-menu.svg' | relative_url }}" alt="Yvon dreams on"></div>{% endif %} 
+    {% if page.page_type != "home" %}<div id="home"><img src="{{ '/images/main-menu.svg' | relative_url }}" alt="Menu"></div>{% endif %} 
 </div>
 <div class="background-light"></div>
 <div class="header-fade"></div>
