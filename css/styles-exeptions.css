@@ -13,11 +13,11 @@ body.today #section-img {
 }
 
 body.ideas #section-img {
-    padding: 34px 0px 0px 0px;  
+    padding: 24px 0px 0px 0px;  
 }
 
 body.ideas #section-img img {
-    transform: scaleX(-1.4) scaleY(1.4) rotate(10deg) skewY(3deg);
+    transform: scaleX(-1.2) scaleY(1.4) rotate(7deg) skewY(0deg);
 }
 
 body.contact .main-txt {

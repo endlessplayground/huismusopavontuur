@@ -52,13 +52,13 @@ h2 {
 
 #home {
     display: flex;
-    width: 70px;
-    height: 70px;
-    padding-top: 6px;
+    width: 53px;
+    height: 53px;
+    padding-top: 9px;
 }
 
 #home img {
-    width: 100%;
+    width: 65px;
 }
 
 #submenu {
