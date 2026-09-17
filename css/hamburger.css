@@ -59,7 +59,7 @@
     top: 0;
     right: 0;
 
-    width: 75%;
+    width: 78%;
     max-width: 360px;
     height: 100%;
 
@@ -109,7 +109,7 @@
 .menu-item {
     margin-bottom: 8px;
     font-family: var(--heading-font);
-    font-size: 0.9em;
+    font-size: 1em;
 }
 
 
@@ -138,8 +138,6 @@
 .menu-icon {
     width: 65px;
     flex-shrink: 0;
-
-    font-size: 1.2rem;
 }
 
 .menu-icon .icon {
