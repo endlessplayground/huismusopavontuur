@@ -31,7 +31,7 @@ show_submenu: true
   margin-top: -140px; 
   padding-top: 100px; z-index: 1; 
   text-align: center; 
-  z-index: 999999;
+  z-index: 99;
 }
 
 .random-text {
