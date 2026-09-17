@@ -99,7 +99,8 @@
         <nav class="menu-panel">
 
             <button class="menu-close" type="button" aria-label="Close menu">
-<img src="{{ '/images/main-menu-close.svg' | relative_url }}" alt="Menu">            </button>
+<img src="{{ '/images/main-menu-close.svg' | relative_url }}" alt="Menu">     
+            </button>
 
 
             <div class="menu-item">
@@ -111,9 +112,9 @@
                 </button>
 
                 <div class="menu-submenu">
-                    <a href="/over-mij/">Wie?</a>
-                    <a href="/over-mij/werk/">Werk</a>
-                    <a href="/over-mij/muziek/">Muziek</a>
+                    <a href="{{ '/over-mij/' | relative_url }}">Wie?</a>
+                    <a href="{{ '/over-mij/werk/' | relative_url }}">Werk</a>
+                    <a href="{{ '/over-mij/muziek/' | relative_url }}">Muziek</a>
                 </div>
 
             </div>
@@ -128,9 +129,9 @@
                 </button>
 
                 <div class="menu-submenu">
-                    <a href="/ideas/denkers/">Favoriete denkers</a>
-                    <a href="/ideas/hypotheses/">Interessante hypotheses</a>
-                    <a href="/ideas/phenomena/">Bijzondere fenomenen</a>
+                    <a href="{{ '/ideas/denkers/' | relative_url }}">Favoriete denkers</a>
+                    <a href="{{ '/ideas/hypotheses/' | relative_url }}">Interessante hypotheses</a>
+                    <a href="{{ '/ideas/phenomena/' | relative_url }}">Bijzondere fenomenen</a>
                 </div>
 
             </div>
@@ -138,11 +139,11 @@
 
             <div class="menu-item">
 
-                <button class="menu-heading" type="button">
+                <a href="{{ '/today/' | relative_url }}"><button class="menu-heading" type="button">
                     <span class="menu-icon"><div class="icon"><img src="{{ '/images/today2.svg' | relative_url }}" alt=""></div></span>
                     <span>Vandaag</span>
                     <span class="menu-arrow"></span>
-                </button>
+                </button></a>
 
             </div>
 
@@ -156,9 +157,9 @@
                 </button>
 
                 <div class="menu-submenu">
-                    <a href="/projects/websites/">Websites</a>
-                    <a href="/projects/illustrations/">Illustraties</a>
-                    <a href="/projects/blog/">Blog</a>
+                    <a href="{{ '/projects/websites/' | relative_url }}">Websites</a>
+                    <a href="{{ '/projects/illustrations/' | relative_url }}">Illustraties</a>
+                    <a href="{{ '/projects/blog/' | relative_url }}">Blog</a>
                 </div>
 
             </div>
@@ -166,22 +167,22 @@
 
             <div class="menu-item">
 
-                <button class="menu-heading" type="button">
+                <a href="{{ '/random/' | relative_url }}"><button class="menu-heading" type="button">
                     <span class="menu-icon"><div class="icon"><img src="{{ '/images/random2.svg' | relative_url }}" alt=""></div></span>
                     <span>Random</span>
                     <span class="menu-arrow"></span>
-                </button>
+                </button></a>
 
             </div>
 
 
             <div class="menu-item">
 
-                <button class="menu-heading" type="button">
+                <a href="{{ '/contact/' | relative_url }}"><button class="menu-heading" type="button">
                     <span class="menu-icon"><div class="icon"><img style="margin-left: -6px;" src="{{ '/images/contact.svg' | relative_url }}" alt=""></div></span>
                     <span>Contact</span>
                     <span class="menu-arrow"></span>
-                </button>
+                </button></a>
 
             </div>
 

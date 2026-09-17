@@ -59,7 +59,7 @@
     top: 0;
     right: 0;
 
-    width: 66%;
+    width: 75%;
     max-width: 360px;
     height: 100%;
 
@@ -119,7 +119,7 @@
 
     width: 100%;
 
-    padding: 3px 0 0 0;
+    padding: 9px 0 0 0;
 
     margin-bottom: -8px;
 
@@ -136,7 +136,7 @@
 /* pictogram */
 
 .menu-icon {
-    width: 55px;
+    width: 65px;
     flex-shrink: 0;
 
     font-size: 1.2rem;
@@ -146,14 +146,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
-    background-color: var(--icon-color);
+    width: 50px;
+    height: 50px;
+    background-color: var(--icon-color-hamburger);
     border-radius: 50%;
 }
 
 .menu-icon .icon img {
-    width: 110%;
+    width: 121%;
 }
 
 /* menu text */
@@ -171,7 +171,7 @@
 
     text-align: center;
 
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 
@@ -181,7 +181,7 @@
     display: none;
     font-family: var(--main-font);
 
-    padding: 2px 0px 0px 55px;
+    padding: 2px 0px 0px 65px;
 }
 
 .menu-submenu.open {
