@@ -8,7 +8,7 @@
    version="1.1"
    id="svg1"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
-   sodipodi:docname="home-button-footer.svg"
+   sodipodi:docname="back-home.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -41,12 +41,13 @@
     <circle
        style="fill:#92da06;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:round"
        id="path8"
-       cx="7.9375"
+       cx="-7.9375"
        cy="7.9375"
-       r="7.9375" />
+       r="7.9375"
+       transform="rotate(-90)" />
     <g
        id="g1"
-       transform="translate(14.709702,-15.095708)">
+       transform="rotate(-90,-6.965205,8.130503)">
       <path
          style="color:#000000;fill:#ffffff;-inkscape-stroke:none"
          d="m -6.771225,17.197917 -6.193359,4.486328 0.880859,1.214844 5.3125,-3.847657 5.312505,3.847657 0.8789,-1.214844 z"
@@ -77,19 +78,5 @@
          inkscape:transform-center-y="-0.70402556"
          transform="matrix(0.96139969,0,0,0.47575147,-99.353917,16.399651)" />
     </g>
-    <rect
-       style="fill:#92da06;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:round"
-       id="rect1"
-       width="2.1005535"
-       height="3.9271216"
-       x="8.2195578"
-       y="9.406826" />
-    <rect
-       style="fill:#92da06;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:round"
-       id="rect2"
-       width="2.5571957"
-       height="2.3745387"
-       x="5.1143909"
-       y="6.1190033" />
   </g>
 </svg>
