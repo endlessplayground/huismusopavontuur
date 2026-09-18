@@ -1,6 +1,7 @@
 version: "3"
 
-title: "De Mus"
+title: "Yvon dreams on"
+
 description: "A personal experimental site"
 
 baseurl: "/huismusopavontuur"
@@ -16,9 +17,7 @@ labels:
   contact: "Contact"
   test: "Test gedeelte"
 
-
 submenus:
-
   about:
     - name: "Hobby's"
       url: "/about/hobbys/"
@@ -30,13 +29,13 @@ submenus:
       url: "/about/nog/"
 
   ideas:
-    - name: "Favoriete denkers"
-      url: "/ideas/denkers/"
-    - name: "Interessante hypotheses"
-      url: "/ideas/hypotheses/"
-    - name: "Bijzondere fenomenen"
-      url: "/ideas/bijzonder/"
-    - name: "Psychologie"
+    - name: "Op YouTube"
+      url: "/ideas/youtube/"
+    - name: "Huh?!"
+      url: "/ideas/huh/"
+    - name: "Wow!"
+      url: "/ideas/wow/"
+    - name: "Psycho…"
       url: "/ideas/psycho/"
 
   projects:
