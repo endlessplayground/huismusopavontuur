@@ -1,15 +1,15 @@
 ---
 layout: default
-title: "Psychologie"
+title: "Favoriete denkers"
 page_type: article
 parent_folder: ideas
 show_submenu: true
 ---
 
-
 <section class="page-intro">
     <p>
-        Hier komt mijn Psycho intro.
+        Mensen wier ideeën mijn manier van kijken naar de wereld
+        behoorlijk hebben beïnvloed.
     </p>
 </section>
 
@@ -85,3 +85,6 @@ show_submenu: true
 </section>
 
 
+
+
+ 

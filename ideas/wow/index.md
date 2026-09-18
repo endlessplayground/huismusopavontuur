@@ -1,15 +1,14 @@
 ---
 layout: default
-title: "Psychologie"
+title: "Wow!"
 page_type: article
 parent_folder: ideas
 show_submenu: true
 ---
 
-
 <section class="page-intro">
     <p>
-        Hier komt mijn Psycho intro.
+        Hier komt mijn Wow! intro.
     </p>
 </section>
 

@@ -1,6 +1,9 @@
 :root {
-    --main-font: "Epunda Slab", serif;
+    --main-font: "Epunda Slab", serif;   
+    --main-font: "Fira Sans", sans-serif;   
+
     --heading-font: "Hammersmith One", sans-serif;
+    --heading-font: "Fira Sans", sans-serif;   
     --max-width: 430px;
     --speechmargin-left: 80px;
     --text-margin-left: 20px;

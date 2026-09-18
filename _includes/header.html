@@ -57,11 +57,11 @@
         {% endcase %}
     </div>
 
-    {% if page.show_submenu %}
+{% if page.show_submenu %}
 
-        {% assign submenu = site.data.submenus[page.parent_folder] %}
+    {% assign submenu = site.submenus[page.parent_folder] %}
 
-        <div id="submenu">
+    <div id="submenu">
 
             {% for item in submenu %} 
                 <a class="submenu-item" href="{{ item.url | relative_url }}"> 
@@ -112,13 +112,12 @@
                 </button>
 
                 <div class="menu-submenu">
-                    <a href="{{ '/over-mij/' | relative_url }}">Wie?</a>
-                    <a href="{{ '/over-mij/werk/' | relative_url }}">Werk</a>
-                    <a href="{{ '/over-mij/muziek/' | relative_url }}">Muziek</a>
+                    {% for item in site.submenus.about %}
+                        <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+                    {% endfor %}
                 </div>
 
             </div>
-
 
             <div class="menu-item">
 
@@ -128,11 +127,11 @@
                     <span class="menu-arrow">▼</span>
                 </button>
 
-                <div class="menu-submenu">
-                    <a href="{{ '/ideas/denkers/' | relative_url }}">Favoriete denkers</a>
-                    <a href="{{ '/ideas/hypotheses/' | relative_url }}">Interessante hypotheses</a>
-                    <a href="{{ '/ideas/phenomena/' | relative_url }}">Bijzondere fenomenen</a>
-                </div>
+            <div class="menu-submenu">
+                {% for item in site.submenus.ideas %}
+                    <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+                {% endfor %}
+            </div>
 
             </div>
 
@@ -157,9 +156,9 @@
                 </button>
 
                 <div class="menu-submenu">
-                    <a href="{{ '/projects/websites/' | relative_url }}">Websites</a>
-                    <a href="{{ '/projects/illustrations/' | relative_url }}">Illustraties</a>
-                    <a href="{{ '/projects/blog/' | relative_url }}">Blog</a>
+                    {% for item in site.submenus.projects %}
+                        <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+                    {% endfor %}
                 </div>
 
             </div>

@@ -109,29 +109,26 @@
 .menu-item {
     margin-bottom: 8px;
     font-family: var(--heading-font);
-    font-size: 1em;
+    font-size: 0.9em;
 }
 
 
 .menu-heading {
     display: flex;
     align-items: center;
-
     width: 100%;
-
     padding: 9px 0 0 0;
-
     margin-bottom: -8px;
-
     border: 0;
     background: none;
-
     font: inherit;
     text-align: left;
-
     cursor: pointer;
 }
 
+.menu-heading span {
+    font-weight: 500;
+}
 
 /* pictogram */
 
@@ -178,7 +175,7 @@
 .menu-submenu {
     display: none;
     font-family: var(--main-font);
-
+    font-size: 0.9em;
     padding: 2px 0px 0px 65px;
 }
 

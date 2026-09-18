@@ -1,15 +1,14 @@
 ---
 layout: default
-title: "Psychologie"
+title: "Huh?"
 page_type: article
 parent_folder: ideas
 show_submenu: true
 ---
 
-
 <section class="page-intro">
     <p>
-        Hier komt mijn Psycho intro.
+        Hier komt mijn Huh? intro.
     </p>
 </section>
 
@@ -83,5 +82,4 @@ show_submenu: true
     </div>
 
 </section>
-
 
