@@ -8,7 +8,7 @@
    version="1.1"
    id="svg1"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
-   sodipodi:docname="main-menu-close.svg"
+   sodipodi:docname="home-hamburger.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="2.8970539"
-     inkscape:cx="-28.649795"
-     inkscape:cy="-8.1116889"
+     inkscape:zoom="11.588216"
+     inkscape:cx="38.142197"
+     inkscape:cy="37.322398"
      inkscape:window-width="1536"
      inkscape:window-height="793"
      inkscape:window-x="-8"
@@ -37,31 +37,29 @@
     <filter
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
-       id="filter24-8"
-       x="-8.7762353e-05"
-       y="-8.3266765e-05"
-       width="1.0001755"
-       height="1.0001665">
+       id="filter1"
+       x="-0.10895032"
+       y="-0.12543638"
+       width="1.2179006"
+       height="1.2508728">
       <feGaussianBlur
          inkscape:collect="always"
-         stdDeviation="0.00023878406"
-         id="feGaussianBlur24-0" />
+         stdDeviation="0.46893366"
+         id="feGaussianBlur1" />
     </filter>
   </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <circle
-       style="fill:#a1d542;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:round"
-       id="path8"
-       cx="7.9375"
-       cy="7.9375"
-       r="7.9375" />
     <path
-       id="rect23-5"
-       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter24-8)"
-       d="M 84.196394 -0.48740731 L 83.075422 -0.48740736 L 83.075422 2.3630851 L 80.370945 2.363085 L 80.370945 3.5445789 L 83.075422 3.544579 L 83.075422 6.3950715 L 84.196394 6.3950716 L 84.196394 3.5445791 L 86.900872 3.5445792 L 86.900872 2.3630853 L 84.196394 2.3630852 L 84.196394 -0.48740731 z "
-       transform="matrix(1.0814977,-1.0814978,1.0260985,1.0260985,-85.545465,95.358628)" />
+       id="path9-2"
+       style="color:#000000;opacity:0.409807;mix-blend-mode:normal;fill:#020202;fill-opacity:1;stroke-width:0.917839;-inkscape-stroke:none;filter:url(#filter1)"
+       d="M 8.5808853,2.9426505 3.4154057,6.6846206 4.1498525,7.6974597 4.9861366,7.0919701 V 11.914855 H 8.8155539 V 9.0351822 h 1.7522671 v 2.8796728 h 1.606707 V 7.0908632 l 0.837945,0.6065965 0.732786,-1.0128391 z M 6.2258959,6.3049444 H 8.3583927 V 8.2730623 H 6.2258959 Z"
+       transform="matrix(1.089513,0,0,1.089513,-0.60822684,-0.77913073)" />
+    <path
+       id="path9"
+       style="color:#000000;fill:#ffffff;stroke-width:0.999997;-inkscape-stroke:none"
+       d="M 8.8408021,2.2847751 3.2129449,6.3617002 4.0131343,7.4652015 4.9242767,6.8055127 V 12.060108 H 9.0964766 V 8.9226676 h 1.9091174 v 3.1374404 h 1.750528 V 6.8043068 l 0.912952,0.6608947 0.79838,-1.1035013 z M 6.2750106,5.948038 h 2.3233829 v 2.14429 H 6.2750106 Z" />
   </g>
 </svg>
