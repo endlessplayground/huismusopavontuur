@@ -112,6 +112,9 @@
     font-size: 0.9em;
 }
 
+.menu-item:has(.menu-submenu.open) {
+    margin-bottom: -8px;
+}
 
 .menu-heading {
     display: flex;
@@ -127,7 +130,7 @@
 }
 
 .menu-heading span {
-    font-weight: 500;
+    font-weight: 600;
 }
 
 /* pictogram */

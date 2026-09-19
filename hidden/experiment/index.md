@@ -6,11 +6,11 @@ parent_folder: ideas
 show_submenu: true
 ---
 
-<div class="page-intro">
+<section class="page-intro">
     <p>
         Hier komt mijn Huh? intro.
     </p>
-</div>
+</section>
 
 <section class="expand-item">
 

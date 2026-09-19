@@ -5,7 +5,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 0 2px;
     width: calc(100% - 40px);
-    margin-top: -50px;
+    margin-top: -65px;
     z-index: 15;
 }
 

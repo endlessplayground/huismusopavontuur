@@ -87,6 +87,7 @@ h2 {
     align-items: center;
     width: 54px;
     height: 54px;
+    padding: 0 2px 4px 2px;
     border-radius: 50%;
     background-color: rgb(88, 103, 121);
     font-family: var(--heading-font);
@@ -100,6 +101,7 @@ h2 {
 
 .submenu-icon.active {
     transform: scale(1.4);
+    padding: 0 10px 4px 10px;
     background-color: var(--icon-color);
     background-color: rgba(180, 240, 40, 0.8);
     font-size: 0.6em;
@@ -161,12 +163,11 @@ section {
 }
 
 
-section.page-intro {
+.page-intro {
     display: block;
-    align-self: center;
     text-align: center;
-    background: transparent;
-    box-shadow: none;
+    width: 90%;
+    margin-bottom: 4px;
 }
 
 .random-text {

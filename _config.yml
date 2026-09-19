@@ -10,28 +10,24 @@ permalink: pretty
 
 labels:
   about: "Over mij"
-  ideas: "Interessant!"
+  ideas: "Huh?!"
   projects: "Projecten"
   today: "Vandaag…"
   random: "Random"
   contact: "Contact"
-  test: "Test gedeelte"
+  hidden: "Private"
 
 submenus:
   about:
-    - name: "Hobby's"
-      url: "/about/hobbys/"
+    - name: "Ik in het&nbsp;kort"
+      url: "/about/ik/"
     - name: "Werk"
       url: "/about/werk/"
-    - name: "Muziek"
-      url: "/about/muziek/"
-    - name: "…nog iets"
-      url: "/about/nog/"
+    - name: "quirks"
+      url: "/about/quirks/"
 
   ideas:
-    - name: "Op YouTube"
-      url: "/ideas/youtube/"
-    - name: "Huh?!"
+    - name: "Echt?!"
       url: "/ideas/huh/"
     - name: "Wow!"
       url: "/ideas/wow/"
@@ -39,23 +35,17 @@ submenus:
       url: "/ideas/psycho/"
 
   projects:
-    - name: "Websites"
-      url: "/projects/websites/"
-    - name: "Illustraties"
-      url: "/projects/illustraties/"
-    - name: "Blog"
-      url: "/projects/blog/"
-    - name: "Debate club"
-      url: "/projects/debate/"
+    - name: "Ideeën"
+      url: "/projects/ideeen/"
+    - name: "Websites & illustraties"
+      url: "/projects/screen/"
+    - name: "(No) small&nbsp;talk"
+      url: "/projects/beyond/"
 
-  test:
-    - name: "Start"
-      url: "/test/"
-    - name: "Opgeschoond"
-      url: "/test/opgeschoond/"
+  hidden:
+    - name: "Random taakje"
+      url: "/hidden/random"
+    - name: "Kalender taakje"
+      url: "/hidden/kalender/"
     - name: "Experiment"
-      url: "/test/experiment/"
-    - name: "Nog iets"
-      url: "/test/iets/"
-    - name: ""
-      url: "#"
+      url: "/hidden/experiment/"
