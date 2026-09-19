@@ -10,7 +10,7 @@ permalink: pretty
 
 labels:
   about: "Over mij"
-  ideas: "Huh?!"
+  ideas: "Hoe zit het?!"
   projects: "Projecten"
   today: "Vandaag…"
   random: "Random"
@@ -23,11 +23,11 @@ submenus:
       url: "/about/ik/"
     - name: "Werk"
       url: "/about/werk/"
-    - name: "quirks"
+    - name: "Quirks"
       url: "/about/quirks/"
 
   ideas:
-    - name: "Echt?!"
+    - name: "Ehhh…"
       url: "/ideas/huh/"
     - name: "Wow!"
       url: "/ideas/wow/"

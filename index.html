@@ -60,14 +60,16 @@ show_submenu: false
   <div class="label">{{ site.labels.projects }}</div>
 </a>
 
-<a href="#"><div class="icon-empty"></div></a>
+<a href="{{ '/hidden/kalender/' | relative_url }}">
+  <div class="icon-empty"></div>
+</a>
 
 <a href="{{ '/random/' | relative_url }}">
   <div class="icon"><img src="{{ '/images/random.svg' | relative_url }}" alt="Dobbelsteen"></div>
-  <div class="label"><span style="display: inline-block; transform: rotate(180deg); font-family: var(--heading-font);">{{ site.labels.random }}</span></div>
+  <div class="label"><span style="display: inline-block; transform: rotate(180deg); font-family: var(--heading-font);font-weight: 600;">{{ site.labels.random }}</span></div>
 </a>
 
-<a href="{{ '/hidden/' | relative_url }}">
+<a href="{{ '/hidden/random/' | relative_url }}">
   <div class="icon-empty"></div>
 </a>
 

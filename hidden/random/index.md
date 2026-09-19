@@ -7,7 +7,7 @@ show_submenu: true
 ---
 
 
-<div class="instruction" style=""><p  id="roll-instruction">Rol de <em>dobbelsteen</em> voor iets randoms<em>…</em></p></div>
+<div class="instruction" style=""><p  id="roll-instruction">Wat zal ik <em>doen</em> vandaag…<em>?</em></p></div>
 
 <div class="dice">
   <div id="roll">
@@ -15,7 +15,8 @@ show_submenu: true
   </div>
 </div>
 
-<div id="output"></div>
+<div id="output">Ja, wat gaan we doen?</div>
+
 
 
 
@@ -82,18 +83,41 @@ show_submenu: true
 }
 
 #output {
-  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
   min-height: 50px;
   text-align: center;
-}
+  width: 80%;
+  height: 100px;
+  padding: 2px 6px 6px 12px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 4px;
+  box-shadow: 0px 1px 16px rgba(77, 89, 92, 0.2);}
 </style>
 
 <script>
 const randomContent = [
-  {% for item in site.data.random.items %}
-    "{{ '/random/content/' | append: item | relative_url }}"{% unless forloop.last %},{% endunless %}
+  {% for item in site.data.random2.items %}
+    {{ item | jsonify }}{% unless forloop.last %},{% endunless %}
   {% endfor %}
 ];
-</script>
 
-<script src="{{ '/js/random.js' | relative_url }}"></script>
+const roll = document.getElementById("roll");
+const output = document.getElementById("output");
+
+roll.addEventListener("click", function () {
+
+  // Restart the animation
+  roll.classList.remove("roll-animation");
+  void roll.offsetWidth;
+  roll.classList.add("roll-animation");
+
+  // Wait until the dice has finished rolling
+  setTimeout(function () {
+    const randomIndex = Math.floor(Math.random() * randomContent.length);
+    output.innerHTML = randomContent[randomIndex];
+  }, 700);
+});
+</script>

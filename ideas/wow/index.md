@@ -6,11 +6,11 @@ parent_folder: ideas
 show_submenu: true
 ---
 
-<section class="page-intro">
+<div class="page-intro">
     <p>
         Hier komt mijn Wow! intro.
     </p>
-</section>
+</div>
 
 <section class="expand-item">
 
@@ -82,5 +82,3 @@ show_submenu: true
     </div>
 
 </section>
-
-

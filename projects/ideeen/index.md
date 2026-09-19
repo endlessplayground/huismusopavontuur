@@ -8,14 +8,79 @@ speech: blog
 ---
 
 
-<div class="main-txt">
-
-<p>Een blog of weblog is een persoonlijk dagboek of verslag op een website dat regelmatig, soms meermalen per dag, wordt bijgehouden. Meestal gaat het om teksten die in chronologische volgorde verschijnen.</p> 
-
-<p>De auteur, ook blogger genoemd, biedt een logboek van informatie aan aan zijn publiek, de bezoekers van zijn blog. Dat kan gaan om tekst, foto's, video's (vlog) of audio (podcast).</p>
-
-<p>Blogs bieden hun lezers vaak de mogelijkheid om (al dan niet anoniem) reacties onder de berichten te plaatsen of om elkaars blogs te volgen. Sinds 2006 is microbloggen populair, een combinatie van bloggen en instant messaging.</p>
-
-<p>Bron: <a href ="https://nl.wikipedia.org/wiki/Blog"> Wikipedia</a></p>
-
+<div class="page-intro">
+    <p>
+        Hier komt mijn Ideeën intro.
+    </p>
 </div>
+
+<section class="expand-item">
+
+    <button class="expand-trigger" type="button" aria-expanded="false">
+        <span class="expand-heading">
+            <span class="expand-title">Michael Levin</span>
+            <span class="expand-teaser">Over intelligence, biology and the strange things living systems can do.</span>
+        </span>
+        <span class="expand-arrow">▼</span>
+    </button>
+
+    <div class="expand-content">
+        <p>
+            Levin studies how cells and organisms solve problems and how
+            biological systems can display surprisingly sophisticated forms
+            of goal-directed behaviour.
+        </p>
+
+        <p>
+            What I find especially interesting is the possibility that
+            intelligence may exist at several levels of biological
+            organisation, rather than being something that suddenly appears
+            only in a brain.
+        </p>
+    </div>
+
+</section>
+
+
+<section class="expand-item">
+
+    <button class="expand-trigger" type="button" aria-expanded="false">
+        <span class="expand-heading">
+            <span class="expand-title">Anil Seth</span>
+            <span class="expand-teaser">A rather different way of thinking about brains.</span>
+        </span>
+        <span class="expand-arrow">▼</span>
+    </button>
+
+    <div class="expand-content">
+        <p>
+            This one could contain a short introduction followed by whatever
+            material you happen to find worth keeping.
+        </p>
+    </div>
+
+</section>
+
+
+<section class="expand-item">
+
+    <button class="expand-trigger" type="button" aria-expanded="false">
+        <span class="expand-heading">
+            <span class="expand-title">Alex OʼConnor</span>
+            <span class="expand-teaser">Nog wat meer.</span>
+        </span>
+        <span class="expand-arrow">▼</span>
+    </button>
+
+    <div class="expand-content">
+        <p>
+            This one could contain a short introduction followed by whatever
+            material you happen to find worth keeping.
+        </p>
+
+        <p>
+            And this section doesn't have to look exactly like the one above.
+        </p>
+    </div>
+
+</section>

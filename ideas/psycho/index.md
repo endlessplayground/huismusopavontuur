@@ -7,11 +7,11 @@ show_submenu: true
 ---
 
 
-<section class="page-intro">
+<div class="page-intro">
     <p>
         Hier komt mijn Psycho intro.
     </p>
-</section>
+</div>
 
 <section class="expand-item">
 
@@ -83,5 +83,3 @@ show_submenu: true
     </div>
 
 </section>
-
-

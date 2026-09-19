@@ -52,7 +52,7 @@ body.today .date {
 }
 
 
-body.today .header-fade, body.random .header-fade, body.contact .header-fade {
+body.today .header-fade, body.hidden .header-fade, body.random .header-fade, body.contact .header-fade {
     height: 150px;
 
 
@@ -82,7 +82,7 @@ body.random .header-fade {
 }
 
 
-body.today main {
+body.today main, body.hidden main {
     padding: 220px 0px 0px 0px;
 }
 

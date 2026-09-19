@@ -44,7 +44,7 @@
                 <h2>{{ site.labels.about }}</h2>
 
             {% when "today" %}
-                <h2 id="actual-day">TEST</h2>
+                <h2 id="actual-day"></h2>
 
             {% when "random" %}
                 <h2>{{ site.labels.random }}</h2>
@@ -52,8 +52,9 @@
             {% when "contact" %}
                 <h2>{{ site.labels.contact }}</h2>
 
-            {% when "sober" %}
-                <h2>{{ site.labels.sober }}</h2>
+            {% when "hidden" %}
+                <h2 id="actual-day"></h2>
+
         {% endcase %}
     </div>
 
@@ -123,7 +124,7 @@
 
                 <button class="menu-heading" type="button">
                     <span class="menu-icon"><div class="icon"><img src="{{ '/images/ideas.svg' | relative_url }}" alt=""></div></span>
-                    <span>Interessant!</span>
+                    <span>Hoe zit het?!</span>
                     <span class="menu-arrow">▼</span>
                 </button>
 

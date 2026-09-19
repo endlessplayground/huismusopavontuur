@@ -2,10 +2,11 @@
 layout: default
 title: "Vandaag"
 page_type: short
-parent_folder: today
+parent_folder: hidden
 show_submenu: false
 ---
   {% include date-styles.html %}
+
 
 <div class="main-txt">
 
@@ -14,4 +15,4 @@ show_submenu: false
 
 </div>
 
-<script src="{{ '/js/date.js' | relative_url }}"></script>
+<script src="{{ '/js/date-hidden.js' | relative_url }}"></script>

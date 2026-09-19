@@ -40,7 +40,7 @@
     padding: 0px 8px 0px 8px;
     font-family: var(--heading-font);
     font-size: 1em;
-    font-weight: 400;
+    font-weight: 600;
     text-align: center;
      color: white;
      background-color: var(--background-color);
@@ -48,7 +48,7 @@
 }
 
 .date {
-    padding: 25px 0px 0px 2px;
+    padding: 28px 0px 0px 2px;
     text-align: left;
     z-index: 1000;
 }
@@ -62,14 +62,13 @@
 
 .date #month {
     font-size: 1em;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .date #date {
     font-size: 1.8em;
     font-weight: 700;
-    margin-top: 2px;
-    font-family: "Ubuntu", sans-serif;
+    padding-top: 4px;
     font-weight: 500;
     font-style: normal;
 
