@@ -21,7 +21,8 @@ header {
 h2 {
     display: block;
     width: 400px;
-    padding-left: 70px;
+    padding-left: 100px;
+    padding-top: -70px;
     font-family: var(--heading-font);
     font-size: 1.86em;
     font-weight: 500;
@@ -155,7 +156,6 @@ h2 {
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 4px;
     box-shadow: 0px 1px 16px rgba(77, 89, 92, 0.2);
-
 }
 
 section {
