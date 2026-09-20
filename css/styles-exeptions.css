@@ -53,20 +53,20 @@ body.today .date {
 
 
 body.today .header-fade, body.hidden .header-fade, body.random .header-fade, body.contact .header-fade {
-    height: 150px;
+    height: 220px;
 
 
         background: linear-gradient(
         to bottom,
         rgb(var(--color-dreams-on)) 0,
         var(--background-light) 120px,
-        var(--background-light) 165px,
-        transparent 210px
+        var(--background-light) 150px,
+        transparent 220px
     );
 }
 
 body.random main {
-    padding-top: 230px;
+    padding-top: 200px;
 }
 body.random .main-txt {
     background-color: transparent;
@@ -110,7 +110,7 @@ body.today #section-img img {
 
 body.random #section-img {
     transform: scale(1.2) ;
-    padding: 18px 0px 0px 0px;  
+    padding: -35px 0px 0px 0px;  
 }
 
 /*body.random header {
