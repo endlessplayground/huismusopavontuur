@@ -7,7 +7,7 @@
     --text-margin-small: calc((var(--text-margin) - 6px));
     --p-space: 0.9rem;
 /*COLORS*/
-    --background-color: rgb(58, 57, 57);
+    --background-color: rgb(36, 36, 36);
     --basic-blue:  rgb(32, 164, 241);
     --expand:  hsl(108, 86%, 83%);
     --basic-light:  rgb(254, 243, 228);
