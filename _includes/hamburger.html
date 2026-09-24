@@ -1,0 +1,116 @@
+<!-- Hamburger -->
+<button class="menu-trigger" type="button" aria-label="Open menu">
+<img src="{{ '/images/main-menu.svg' | relative_url }}" alt="Menu">
+</button>
+
+
+<!-- Menu -->
+
+<div class="menu-overlay">
+
+    <div class="menu-container">
+
+        <nav class="menu-panel">
+
+            <button class="menu-close" type="button" aria-label="Close menu">
+<img src="{{ '/images/main-menu-close.svg' | relative_url }}" alt="Menu">     
+            </button>
+
+
+            <div class="menu-item">
+
+                <button class="menu-heading" type="button">
+                    <span class="menu-icon"><div class="icon"><img src="{{ '/images/about-hamburger.svg' | relative_url }}" alt=""></div></span>
+                    <span>Over mij</span>
+                    <span class="menu-arrow">▼</span>
+                </button>
+
+                <div class="menu-submenu">
+                    {% for item in site.submenus.about %}
+                        <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+                    {% endfor %}
+                </div>
+
+            </div>
+
+            <div class="menu-item">
+
+                <button class="menu-heading" type="button">
+                    <span class="menu-icon"><div class="icon"><img src="{{ '/images/ideas.svg' | relative_url }}" alt=""></div></span>
+                    <span>Hoe zit het?!</span>
+                    <span class="menu-arrow">▼</span>
+                </button>
+
+            <div class="menu-submenu">
+                {% for item in site.submenus.ideas %}
+                    <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+                {% endfor %}
+            </div>
+
+            </div>
+
+
+            <div class="menu-item">
+
+                <a href="{{ '/today/' | relative_url }}"><button class="menu-heading" type="button">
+                    <span class="menu-icon"><div class="icon"><img src="{{ '/images/today2.svg' | relative_url }}" alt=""></div></span>
+                    <span>Vandaag</span>
+                    <span class="menu-arrow"></span>
+                </button></a>
+
+            </div>
+
+
+            <div class="menu-item">
+
+                <button class="menu-heading" type="button">
+                    <span class="menu-icon"><div class="icon"><img src="{{ '/images/projects2.svg' | relative_url }}" alt=""></div></span>
+                    <span>Projecten</span>
+                    <span class="menu-arrow">▼</span>
+                </button>
+
+                <div class="menu-submenu">
+                    {% for item in site.submenus.projects %}
+                        <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+                    {% endfor %}
+                </div>
+
+            </div>
+
+
+            <div class="menu-item">
+
+                <a href="{{ '/random/' | relative_url }}"><button class="menu-heading" type="button">
+                    <span class="menu-icon"><div class="icon"><img src="{{ '/images/random2.svg' | relative_url }}" alt=""></div></span>
+                    <span>Random</span>
+                    <span class="menu-arrow"></span>
+                </button></a>
+
+            </div>
+
+
+            <div class="menu-item">
+
+                <a href="{{ '/contact/' | relative_url }}"><button class="menu-heading" type="button">
+                    <span class="menu-icon"><div class="icon"><img style="margin-left: -6px;" src="{{ '/images/contact.svg' | relative_url }}" alt=""></div></span>
+                    <span>Contact</span>
+                    <span class="menu-arrow"></span>
+                </button></a>
+
+            </div>
+
+            <div class="menu-item">
+
+                <a href="{{ '/' | relative_url }}"><button class="menu-heading" type="button">
+                    <span class="menu-icon"><div class="icon"><img style="margin-left: -6px;" src="{{ '/images/home-hamburger.svg' | relative_url }}" alt=""></div></span>
+                    <span>Terug naar start</span>
+                    <span class="menu-arrow"></span>
+                </button></a>
+
+            </div>
+
+        </nav>
+
+    </div>
+
+</div>

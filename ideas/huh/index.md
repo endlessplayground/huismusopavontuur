@@ -1,85 +1,20 @@
 ---
 layout: default
-title: "Huh?"
-page_type: article
+title: ""
 parent_folder: ideas
 show_submenu: true
 ---
 
-<div class="page-intro">
-    <p>
-        Hier komt mijn Huh? intro.
-    </p>
+
+<div class="left">
+
+<p>Misschien is bewustzijn niet simpelweg iets wat uit een brein komt. Misschien is het brein eerder een soort filter, ontvanger of interface. Of misschien is dat hele idee complete onzin.</p>
+
+<p>Er zijn ook hypotheses waarin onze werkelijkheid minder fundamenteel is dan ze lijkt. Informatie, simulatie, quantummechanica, parallelle werkelijkheden — sommige ideeën zijn serieus onderzocht, andere bevinden zich ergens tussen filosofie en pure speculatie.</p>
+
+<p>En dan is er de vraag die alles weer op scherp zet: waarom ervaren we überhaupt een werkelijkheid? Waarom is er iets dat het allemaal meemaakt?</p>
+
+<p>Geen van deze ideeën is daarmee automatisch waar. Maar sommige zijn wel verdomd interessant om over na te denken.</p>
+
+
 </div>
-
-<section class="expand-item">
-
-    <button class="expand-trigger" type="button" aria-expanded="false">
-        <span class="expand-heading">
-            <span class="expand-title">Michael Levin</span>
-            <span class="expand-teaser">Over intelligence, biology and the strange things living systems can do.</span>
-        </span>
-        <span class="expand-arrow">▼</span>
-    </button>
-
-    <div class="expand-content">
-        <p>
-            Levin studies how cells and organisms solve problems and how
-            biological systems can display surprisingly sophisticated forms
-            of goal-directed behaviour.
-        </p>
-
-        <p>
-            What I find especially interesting is the possibility that
-            intelligence may exist at several levels of biological
-            organisation, rather than being something that suddenly appears
-            only in a brain.
-        </p>
-    </div>
-
-</section>
-
-
-<section class="expand-item">
-
-    <button class="expand-trigger" type="button" aria-expanded="false">
-        <span class="expand-heading">
-            <span class="expand-title">Anil Seth</span>
-            <span class="expand-teaser">A rather different way of thinking about brains.</span>
-        </span>
-        <span class="expand-arrow">▼</span>
-    </button>
-
-    <div class="expand-content">
-        <p>
-            This one could contain a short introduction followed by whatever
-            material you happen to find worth keeping.
-        </p>
-    </div>
-
-</section>
-
-
-<section class="expand-item">
-
-    <button class="expand-trigger" type="button" aria-expanded="false">
-        <span class="expand-heading">
-            <span class="expand-title">Alex OʼConnor</span>
-            <span class="expand-teaser">Nog wat meer.</span>
-        </span>
-        <span class="expand-arrow">▼</span>
-    </button>
-
-    <div class="expand-content">
-        <p>
-            This one could contain a short introduction followed by whatever
-            material you happen to find worth keeping.
-        </p>
-
-        <p>
-            And this section doesn't have to look exactly like the one above.
-        </p>
-    </div>
-
-</section>
-

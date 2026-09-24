@@ -5,7 +5,7 @@
 .menu-trigger {
     position: fixed;
     top: 10px;
-    right: max(20px, calc((100vw - var(--max-width)) / 2 + 20px));
+    right: max(20px, calc((100vw - var(--site-width)) / 2 + 20px));
     z-index: 1000;
 
     border: 0;
@@ -43,7 +43,7 @@
     position: relative;
 
     width: 100%;
-    max-width: var(--max-width);
+    max-width: var(--site-width);
     height: 100%;
 
     margin: 0 auto;
@@ -65,8 +65,7 @@
 
     padding: 60px 20px 0px 10px;
 
-    background: var(--background-hamburger-menu);
-    background-image: url('../images/pattern-dim.svg');
+    background: var(--basic-light);
 
 
     overflow-y: auto;

@@ -1,3 +1,19 @@
+:root {
+/*DIMENSIONS*/
+    --site-width: 430px;
+    --logo-height: 52px;
+    --header-title-height: 140px;
+    --text-margin: 18px;
+    --text-margin-small: calc((var(--text-margin) - 6px));
+    --p-space: 0.9rem;
+/*COLORS*/
+    --background-color: rgb(58, 57, 57);
+    --basic-blue:  rgb(32, 164, 241);
+    --expand:  hsl(108, 86%, 83%);
+    --basic-light:  rgb(254, 243, 228);
+    --text-color: rgb(47, 44, 44);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -9,158 +25,64 @@
     font-style: normal;
 }
 
-body {
-    min-height: 100vh;
-    padding-bottom: 70px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: var(--background-color);
-    color: var(--txt-color);
-    font-family: var(--main-font);
-    font-weight: 300;
+html {
+    font-size: 16px;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.05rem;
+    background-color: var(--background-color);
+}
+
+.site {
+    padding-top: calc(var(--logo-height) + var(--header-title-height) + 6px);
+    position: relative;
+
+    width: 100%;
+    max-width: var(--site-width);
+    min-height: 100vh;
+
+    margin: 0 auto;
+
+    background-color:rgb(254, 243, 228);
+    padding-bottom: 50px;
+}
+
+/*TEXT*/
 a,
 a:visited {
-    color: inherit;
-    text-decoration: none;
-}
-
-h1,
-h2,
-h3,
-em {
-    font-family: var(--heading-font);
-}
-
-em,
-h3 {
-    font-weight: 500;
-    font-style: normal;
-    font-size: 1.1em;
-}
-
-em {
-    display: inline-block;
-    font-size: 0.9em;
-    transform: scaleY(1.3) translateY(-0.5px);
-    color: rgb(var(--color-dreams-on));
+  color: inherit;
 }
 
 p {
-    line-height: 1.5;
-    margin-bottom: 0.95em;
+    font-size: 1.1rem;
+    line-height: 1.3;
+    margin: var(--p-space) 0 var(--p-space) 0;
 }
 
-.header-fade,
-.background-light {
-    position: fixed;
-    top: var(--balk-etc);;
-    width: 100%;
-    max-width: var(--max-width);
-    height: 160px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    overflow: visible;
-    z-index: 10;
+h1 {
+    font-weight: 700;
 }
 
-.header-fade {
-    background: linear-gradient(
-        to bottom,
-        rgb(var(--color-dreams-on)) 0,
-        var(--background-light) 120px,
-        var(--background-light) 140px,
-        transparent 160px
-    );
+.left p {
+    text-align: left;
+    margin: var(--p-space) var(--text-margin-small) var(--p-space) var(--text-margin);
 }
 
-.background-light {
-    height: 100vh;
-    background-color: var(--background-light);
-    z-index: -10;
-    background-image: url('../images/pattern.svg');
-}
-
-.balk {
-    display: flex;
-    justify-content: flex-end;
-    position: fixed;
-    width: 100%;
-    max-width: var(--max-width);
-    height: var(--balk-etc);;
-    top: 0px;
-    padding-right: 30px;
-    background-color: var(--background-color);
-    color: aliceblue;
-    z-index: 5;
-}
-
-#page-top {
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    height: var(--balk-etc);;
-    width: 100%;
-    padding-left: 45px;
-    z-index: 25; 
-}
-
-#main-menu {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    position: absolute;
-    width: 100%;
-    max-width: var(--max-width);
-    top: 0px;
-    height: 70px;
-    z-index: 100;
-}
-#main-menu div {
-    width: 120px;
-    height: 70px;
-}
-
-main {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    width: 100%;
-    max-width: var(--max-width);
-    margin-top: 0px;
-    padding: 230px 0px 0px 0px;
-    font-size: 0.9em;
+.center {
+    text-align: center;
+    margin: 0 var(--text-margin) 0 var(--text-margin);
 }
 
 footer {
-    display: flex;
     position: fixed;
-    bottom: -15px;
+    bottom: 0;
     width: 100%;
-    max-width: 430px;
-    padding: 13px;
-    z-index: 20;
-    align-items: center;
-    justify-content: center;
-}
-
-footer img {
-    width: 40px;
-}
-
-.footer-back {
-    position: fixed;
-    bottom: 0px;
-    width:100%;
-    max-width: 430px;
-    height: 10px;
-    z-index: 10;
-    background-color: rgb(238, 220, 59);
+    height: 14px;
+    background-color: rgb(255, 217, 0);
 }

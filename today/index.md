@@ -7,7 +7,7 @@ show_submenu: false
 ---
   {% include date-styles.html %}
 
-<div class="main-txt">
+<div class="left">
 
 <div id="today-text"></div>
 <div id="special-text"></div>

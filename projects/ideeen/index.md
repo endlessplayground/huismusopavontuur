@@ -1,25 +1,21 @@
 ---
 layout: default
-title: "Projecten"
-page_type: article
+title: ""
 parent_folder: projects
 show_submenu: true
-speech: blog
 ---
 
 
-<div class="page-intro">
+<div class="left">
     <p>
         Hier komt mijn Ideeën intro.
     </p>
-</div>
 
 <section class="expand-item">
 
     <button class="expand-trigger" type="button" aria-expanded="false">
         <span class="expand-heading">
             <span class="expand-title">Michael Levin</span>
-            <span class="expand-teaser">Over intelligence, biology and the strange things living systems can do.</span>
         </span>
         <span class="expand-arrow">▼</span>
     </button>
@@ -84,3 +80,4 @@ speech: blog
     </div>
 
 </section>
+</div>
