@@ -9,6 +9,7 @@
 /*COLORS*/
     --background-color: rgb(36, 36, 36);
     --basic-blue:  rgb(32, 164, 241);
+    --basic-green: rgb(180, 240, 40);
     --expand:  hsl(108, 86%, 83%);
     --basic-light:  rgb(254, 243, 228);
     --text-color: rgb(47, 44, 44);
@@ -37,20 +38,76 @@ body {
     font-style: normal;
     font-size: 1.05rem;
     background-color: var(--background-color);
+    z-index: -15;
+
+}
+
+.back-fade {
+    position: fixed;
+    width: 100%;
+    height: 200px;
+    top: 0;
+    left: 0;
+    background-color: var(--background-color);   
+    z-index: 11;
+}
+
+.backglow {
+    position: fixed;
+    left: 50%;
+    top: 80px;
+    margin: -80px 0 0 -400px;
+    width: 700px;
+    height: 200px;
+    background-image: url("/images/backglow.svg");
+    background-repeat: no-repeat;
+    z-index: 12;
+}
+
+.back-glow2 {
+    position: fixed;
+    left: 50%;
+    top: 280px;
+    margin: -80px 0 0 -400px;
+    width: 700px;
+    height: 200px;
+    background-image: url("/images/backglow.svg");
+    background-repeat: no-repeat;
+    background-position: 00px -200px;
+    z-index: 0;
 }
 
 .site {
-    padding-top: calc(var(--logo-height) + var(--header-title-height) + 6px);
     position: relative;
 
     width: 100%;
-    max-width: var(--site-width);
-    min-height: 100vh;
+    max-width: calc(var(--site-width) - 70px);
+
+    border-radius: 8px;
 
     margin: 0 auto;
+    margin-top: calc(var(--logo-height) + var(--header-title-height) + 6px);
 
     background-color:rgb(254, 243, 228);
+    background-color: cornflowerblue;
+    background-color: transparent;
     padding-bottom: 50px;
+    color: var(--text-color);
+    z-index: 10;
+}
+
+.area {
+    position: fixed;
+    width: calc(var(--site-width) - 70px);
+    top: 200px;
+    left: 50%;
+    margin-left: calc((var(--site-width) - 70px) / -2);
+    background-color: antiquewhite;
+    border-radius: 8px;
+    height: 65vh;
+    padding-bottom: 20px;
+    z-index: -3;
+    
 }
 
 /*TEXT*/
@@ -83,6 +140,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 14px;
+    height: 0px;
     background-color: rgb(255, 217, 0);
+    z-index: 50;
 }

@@ -1,4 +1,7 @@
-
+<div class="site-logo">
+    <img src="{{ '/images/dreams-on.svg' | relative_url }}" alt="Yvon dreams on">
+</div>
+<div class="red-line"></div>
 
 {% if page.page_type != "home" %}
 
@@ -8,7 +11,7 @@
 
 {% endif %}
     
-<header>
+<div id="header-title">
  
                 {% assign parts = page.path | split: '/' %}
 
@@ -37,7 +40,7 @@
 
                 {% endcase %}
 
-</header>
+</div>
 
 
 {% if page.show_submenu %}

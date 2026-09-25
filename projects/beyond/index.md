@@ -10,7 +10,7 @@ show_submenu: true
 
 <p>Van complete onzin tot onderwerpen waar je spontaan drie uur over kunt doorpraten.</p>
 
-<p>Bewustzijn. Gedrag. Evolutie. Toeval. Vreemde hersenkronkels. Dingen die misschien onmogelijk zijn en dingen die alleen maar zo lijken.</p>
+<p>Bewustzijn. Gedrag. <a href="https://translate.google.com/?sl=en&tl=nl&op=translate">Evolutie.</a> Toeval. Vreemde hersenkronkels. Dingen die misschien onmogelijk zijn en dingen die alleen maar zo lijken.</p>
 
 <p>Waarom hebben mensen soms een sterk gevoel over iets zonder te weten waarom? Waarom onthouden we sommige volkomen onbelangrijke dingen en vergeten we andere? En wat gebeurt er eigenlijk in dat stukje tussen een gedachte en een beslissing?</p>
 
