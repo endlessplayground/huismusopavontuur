@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="90"
-   height="90"
-   viewBox="0 0 23.812498 23.812498"
+   width="150"
+   height="150"
+   viewBox="0 0 39.687496 39.687496"
    version="1.1"
    id="svg2787"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
@@ -27,7 +27,7 @@
      showgrid="false"
      inkscape:zoom="3.7415826"
      inkscape:cx="76.438243"
-     inkscape:cy="65.079413"
+     inkscape:cy="128.95613"
      inkscape:window-width="1536"
      inkscape:window-height="793"
      inkscape:window-x="-8"
@@ -143,7 +143,7 @@
        x2="-22.038446"
        y2="15.357229"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.84059387,-0.20875812,0.36546095,0.82340528,15.494247,1.9902469)" />
+       gradientTransform="matrix(1.2522499,-0.31099122,0.54443463,1.2266437,26.420347,8.7023714)" />
     <linearGradient
        inkscape:collect="always"
        id="linearGradient40867">
@@ -163,13 +163,14 @@
      id="layer1">
     <path
        style="opacity:0.525394;mix-blend-mode:multiply;fill:url(#linearGradient40869);fill-opacity:1;stroke:#5dafd4;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:8;paint-order:fill markers stroke;stop-color:#000000"
-       d="m 10.0158,15.589238 c 1.189354,-0.427407 2.662033,-0.946212 2.91215,-1.037831 0.250115,-0.09163 1.144652,-0.161996 1.721475,-0.01938 1.081787,0.267452 3.480233,0.864541 5.422016,1.614117 1.015403,0.391976 0.890329,0.908633 0.449164,1.247814 -0.441159,0.339184 -3.871188,2.408278 -4.408719,2.747375 -0.780551,0.492409 -1.90434,0.515866 -2.901324,0.104682 C 12.213575,19.834825 8.2973199,18.149619 7.957091,17.898443 7.6168621,17.647268 6.7927622,17.096911 7.89501,16.544481 c 1.1022531,-0.552433 1.3475725,-0.618322 2.120787,-0.95524 z"
+       d="m 18.258994,28.961064 c 1.771805,-0.636714 3.965684,-1.409589 4.338289,-1.546077 0.372601,-0.136496 1.70521,-0.241327 2.564515,-0.02886 1.611561,0.398429 5.184575,1.287926 8.077288,2.404583 1.512668,0.583935 1.326343,1.353609 0.669129,1.858892 -0.657203,0.50529 -5.766986,3.587664 -6.567758,4.092822 -1.162803,0.733551 -2.836935,0.768498 -4.322162,0.155946 -1.48523,-0.612559 -7.319356,-3.123045 -7.826205,-3.497228 -0.506845,-0.37418 -1.734524,-1.194057 -0.09248,-2.017024 1.642048,-0.822969 2.007505,-0.921126 3.15938,-1.423039 z"
        id="path26366-3"
        sodipodi:nodetypes="sssssssssss"
        mask="none" />
     <g
        id="g41120"
-       transform="matrix(-0.60392485,0.40044283,0.4040234,0.57981892,10.256339,-7.6230044)">
+       transform="matrix(-0.84170235,0.55810532,0.56309563,0.80810543,22.099316,-7.6345712)"
+       style="stroke-width:0.717504">
       <path
          id="path26342-2"
          style="fill:url(#linearGradient37955);fill-opacity:1;stroke:#5dafd4;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:8;paint-order:fill markers stroke;stop-color:#000000"
@@ -181,7 +182,7 @@
          id="path26366"
          sodipodi:nodetypes="sssssssssss" />
       <ellipse
-         style="mix-blend-mode:multiply;fill:#4d4d4d;fill-opacity:0.848485;fill-rule:evenodd;stroke-width:0.111079"
+         style="mix-blend-mode:multiply;fill:#4d4d4d;fill-opacity:0.848485;fill-rule:evenodd;stroke-width:0.0796991"
          id="path26403"
          cx="11.143918"
          cy="9.5062342"
@@ -189,7 +190,7 @@
          ry="0.47500664"
          transform="rotate(-6.6268069)" />
       <ellipse
-         style="mix-blend-mode:multiply;fill:#4d4d4d;fill-opacity:0.848485;fill-rule:evenodd;stroke-width:0.131174"
+         style="mix-blend-mode:multiply;fill:#4d4d4d;fill-opacity:0.848485;fill-rule:evenodd;stroke-width:0.094118"
          id="path26403-4"
          cx="14.821167"
          cy="10.95532"
@@ -197,7 +198,7 @@
          ry="0.56093651"
          transform="rotate(-6.6268069)" />
       <ellipse
-         style="mix-blend-mode:multiply;fill:#4d4d4d;fill-opacity:0.848485;fill-rule:evenodd;stroke-width:0.131174"
+         style="mix-blend-mode:multiply;fill:#4d4d4d;fill-opacity:0.848485;fill-rule:evenodd;stroke-width:0.094118"
          id="path26403-9"
          cx="7.5913186"
          cy="11.220209"
@@ -205,7 +206,7 @@
          ry="0.56093651"
          transform="rotate(-6.6268069)" />
       <ellipse
-         style="mix-blend-mode:multiply;fill:#4d4d4d;fill-opacity:0.848485;fill-rule:evenodd;stroke-width:0.131174"
+         style="mix-blend-mode:multiply;fill:#4d4d4d;fill-opacity:0.848485;fill-rule:evenodd;stroke-width:0.094118"
          id="path26403-7-8"
          cx="11.299733"
          cy="12.809529"
@@ -223,7 +224,7 @@
          id="path26342-6-7"
          sodipodi:nodetypes="sssssssss" />
       <ellipse
-         style="mix-blend-mode:multiply;fill:#4d4d4d;fill-opacity:0.890443;fill-rule:evenodd;stroke-width:0.135516"
+         style="mix-blend-mode:multiply;fill:#4d4d4d;fill-opacity:0.890443;fill-rule:evenodd;stroke-width:0.0972333"
          id="path26403-7-8-4-7"
          cx="-15.087726"
          cy="-2.7714159"
@@ -231,7 +232,7 @@
          ry="0.72609866"
          transform="matrix(-0.29795457,-0.95458005,-0.99712317,0.07579832,0,0)" />
       <ellipse
-         style="mix-blend-mode:multiply;fill:#4d4d4d;fill-opacity:0.890443;fill-rule:evenodd;stroke-width:0.135516"
+         style="mix-blend-mode:multiply;fill:#4d4d4d;fill-opacity:0.890443;fill-rule:evenodd;stroke-width:0.0972333"
          id="path26403-7-8-4-7-6"
          cx="-18.343933"
          cy="-4.1849914"
@@ -239,7 +240,7 @@
          ry="0.72609866"
          transform="matrix(-0.29795457,-0.95458005,-0.99712317,0.07579832,0,0)" />
       <ellipse
-         style="mix-blend-mode:multiply;fill:#4d4d4d;fill-opacity:0.890443;fill-rule:evenodd;stroke-width:0.135516"
+         style="mix-blend-mode:multiply;fill:#4d4d4d;fill-opacity:0.890443;fill-rule:evenodd;stroke-width:0.0972333"
          id="path26403-7-8-4-7-1"
          cx="-21.600145"
          cy="-5.5985661"
@@ -257,7 +258,7 @@
          id="path26342-5"
          sodipodi:nodetypes="sssssssss" />
       <ellipse
-         style="mix-blend-mode:multiply;fill:#4d4d4d;fill-opacity:0.895105;fill-rule:evenodd;stroke-width:0.160477"
+         style="mix-blend-mode:multiply;fill:#4d4d4d;fill-opacity:0.895105;fill-rule:evenodd;stroke-width:0.115143"
          id="path26403-7-8-4"
          cx="-15.822767"
          cy="19.990677"
@@ -265,7 +266,7 @@
          ry="0.85984278"
          transform="matrix(0.07116976,-0.99746422,0.98794225,-0.15482283,0,0)" />
       <ellipse
-         style="mix-blend-mode:multiply;fill:#4d4d4d;fill-opacity:0.895105;fill-rule:evenodd;stroke-width:0.160477"
+         style="mix-blend-mode:multiply;fill:#4d4d4d;fill-opacity:0.895105;fill-rule:evenodd;stroke-width:0.115143"
          id="path26403-7-8-4-3"
          cx="-21.787994"
          cy="18.299931"
