@@ -24,25 +24,27 @@
 <div class="back-fade"></div>
 <div class="backglow"></div>
 <div class="backglow2"></div>
+<div class="area"></div>
+<a href="{{ '/' | relative_url }}"><div class="home"><img src="{{ '/images/home-hamburger.svg' | relative_url }}" alt="Back home"></div></a>
+
 
 {% include header.html %}
 {% include hamburger.html %}
 
     <div class="site">
 
-<div class="area"></div>
 
         <main>
             {{ content }}
         </main>
 
-    </div>
+</div>
 
 <script src="{{ '/js/hamburger.js' | relative_url }}"></script>
 <script src="{{ '/js/expand.js' | relative_url }}"></script>
 
         <footer>
-<!--            <img src="{{ '/images/footer.svg' | relative_url }}" alt="And on and on and on...">-->
+<img src="{{ '/images/footer.svg' | relative_url }}" alt="And on and on and on...">
         </footer>
 
 </body>

@@ -13,16 +13,16 @@ show_submenu: false
         z-index: 100;
     }
 
-    .area {
-        visibility: hidden;
-    }
-
     .back-fade {
       visibility: hidden;
     }
 
     .backglow {
       z-index: -8;
+    }
+
+    .home {
+      visibility: hidden;
     }
 </style>
 
@@ -33,8 +33,8 @@ show_submenu: false
 <a href="https://endlessplayground.github.io/"><div class="icon-empty"></div></a>
 
 <a href="{{ '/about/ik/' | relative_url }}">
-  <div class="icon" style="width: 90px; height: 90px; margin-top: -5px;"><img src="{{ '/images/about.svg' | relative_url }}" alt="Ik"></div>
-  <div class="label" style="margin-top: -5px;">{{ site.labels.about }}</div>
+  <div class="icon"><img src="{{ '/images/about.svg' | relative_url }}" alt="Ik"></div>
+  <div class="label">{{ site.labels.about }}</div>
 </a>
 
 <a href="https://endlessplayground.github.io/ikzoeknietmijnkat"><div class="icon-empty"></div></a>
@@ -78,7 +78,7 @@ show_submenu: false
 
 <a href="{{ '/random/' | relative_url }}">
   <div class="icon"><img src="{{ '/images/random.svg' | relative_url }}" alt="Dobbelsteen"></div>
-  <div class="label"><span style="display: inline-block; transform: rotate(180deg); font-family: var(--heading-font);font-weight: 600;">{{ site.labels.random }}</span></div>
+  <div class="label"><span style="display: inline-block; transform: rotate(180deg); font-family: var(--heading-font);font-weight: 500;">{{ site.labels.random }}</span></div>
 </a>
 
 <a href="{{ '/hidden/random/' | relative_url }}">
