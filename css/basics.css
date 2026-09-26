@@ -8,10 +8,10 @@
     --p-space: 0.9rem;
 /*COLORS*/
     --background-color: rgb(36, 36, 36);
-    --area-color: rgb(112, 211, 135);
+    --area-color: rgb(155, 246, 157);
     --basic-blue:  rgb(32, 164, 241);
     --basic-green: rgba(180, 240, 40, 0.7);
-    --expand:  hsl(108, 86%, 83%);
+    --expand:  hsl(108, 87%, 74%);
     --basic-light:  rgb(254, 243, 228);
     --text-color: rgb(47, 44, 44);
 /*FONTS*/
@@ -117,24 +117,7 @@ body {
     z-index: -10;
 }
 
-.home {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    left: 50%;
-    margin-left:  calc((var(--site-width) * 0.25) + 45px);
-    top: 90vh;
-    background-color: var(--basic-green);
-    z-index: 5;
-}
 
-.home img {
-    width: 40px;
-}
 
 
 /*TEXT*/
@@ -172,6 +155,29 @@ footer {
     bottom: 0;
     width: 100%;
     height: 12px;
-    border-top: 2px solid red;
+    border-top: 2px solid rgb(255, 0, 108);
     z-index: 50;
 }
+
+.on-and-on {
+    visibility: visible;
+    margin-bottom: -5px;
+}
+
+.home {
+    position: absolute;
+    margin: 0 0 38px 340px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--basic-green);
+    z-index: 5;
+}
+
+.home img {
+    width: 40px;
+}
+
