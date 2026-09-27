@@ -72,6 +72,7 @@ body {
     height: 200px;
     background-image: url("../images/backglow.svg");
     background-repeat: no-repeat;
+    background-position: 0 -200px;
     z-index: 12;
 }
 
@@ -84,7 +85,7 @@ body {
     height: 200px;
     background-image: url("../images/backglow.svg");
     background-repeat: no-repeat;
-    background-position: 0 -200px;
+    background-position: 0 -400px;
     z-index: 0;
 }
 
