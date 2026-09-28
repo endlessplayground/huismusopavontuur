@@ -9,9 +9,11 @@ show_submenu: true
 <div class="left">
 <p>Sommige verschijnselen bevinden zich precies op de grens tussen wat we begrijpen en wat ons begrip nog te boven gaat. Juist daar wordt het interessant.</p>
 
-<p>Neem bijvoorbeeld bijna-doodervaringen. Mensen beschrijven soms opvallend levendige ervaringen van licht, ruimte, herinneringen of een gevoel van verbondenheid, terwijl hun lichaam zich in een uiterst kritieke toestand bevindt.</p>
+<h3>Lees meer</h3>
 
-<p>Ook het bewustzijn zelf blijft merkwaardig. Waarom voelt een gedachte ergens naar? En hoe ontstaat uit elektrische activiteit in miljarden zenuwcellen uiteindelijk een persoonlijke ervaring van de wereld?</p>
+<div id="expand"><p>Neem bijvoorbeeld bijna-doodervaringen. Mensen beschrijven soms opvallend levendige ervaringen van licht, ruimte, herinneringen of een gevoel van verbondenheid, terwijl hun lichaam zich in een uiterst kritieke toestand bevindt.</p>
+
+<p>Ook het bewustzijn zelf blijft merkwaardig. Waarom voelt een gedachte ergens naar? En hoe ontstaat uit elektrische activiteit in miljarden zenuwcellen uiteindelijk een persoonlijke ervaring van de wereld?</p></div>
 
 <p>Er zijn daarnaast vreemde momenten waarop intuïtie sterker lijkt dan de beschikbare informatie. Iemand denkt plotseling aan een oude bekende, om die persoon enkele minuten later onverwacht tegen te komen.</p>
 
