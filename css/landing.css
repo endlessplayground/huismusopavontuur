@@ -68,29 +68,3 @@ nav {
      /*box-shadow: 1px 1px 6px rgba(73, 93, 108, 0.7);*/
 }
 
-.date {
-    padding: 28px 0px 0px 2px;
-    text-align: left;
-    z-index: 1000;
-}
-
-.date #month,
-.date #date {
-    width: auto;
-    text-align: center;
-    font-family: var(--heading-font);
-}
-
-.date #month {
-    font-size: 1em;
-    font-weight: 600;
-}
-
-.date #date {
-    font-size: 1.8em;
-    font-weight: 700;
-    padding-top: 4px;
-    font-weight: 500;
-    font-style: normal;
-
-}
