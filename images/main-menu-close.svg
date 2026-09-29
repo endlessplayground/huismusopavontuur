@@ -26,9 +26,9 @@
      inkscape:zoom="2.8970539"
      inkscape:cx="-28.649795"
      inkscape:cy="-8.1116889"
-     inkscape:window-width="1536"
-     inkscape:window-height="793"
-     inkscape:window-x="-8"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="1912"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
@@ -47,13 +47,26 @@
          stdDeviation="0.00023878406"
          id="feGaussianBlur24-0" />
     </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter24-8-6"
+       x="-8.7767791e-05"
+       y="-9.6689686e-05"
+       width="1.0001755"
+       height="1.0001934">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.00023878406"
+         id="feGaussianBlur24-0-5" />
+    </filter>
   </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
     <circle
-       style="fill:#a1d542;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:round"
+       style="fill:#6bd8d1;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:round"
        id="path8"
        cx="7.9375"
        cy="7.9375"
@@ -63,5 +76,37 @@
        style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter24-8)"
        d="M 84.196394 -0.48740731 L 83.075422 -0.48740736 L 83.075422 2.3630851 L 80.370945 2.363085 L 80.370945 3.5445789 L 83.075422 3.544579 L 83.075422 6.3950715 L 84.196394 6.3950716 L 84.196394 3.5445791 L 86.900872 3.5445792 L 86.900872 2.3630853 L 84.196394 2.3630852 L 84.196394 -0.48740731 z "
        transform="matrix(1.0814977,-1.0814978,1.0260985,1.0260985,-85.545465,95.358628)" />
+    <circle
+       style="fill:#ace9e5;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:round"
+       id="path8-7"
+       cx="24.606249"
+       cy="8.7312498"
+       r="7.9375" />
+    <g
+       id="g24-2"
+       style="fill:#ffffff;stroke-width:0.921547;filter:url(#filter24-8-6)"
+       transform="matrix(1.0539943,0,0,1.1171905,-63.545508,2.7804502)">
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect23-5-6"
+         width="6.5295224"
+         height="1.1815326"
+         x="80.371147"
+         y="2.3630655" />
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect23-9-6"
+         width="6.5295224"
+         height="1.1815326"
+         x="80.371147"
+         y="4.7358093" />
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect23-0-6"
+         width="6.5295224"
+         height="1.1815326"
+         x="80.371147"
+         y="7.1085534" />
+    </g>
   </g>
 </svg>
