@@ -5,12 +5,28 @@
 
 {% if page.page_type != "home" %}
 
-        <div id="header-img">
-            <img src="{{ '/images/pagetop-img/' | append: page.parent_folder | append: '.svg' | relative_url }}" alt="">
-        </div>
+    <div id="header-img">
 
-{% endif %}
-    
+        {% if page.parent_folder == "today" %}
+
+            <div class="calendar" style="transform: scale(1.4) translateY(5px) translateX(5px);">                <img src="{{ '/images/today.svg' | relative_url }}" alt="Vandaag">
+
+                <div class="calendar-date">
+                    <div class="calendar-month" id="month"></div>
+                    <div class="calendar-number" id="date"></div>
+                </div>
+                
+            </div>
+
+        {% else %}
+
+            <img src="{{ '/images/pagetop-img/' | append: page.parent_folder | append: '.svg' | relative_url }}" alt="">
+
+        {% endif %}
+
+    </div>
+
+{% endif %}    
 <div id="header-title">
  
                 {% assign parts = page.path | split: '/' %}

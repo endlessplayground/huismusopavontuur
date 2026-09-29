@@ -1,3 +1,5 @@
+
+
 <!-- Hamburger -->
 <button class="menu-trigger" type="button" aria-label="Open menu">
 <img src="{{ '/images/main-menu.svg' | relative_url }}" alt="Menu">
@@ -50,15 +52,35 @@
             </div>
 
 
-            <div class="menu-item">
+<div class="menu-item">
 
-                <a href="{{ '/today/' | relative_url }}"><button class="menu-heading" type="button">
-                    <span class="menu-icon"><div class="icon"><img src="{{ '/images/today2.svg' | relative_url }}" alt=""></div></span>
-                    <span>Vandaag</span>
-                    <span class="menu-arrow"></span>
-                </button></a>
+    <a href="{{ '/today/' | relative_url }}">
+        <button class="menu-heading" type="button">
 
-            </div>
+            <span class="menu-icon">
+
+                <div class="icon">
+                    <div class="calendar" style="transform: scale(0.74) translateY(0px) translateX(0px)  translateX(-9px);">
+
+                        <img src="{{ '/images/today.svg' | relative_url }}" alt="Vandaag">
+
+<!--                        <div class="calendar-date">
+                            <div class="calendar-month" id="month"></div>
+                            <div class="calendar-number" id="date"></div>
+                        </div>-->
+
+                    </div>
+                </div>
+
+            </span>
+
+            <span>Vandaag</span>
+            <span class="menu-arrow"></span>
+
+        </button>
+    </a>
+
+</div>
 
 
             <div class="menu-item">

@@ -5,7 +5,6 @@ page_type: default
 show_submenu: false
 ---
 
-  {% include date-styles.html %}
 
 <style>
     main {
@@ -24,6 +23,9 @@ show_submenu: false
     .home {
       visibility: hidden;
     }
+
+
+
 </style>
 
 <!--<div id="top-mus"><img src="{{ '/images/mus.svg' | relative_url }}" alt="Mus"></div>-->
@@ -47,22 +49,21 @@ show_submenu: false
 <a href="#"><div class="icon-empty"></div></a>
 
 <a href="{{ '/today/' | relative_url }}">
-  <div class="icon"><img src="{{ '/images/today.svg' | relative_url }}" alt="Vandaag"></div>
-  <div class="date">
-    <div id="month"></div>
-    <div id="date"></div>
+  <div class="icon">
+    
+  <div class="calendar">
+      <img src="{{ '/images/today.svg' | relative_url }}" alt="Vandaag">
+
+      <div class="calendar-date">
+<div class="calendar-month"></div>
+<div class="calendar-number"></div>
+      </div>
+  </div>
+    
   </div>
   <div class="label">{{ site.labels.today }}</div>
 </a>
 
-
-<!--  <img src="{{ '/images/today.svg' | relative_url }}" alt="Vandaag">
-  <div class="date">
-    <div id="month"></div>
-    <div id="date"></div>
-  </div>
-  <div class="label">{{ site.labels.today }}</div>
-  </div>-->
 
 
 <a href="#"><div class="icon-empty"></div></a>
