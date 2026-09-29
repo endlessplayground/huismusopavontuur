@@ -69,7 +69,7 @@ h2 {
     font-size: 1.8rem;
     font-weight: 700;
     color: white;
-    text-shadow: 2px 2px 2px rgba(9, 9, 9, 0.4);
+    text-shadow: 2px 2px 9px rgba(17, 95, 83, 0.55),  -2px -2px 9px rgba(17, 95, 83, 0.55);
 }
 
 #submenu {

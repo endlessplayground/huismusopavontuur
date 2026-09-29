@@ -100,7 +100,7 @@ body {
     z-index: 0;
 }
 
-.site {
+.site, #output {
     position: relative;
 
     width: 100%;
@@ -207,7 +207,7 @@ footer {
 
 .home {
     position: absolute;
-    margin: 50px 0 78px 330px;
+    margin: 50px 0 78px 310px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -217,7 +217,7 @@ footer {
 }
 
 .home img {
-    width: 55px;
+    width: 65px;
 }
 
 .bottom-line {
