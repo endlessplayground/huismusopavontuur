@@ -16,12 +16,12 @@ nav {
     gap: 0 2px;
 
     position: fixed;
-    top: 100px;
+    top: 110px;
     left: 50%;
     transform: translateX(-50%);
 
     width: calc(var(--site-width) - 70px);
-    height: 70vh;
+    height: 80vh;
 
     margin: 0;
     padding-bottom: 20px;
