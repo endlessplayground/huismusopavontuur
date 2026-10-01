@@ -6,7 +6,7 @@ show_submenu: true
 ---
 
 <div class="left">
-<p>Mijn hoofd wemelt van de ideeën, maar ik voer ze zelden uit van A tot Z. Soms kom ik niet eens verder dan A, of misschien hooguit B… &#128527; Of het blijft alleen maar in mijn hoofd.</p>
+<p>Mijn hoofd wemelt van de ideeën, maar ik voer ze zelden uit van A tot Z. Soms kom ik niet eens verder dan A, of misschien hooguit B… Of het blijft alleen maar in mijn hoofd. &#128527;</p>
 <p>Hieronder wat van die ideeën en al dan niet woeste plannen:</p>
 
 
