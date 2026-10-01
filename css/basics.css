@@ -150,6 +150,11 @@ body {
     color: var(--text-color-dark);
 }
 
+.expand-inner {
+    width: 100%;
+    padding: 12px 0;
+}
+
 .expand-header {
     width: 91.8%;
     height: 27px;
