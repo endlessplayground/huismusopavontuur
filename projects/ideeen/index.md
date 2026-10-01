@@ -5,79 +5,24 @@ parent_folder: projects
 show_submenu: true
 ---
 
-
 <div class="left">
-    <p>
-        Hier komt mijn Ideeën intro.
-    </p>
-
-<section class="expand-item">
-
-    <button class="expand-trigger" type="button" aria-expanded="false">
-        <span class="expand-heading">
-            <span class="expand-title">Michael Levin</span>
-        </span>
-        <span class="expand-arrow">▼</span>
-    </button>
-
-    <div class="expand-content">
-        <p>
-            Levin studies how cells and organisms solve problems and how
-            biological systems can display surprisingly sophisticated forms
-            of goal-directed behaviour.
-        </p>
-
-        <p>
-            What I find especially interesting is the possibility that
-            intelligence may exist at several levels of biological
-            organisation, rather than being something that suddenly appears
-            only in a brain.
-        </p>
-    </div>
-
-</section>
+<p>Mijn hoofd wemelt van de ideeën, maar ik voer ze zelden uit van A tot Z. Soms kom ik niet eens verder dan A, of misschien hooguit B… &#128527; Of het blijft alleen maar in mijn hoofd.</p>
+<p>Hieronder wat van die ideeën en al dan niet woeste plannen:</p>
 
 
-<section class="expand-item">
+<div class="expand-header"><h3>Talking to strangers</h3><div class="more-less"><img src="{{ '/images/more-less.svg' | relative_url }}" alt="Back home"></div></div>
 
-    <button class="expand-trigger" type="button" aria-expanded="false">
-        <span class="expand-heading">
-            <span class="expand-title">Anil Seth</span>
-            <span class="expand-teaser">A rather different way of thinking about brains.</span>
-        </span>
-        <span class="expand-arrow">▼</span>
-    </button>
+<div class="expand" style="height: 1px;"><p>Neem bijvoorbeeld bijna-doodervaringen. Mensen beschrijven soms opvallend levendige ervaringen van licht, ruimte, herinneringen of een gevoel van verbondenheid, terwijl hun lichaam zich in een uiterst kritieke toestand bevindt.</p>
 
-    <div class="expand-content">
-        <p>
-            This one could contain a short introduction followed by whatever
-            material you happen to find worth keeping.
-        </p>
-    </div>
+<p>Ook het bewustzijn zelf blijft merkwaardig. Waarom voelt een gedachte ergens naar? En hoe ontstaat uit elektrische activiteit in miljarden zenuwcellen uiteindelijk een persoonlijke ervaring van de wereld?</p></div>
 
-</section>
+<div class="expand-header"><h3>Debate Club</h3><div class="more-less"><img src="{{ '/images/more-less.svg' | relative_url }}" alt="Back home"></div></div>
+<div class="expand"><p>Er zijn daarnaast vreemde momenten waarop intuïtie sterker lijkt dan de beschikbare informatie. Iemand denkt plotseling aan een oude bekende, om die persoon enkele minuten later onverwacht tegen te komen.</p>
 
+<p>Niet ieder bijzonder voorval hoeft een bijzondere oorzaak te hebben. Het interessante is juist om te onderzoeken waar toeval ophoudt en onze verklaringen tekortschieten.</p></div>
 
-<section class="expand-item">
+<div class="expand-header"><h3>Nog wel iets leuks…</h3><div class="more-less"><img src="{{ '/images/more-less.svg' | relative_url }}" alt="Back home"></div></div>
+<div class="expand" style="height: 1px;"><p>Neem bijvoorbeeld bijna-doodervaringen. Mensen beschrijven soms opvallend levendige ervaringen van licht, ruimte, herinneringen of een gevoel van verbondenheid, terwijl hun lichaam zich in een uiterst kritieke toestand bevindt.</p>
 
-    <button class="expand-trigger" type="button" aria-expanded="false">
-        <span class="expand-heading">
-            <span class="expand-title">Alex OʼConnor</span>
-            <span class="expand-teaser">Nog wat meer.</span>
-        </span>
-        <span class="expand-arrow">▼</span>
-    </button>
-
-    <div class="expand-content">
-        <p>
-            This one could contain a short introduction followed by whatever
-            material you happen to find worth keeping.
-        </p>
-
-        <p>
-            And this section doesn't have to look exactly like the one above.
-        </p>
-    </div>
-
-</section>
+<p>Ook het bewustzijn zelf blijft merkwaardig. Waarom voelt een gedachte ergens naar? En hoe ontstaat uit elektrische activiteit in miljarden zenuwcellen uiteindelijk een persoonlijke ervaring van de wereld?</p></div>
 </div>

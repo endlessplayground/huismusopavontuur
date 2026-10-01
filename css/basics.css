@@ -6,7 +6,7 @@
     --text-margin: 18px;
     --text-margin-small: calc((var(--text-margin) - 6px));
     --line-weight: 1px;
-    --p-space: 0.9rem;
+    --p-space: 0.5rem;
 /*COLORS*/
     --background-color: rgb(36, 36, 36);
     --area-color: rgb(113, 225, 160);
@@ -18,6 +18,7 @@
     --basic-green: rgba(180, 253, 235, 0.7);
     --basic-green-light: rgba(180, 253, 235, 0.5);
     --basic-red: rgb(255, 0, 108);
+    --expand-color: rgb(254, 243, 228);
     --line-color: rgb(68, 194, 175);
     --expand:  hsl(108, 87%, 74%);
     --basic-light:  rgb(254, 243, 228);
@@ -136,12 +137,12 @@ body {
     align-items: center;
 }
 
-#expand {
+.expand {
     width: 91.8%;
 
-    margin: 12px var(--text-margin) 10px var(--text-margin);
+    margin: 12px var(--text-margin) 30px var(--text-margin);
     padding: 0px 4px 1px 4px;
-    background-color: rgb(210, 252, 235);
+    background-color: var(--expand-color);
     /*box-shadow: inset 0 0 0 1px rgb(220, 225, 242);*/
     height: auto;
     overflow: hidden;
@@ -149,6 +150,27 @@ body {
     color: var(--text-color-dark);
 }
 
+.expand-header {
+    width: 91.8%;
+    height: 27px;
+    margin: 0px 0 -20px 0;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    z-index: 8;
+}
+
+.expand-header h3 {
+    margin: 0;
+    color: var(--expand-color);
+    font-weight: 500;
+    line-height: 1;
+}
+
+.more-less img {
+    display: block;
+    margin-bottom: -4px;
+}
 
 /*TEXT*/
 a,
