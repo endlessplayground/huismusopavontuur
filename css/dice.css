@@ -1,49 +1,57 @@
-.instruction {
-  position: fixed; 
-  top: 130px;
-  background-color: transparent; 
-  width: 100%;  
-  max-width: 430px; 
-  margin-top: 0px; 
-  padding-top: 0px; 
-  text-align: center; 
-  z-index: 99;
-  color: var(--text-color)
+.random-dice {
+    position: relative;
+    width: 100%;
+    max-width: var(--site-width);
+    margin: 0 auto;
+    height: 0;
 }
 
-.random-text {
-  text-align: left;
+.random-dice #roll {
+    position: absolute;
+    top: -80px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    display: inline-block;
+    z-index: 100;
 }
 
-.dice {
-  display: flex;
-  margin-top: -80px;
-  justify-content: center;
-  width: 100%;
-  max-width: var(--max-width);
-  height: 50px;
-  z-index: 100;
-  background-color: rgb(60, 255, 0);
+.random-dice #roll img {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease;
 }
 
-#roll {
-  position: absolute;
-  top: 50px;
-  left: 50%;
-  margin-left: -25px;
-  cursor: pointer;
-  display: inline-block;
-  z-index: 100;
+.random-dice #roll:hover img {
+    transform: scale(1.05);
 }
 
-#roll img {
-  width: 50px;
-  height: 50px;
-  transition: transform 0.3s ease;
+.random-dice .instruction {
+    position: absolute;
+    top: -15px;
+    width: 100%;
+    text-align: center;
+    color: var(--text-color);
+    z-index: 99;
 }
 
-#roll:hover img {
-  transform: scale(1.05);
+.random-dice .instruction p {
+    margin: 0;
+}
+
+.random-content {
+    margin-top: 90px;
+    padding-top: 20px;
+}
+
+.random-content #output {
+    width: 100%;
+    margin: 10px auto 0 auto;
+    color: var(--text-color);
+}
+
+.random-content .random-text {
+    text-align: left;
 }
 
 @keyframes wobble {
@@ -62,15 +70,4 @@
 
 .roll-animation img {
   animation: wobble 0.7s cubic-bezier(0.4, 0, 0.2, 1) forwards;
-}
-
-#output {
-  position: absolute;
-  top: 110px;
-
-    width: 100%;
-    padding: 0 var(--text-margin-small) 0 var(--text-margin);
-    margin: 0 auto;
-
-    color: var(--text-color);
 }

@@ -261,3 +261,19 @@ footer {
     z-index: 192;
     background: var(--basic-red);
 }
+
+.youtube,
+.spotify {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.spotify iframe {
+    display: block;
+    width: 95%;
+    height: 152px;
+    border: 0;
+    margin-bottom: 16px;
+}
