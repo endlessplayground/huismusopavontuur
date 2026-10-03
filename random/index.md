@@ -1,31 +1,23 @@
 ---
 layout: default
 title: "Random"
-page_type: short
 parent_folder: random
 show_submenu: true
 ---
 
-<div id="roll">
-    <img src="{{ '/images/dice.svg' | relative_url }}" alt="Dobbelsteen">
+<div class="random-dice">
+    <div id="roll">
+        <img src="{{ '/images/dice.svg' | relative_url }}" alt="Dobbelsteen">
+    </div>
+
+  <div class="instruction">
+        <p id="roll-instruction">Rol de <em>dobbelsteen</em><em>…</em></p>
+    </div>
 </div>
 
-<div class="dice">
-<div class="instruction" style=""><p  id="roll-instruction">Rol de <em>dobbelsteen</em><em>…</em></p></div>
-
-
+<div class="left random-content">
+    <div id="output"></div>
 </div>
-
-<div id="output"></div>
-
-
-
-
-<style>
-.site {
-    margin-top: 130px;
-    }
-</style>
 
 <script>
 const randomContent = [
