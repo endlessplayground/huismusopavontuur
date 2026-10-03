@@ -38,13 +38,13 @@
             <div class="menu-item">
 
                 <button class="menu-heading" type="button">
-                    <span class="menu-icon"><div class="icon"><img src="{{ '/images/ideas.svg' | relative_url }}" alt=""></div></span>
-                    <span>{{ site.labels.ideas }}</span>
+                    <span class="menu-icon"><div class="icon"><img src="{{ '/images/algoritmen.svg' | relative_url }}" alt=""></div></span>
+                    <span>{{ site.labels.algoritmen }}</span>
                     <span class="menu-arrow">▼</span>
                 </button>
 
             <div class="menu-submenu">
-                {% for item in site.submenus.ideas %}
+                {% for item in site.submenus.algoritmen %}
                     <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
                 {% endfor %}
             </div>

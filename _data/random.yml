@@ -1,5 +1,20 @@
-items:
-  - slimemolds.html
-  - epigenetics.html
-  - mushrooms.html
-  - dunningkruger.html
+music:
+  items:
+    - song-01.html
+    - song-02.html
+    - song-03.html
+    - song-04.html
+
+funfacts:
+  items:
+    - fact-01.html
+    - fact-02.html
+    - fact-03.html
+    - fact-04.html
+
+dontknowyet:
+  items:
+    - dontknowyet-01.html
+    - dontknowyet-02.html
+    - dontknowyet-03.html
+    - dontknowyet-04.html
