@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "Vandaag"
-page_type: short
 parent_folder: today
 show_submenu: true
 ---
