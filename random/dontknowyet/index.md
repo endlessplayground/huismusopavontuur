@@ -3,6 +3,7 @@ layout: default
 title: "Random"
 parent_folder: random
 show_submenu: true
+random_category: dontknowyet
 ---
 
 <div class="random-dice">
@@ -21,8 +22,9 @@ show_submenu: true
 
 <script>
 const randomContent = [
-  {% for item in site.data.random.items %}
-    "{{ '/random/content/' | append: item | relative_url }}"{% unless forloop.last %},{% endunless %}
+  {% assign items = site.data.random[page.random_category].items %}
+  {% for item in items %}
+    "{{ '/random/content/' | append: page.random_category | append: '/' | append: item | relative_url }}"{% unless forloop.last %},{% endunless %}
   {% endfor %}
 ];
 </script>

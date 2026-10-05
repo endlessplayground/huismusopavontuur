@@ -13,7 +13,7 @@ document.querySelectorAll('.expand-header').forEach(header => {
 
     let isOpen = false;
 
-    moreLess.addEventListener('click', () => {
+    header.addEventListener('click', () => {
 
         if (isOpen) {
             expand.style.height = expand.scrollHeight + 'px';

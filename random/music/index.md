@@ -8,7 +8,7 @@ random_category: music
 
 <div class="random-dice">
     <div id="roll">
-        <img src="{{ '../images/dice.svg' | relative_url }}" alt="Dobbelsteen">
+        <img src="{{ '/images/dice.svg' | relative_url }}" alt="Dobbelsteen">
     </div>
 
     <div class="instruction">
