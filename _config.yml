@@ -56,7 +56,7 @@ submenus:
     - name: "Fun facts"
       url: "/random/funfacts/"
     - name: "Antwoorden"
-      url: "/random/answers/"
+      url: "/random/dontknowyet/"
 
   hidden:
     - name: "Random taakje"
