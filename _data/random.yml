@@ -43,7 +43,7 @@ funfacts:
     - fact-04.html
 
 dontknowyet:
-items:
+  items:
   - grinning.html
   - joy.html
   - smiley.html
