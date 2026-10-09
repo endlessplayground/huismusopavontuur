@@ -241,3 +241,16 @@ footer {
     border: 0;
     margin-bottom: 16px;
 }
+
+/* Random: smileys */
+.random-emoji {
+    font-size: 5rem;
+    text-align: center;
+    /* Add positioning and spacing here */
+}
+
+/* Random: text items 
+.random-text p {
+    font-size: 1rem;
+    line-height: 1.5;
+}*/
