@@ -242,15 +242,22 @@ footer {
     margin-bottom: 16px;
 }
 
-/* Random: smileys */
-.random-emoji {
-    font-size: 2.4rem;
+/* Random: smileys and text. Add these rules to your existing stylesheet. */
+
+/* Emoji files contain only a numeric HTML character reference. */
+#output:not(:has(> p)) {
+    font-size: 2.2rem;
+    line-height: 1.2;
     text-align: center;
-    /* Add positioning and spacing here */
 }
 
-/* Random: text items 
-.random-text p {
+/* Text files contain a paragraph.
+#output:has(> p) {
     font-size: 1rem;
+    text-align: left;
+}
+
+#output > p {
+    margin: 0;
     line-height: 1.5;
-}*/
+} */
