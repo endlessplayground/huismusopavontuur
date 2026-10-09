@@ -43,8 +43,33 @@ funfacts:
     - fact-04.html
 
 dontknowyet:
-  items:
-    - dontknowyet-01.html
-    - dontknowyet-02.html
-    - dontknowyet-03.html
-    - dontknowyet-04.html
+items:
+  - grinning.html
+  - joy.html
+  - smiley.html
+  - smile.html
+  - sweat-smile.html
+  - laughing.html
+  - wink.html
+  - blush.html
+  - heart-eyes.html
+  - kissing-heart.html
+  - thinking.html
+  - shrug.html
+  - sunglasses.html
+  - star-struck.html
+  - rofl.html
+  - upside-down.html
+  - neutral.html
+  - expressionless.html
+  - unamused.html
+  - confused.html
+  - rolling-eyes.html
+  - relieved.html
+  - slightly-smiling.html
+  - slightly-frowning.html
+  - astonished.html
+  - scream.html
+  - cry.html
+  - angry.html
+  - poop.html
