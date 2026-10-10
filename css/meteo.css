@@ -1,0 +1,32 @@
+.meteo-page {
+width: 100%;
+gap: 0;
+}
+
+.meteo-date {
+margin-bottom: 1.5em;
+text-align: center;
+text-transform: capitalize;
+}
+
+.meteo-section {
+width: 100%;
+margin-bottom: 1.5em;
+text-align: center;
+}
+
+.meteo-section h4 {
+margin-bottom: 0.35em;
+}
+
+.meteo-value {
+margin-top: 0;
+margin-bottom: 0;
+font-size: 1.2em;
+}
+
+.meteo-note {
+margin-top: 0.5em;
+font-size: 0.8em;
+opacity: 0.75;
+}
