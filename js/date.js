@@ -1,20 +1,24 @@
-const months = [
-    'Jan', 'Feb', 'Mrt', 'Apr', 'Mei', 'Jun',
-    'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dec'
-];
+document.addEventListener('DOMContentLoaded', function() {
+    const now = new Date();
 
-const monthEl = document.getElementById('month');
-const dateEl = document.getElementById('date');
-const dateSmallEl = document.getElementById('date_s');
+    const months = [
+        'Jan', 'Feb', 'Mrt', 'Apr', 'Mei', 'Jun',
+        'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dec'
+    ];
 
-if (monthEl) {
-    monthEl.textContent = months[now.getMonth()];
-}
+    const monthEl = document.getElementById('month');
+    const dateEl = document.getElementById('date');
+    const dateSmallEl = document.getElementById('date_s');
 
-if (dateEl) {
-    dateEl.textContent = now.getDate();
-}
+    if (monthEl) {
+        monthEl.textContent = months[now.getMonth()];
+    }
 
-if (dateSmallEl) {
-    dateSmallEl.textContent = now.getDate();
-}
+    if (dateEl) {
+        dateEl.textContent = now.getDate();
+    }
+
+    if (dateSmallEl) {
+        dateSmallEl.textContent = now.getDate();
+    }
+});
