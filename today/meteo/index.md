@@ -5,8 +5,6 @@ parent_folder: today
 show_submenu: true
 ---
 
-{% include date-styles.html %}
-
 <link rel="stylesheet" href="{{ '/css/meteo.css' | relative_url }}">
 
 <div class="left meteo-page">
