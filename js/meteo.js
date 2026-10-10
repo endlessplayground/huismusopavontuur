@@ -175,7 +175,7 @@ document.addEventListener('DOMContentLoaded', function() {
     show(
         'normal-range',
         formatTemperature(minimumTemperature[index]) +
-        '–' +
+        '-' +
         formatTemperature(maximumTemperature[index]) +
         ' °C'
     );
