@@ -28,6 +28,7 @@
     font-weight: 500;
     color: white;
     line-height: 1;
+    background-color: rgba(171, 232, 237, 0.5)
 }
 
 .calendar-number {
@@ -39,5 +40,5 @@
     font-weight: 600;
     line-height: 1;
     color: var(--text-color-dark);
-    background-color: rgb(237, 233, 171);
+    background-color: rgba(237, 233, 171, 0.5);
 }
