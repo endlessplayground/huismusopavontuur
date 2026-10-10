@@ -1,5 +1,8 @@
 .calendar {
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 80px;
     height: 80px;
 }
@@ -7,7 +10,7 @@
 .calendar > img {
     display: block;
     width: 80px;
-    height: 70px;
+    height: 80px;
 }
 
 .calendar-date {
