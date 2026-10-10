@@ -1,13 +1,13 @@
 .calendar {
     position: relative;
     width: 80px;
-    height: 70px;
+    height: 80px;
 }
 
 .calendar > img {
     display: block;
     width: 80px;
-    height: 80px;
+    height: 70px;
 }
 
 .calendar-date {
