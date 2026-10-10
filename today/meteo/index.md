@@ -36,13 +36,13 @@ show_submenu: true
         <span id="normal-range" class="meteo-value"></span>
     </div>
 
-    <p class="meteo-note">
+    <div class="meteo-note">
         Temperatuurgegevens: KNMI-klimaatnormalen 1991-2020,
         station Rotterdam (344). Dit zijn gemiddelden per
         tiendaagse periode, geen weersverwachting.
         <a href="https://cdn.knmi.nl/knmi/map/page/klimatologie/klimaatatlas/tabel/stationsdata/decadenormalen_9120.pdf"
            target="_blank" rel="noopener">Bron</a>.
-    </p>
+    </div>
 
 </div>
 
