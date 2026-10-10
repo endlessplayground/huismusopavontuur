@@ -6,14 +6,6 @@ show_submenu: true
 ---
   {% include date-styles.html %}
 
----
-
-layout: default
-title: "Meteo feiten"
-parent_folder: today
-show_submenu: true
-------------------
-
 <link rel="stylesheet" href="{{ '/css/meteo.css' | relative_url }}">
 
 <div class="left meteo-page">
