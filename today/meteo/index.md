@@ -41,6 +41,3 @@ show_submenu: true
 </div>
 
 <script src="{{ '/js/meteo.js' | relative_url }}" defer></script>
-
-
-<script src="{{ '/js/date.js' | relative_url }}"></script>
