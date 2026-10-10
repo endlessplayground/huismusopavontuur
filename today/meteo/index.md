@@ -18,7 +18,6 @@ show_submenu: true
 
 <div class="left meteo-page">
 
-```
 <p id="meteo-date" class="meteo-date"></p>
 
 <section class="meteo-section">
@@ -46,7 +45,6 @@ show_submenu: true
         geen weersverwachting voor vandaag.
     </p>
 </section>
-```
 
 </div>
 
