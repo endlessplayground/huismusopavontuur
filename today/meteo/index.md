@@ -4,39 +4,45 @@ title: "Vandaag"
 parent_folder: today
 show_submenu: true
 ---
-  {% include date-styles.html %}
+
+{% include date-styles.html %}
 
 <link rel="stylesheet" href="{{ '/css/meteo.css' | relative_url }}">
 
 <div class="left meteo-page">
 
-<p id="meteo-date" class="meteo-date"></p>
+    <div class="meteo-row">
+        <span class="meteo-label">Zonsopkomst</span>
+        <span id="sunrise" class="meteo-value"></span>
+    </div>
 
-<section class="meteo-section">
-    <h4>Zonsopkomst</h4>
-    <p id="sunrise" class="meteo-value">...</p>
-</section>
+    <div class="meteo-row">
+        <span class="meteo-label">Zonsondergang</span>
+        <span id="sunset" class="meteo-value"></span>
+    </div>
 
-<section class="meteo-section">
-    <h4>Zonsondergang</h4>
-    <p id="sunset" class="meteo-value">...</p>
-</section>
+    <div class="meteo-row">
+        <span class="meteo-label">Daglengte</span>
+        <span id="daylength" class="meteo-value"></span>
+    </div>
 
-<section class="meteo-section">
-    <h4>Daglengte</h4>
-    <p id="daylength" class="meteo-value">...</p>
-</section>
+    <div class="meteo-row">
+        <span class="meteo-label">Gemiddelde temperatuur</span>
+        <span id="normal-mean" class="meteo-value"></span>
+    </div>
 
-<section class="meteo-section">
-    <h4>Normale temperaturen</h4>
-    <p id="temperatures" class="meteo-value">
-        Klimaatgegevens worden voorbereid.
-    </p>
+    <div class="meteo-row">
+        <span class="meteo-label">Normale min.–max.</span>
+        <span id="normal-range" class="meteo-value"></span>
+    </div>
+
     <p class="meteo-note">
-        Klimaatnormalen zijn gemiddelden over een langere periode,
-        geen weersverwachting voor vandaag.
+        Temperatuurgegevens: KNMI-klimaatnormalen 1991–2020,
+        station Rotterdam (344). Dit zijn gemiddelden per
+        tiendaagse periode, geen weersverwachting.
+        <a href="https://cdn.knmi.nl/knmi/map/page/klimatologie/klimaatatlas/tabel/stationsdata/decadenormalen_9120.pdf"
+           target="_blank" rel="noopener">Bron</a>.
     </p>
-</section>
 
 </div>
 
