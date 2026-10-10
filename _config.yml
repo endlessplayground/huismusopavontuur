@@ -55,7 +55,7 @@ submenus:
       url: "/random/music/"
     - name: "Fun facts"
       url: "/random/funfacts/"
-    - name: "Smile<br>\<span style="font-size: 1.2rem; margin-top: 2px;">&#128579"</span>
+    - name: 'Smile<br><span style="font-size: 1.2rem; margin-top: 2px;">&#128579;</span>'
       url: "/random/dontknowyet/"
 
   hidden:
