@@ -1,6 +1,6 @@
-```css
 .meteo-page {
     width: 100%;
+    margin: 0 15px 0 15px;
     gap: 0;
 }
 
@@ -36,4 +36,3 @@
 .meteo-note a {
     text-decoration: underline;
 }
-```
