@@ -32,12 +32,12 @@ show_submenu: true
     </div>
 
     <div class="meteo-row">
-        <span class="meteo-label">Normale min.–max.</span>
+        <span class="meteo-label">Normale min.-max.</span>
         <span id="normal-range" class="meteo-value"></span>
     </div>
 
     <p class="meteo-note">
-        Temperatuurgegevens: KNMI-klimaatnormalen 1991–2020,
+        Temperatuurgegevens: KNMI-klimaatnormalen 1991-2020,
         station Rotterdam (344). Dit zijn gemiddelden per
         tiendaagse periode, geen weersverwachting.
         <a href="https://cdn.knmi.nl/knmi/map/page/klimatologie/klimaatatlas/tabel/stationsdata/decadenormalen_9120.pdf"
