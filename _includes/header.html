@@ -9,11 +9,12 @@
 
         {% if page.parent_folder == "today" %}
 
-            <div class="calendar" style="transform: scale(1.4) translateY(5px) translateX(5px);">                <img src="{{ '/images/today.svg' | relative_url }}" alt="Vandaag">
+            <div class="calendar" style="transform: scale(1.3) translateY(12px) translateX(-5px);">
+                <img src="{{ '/images/today.svg' | relative_url }}" alt="Vandaag">
 
                 <div class="calendar-date">
-                    <div class="calendar-month" id="month"></div>
-                    <div class="calendar-number" id="date"></div>
+                    <div class="calendar-month"></div>
+                    <div class="calendar-number"></div>
                 </div>
                 
             </div>
@@ -26,7 +27,8 @@
 
     </div>
 
-{% endif %}    
+{% endif %}  
+  
 <div id="header-title">
  
                 {% assign parts = page.path | split: '/' %}
