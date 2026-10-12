@@ -15,7 +15,7 @@ show_submenu: true
     </div>
 
     <div class="meteo-row">
-        <span class="meteo-label">🕯️ Zonsondergang</span>
+        <span class="meteo-label">💡 Zonsondergang</span>
         <span id="sunset" class="meteo-value"></span>
     </div>
 
@@ -30,7 +30,7 @@ show_submenu: true
     </div>
 
     <div class="meteo-row">
-        <span class="meteo-label">&#128202; Normale min.-max.</span>
+        <span class="meteo-label">📉 Normale min.-max.</span>
         <span id="normal-range" class="meteo-value"></span>
     </div>
 
