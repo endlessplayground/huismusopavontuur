@@ -12,8 +12,10 @@ random_category: music
     </div>
 
 <div class="instruction">
-        <p id="roll-instruction"><i>Rol de dobbelsteen voor een van mijn lievelings nummers<em>…</em></i><br><br> Tot nu toe is het nog beperkt tot mijn absoluut favoriete genre van dit moment, nl. <i>Phonk</i>, maar later zal ik dat nog uitbreiden.<br><br>Je hoort trouwens fragmenten, niet het hele nummer, want zo werkt dat bij embedded Spotify songs. Maar misschien ben je daar als niet-liefhebber juist wel blij om… &#128513;</p>
-</div>
+    <div id="roll-instruction"><h4>Rol de dobbelsteen voor een van mijn lievelings nummers…</h4> 
+            <p>Tot nu toe is het nog beperkt tot mijn absoluut favoriete genre van dit moment, nl. <i>Phonk</i>, maar later zal ik dat nog uitbreiden.</p>
+            <p>Je hoort trouwens fragmenten, niet het hele nummer, want zo werkt dat bij embedded Spotify songs. Maar misschien ben je daar als niet-liefhebber juist wel blij om… &#128513;</p></div>
+    </div>
 </div>
 
 <div class="left random-content">
