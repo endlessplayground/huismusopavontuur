@@ -27,28 +27,28 @@ submenus:
       url: "/about/quirks/"
 
   algoritmen:
-    - name: "Ehhh…"
-      url: "/algoritmen/huh/"
-    - name: "Wow!"
-      url: "/algoritmen/wow/"
-    - name: "Psycho…"
-      url: "/algoritmen/psycho/"
+    - name: '<span style="font-size: 1.2rem; margin-top: 2px;">&#129488;</span>'
+      url: "/algoritmen/search/"
+    - name: "Mijn ʻfeedʼ"
+      url: "/algoritmen/feed/"
+    - name: "Linkjes naar favoʼs"
+      url: "/algoritmen/favo/"
 
   today:
     - name: "Gewoon vandaag"
       url: "/today/gewoon/"
     - name: "Meteo</br>feiten"
       url: "/today/meteo/"
-    - name: "Historisch"
-      url: "/today/historisch/"
+    - name: "Scheur</br>kalender"
+      url: "/today/scheur/"
 
   projects:
-    - name: "Ideeën"
+    - name: '<span class="nadruk">Dit</span> project'
       url: "/projects/ideeen/"
-    - name: "Websites & illustraties"
+    - name: "Webdesign & illustraties"
       url: "/projects/screen/"
     - name: "(No) small&nbsp;talk"
-      url: "/projects/beyond/"
+      url: "/projects/talk/"
 
   random:
     - name: "Muziek"
