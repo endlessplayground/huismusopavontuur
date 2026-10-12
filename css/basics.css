@@ -175,6 +175,19 @@ h4 {
     color: white;
 }
 
+ul {
+    padding-left: 1.2em;
+}
+
+li {
+    padding-bottom: 0.5em;
+    color: inherit;
+}
+
+li::marker {
+    color: var(--area-color);
+}
+
 .quote {
     font-style: italic;
     font-size: 1.15rem;
