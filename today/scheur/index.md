@@ -1,0 +1,17 @@
+---
+layout: default
+title: "Vandaag"
+page_type: short
+parent_folder: today
+show_submenu: true
+---
+  {% include date-styles.html %}
+
+<div class="left">
+
+<div id="today-text"></div>
+<div id="special-text"></div>
+
+</div>
+
+<script src="{{ '/js/date.js' | relative_url }}"></script>
