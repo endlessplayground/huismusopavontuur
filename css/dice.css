@@ -1,9 +1,14 @@
+
+/* =========================
+   RANDOM — POSITIONING
+   ========================= */
+
 .random-dice {
     position: relative;
     width: 100%;
     max-width: var(--site-width);
-    margin: 0 auto;
     height: 0;
+    margin: 0 auto;
 }
 
 .random-dice #roll {
@@ -11,12 +16,13 @@
     top: -80px;
     left: 50%;
     transform: translateX(-50%);
-    cursor: pointer;
     display: inline-block;
+    cursor: pointer;
     z-index: 100;
 }
 
 .random-dice #roll img {
+    display: block;
     width: 50px;
     height: 50px;
     transition: transform 0.3s ease;
@@ -30,14 +36,17 @@
     position: absolute;
     top: -15px;
     width: 100%;
-    text-align: center;
-    color: var(--text-color);
     z-index: 99;
 }
 
-.random-dice .instruction p {
-    margin: 0 20px 0 20px;
+.instruction p, .instruction h4 {
+    text-align: center;
 }
+
+
+/* =========================
+   RANDOM — OUTPUT POSITION
+   ========================= */
 
 .random-content {
     margin-top: 90px;
@@ -46,28 +55,28 @@
 
 .random-content #output {
     width: 100%;
-    margin: 10px auto 0 auto;
-    color: var(--text-color);
+    margin: 10px auto 0;
 }
 
-.random-content .random-text {
-    text-align: left;
-}
+
+/* =========================
+   RANDOM — DICE ANIMATION
+   ========================= */
 
 @keyframes wobble {
-  0%   { transform: rotate(0deg) scale(1.05); }
-  10%  { transform: rotate(90deg) scale(1.1); }
-  20%  { transform: rotate(180deg) scale(1.05); }
-  30%  { transform: rotate(270deg) scale(1.1); }
-  40%  { transform: rotate(360deg) scale(1.05); }
-  50%  { transform: rotate(0deg) scale(1); }
-  60%  { transform: rotate(90deg) scale(1.1); }
-  70%  { transform: rotate(180deg) scale(1.05); }
-  80%  { transform: rotate(270deg) scale(1.1); }
-  90%  { transform: rotate(360deg) scale(1.05); }
-  100% { transform: rotate(360deg) scale(1); }
+    0%   { transform: rotate(0deg) scale(1.05); }
+    10%  { transform: rotate(90deg) scale(1.1); }
+    20%  { transform: rotate(180deg) scale(1.05); }
+    30%  { transform: rotate(270deg) scale(1.1); }
+    40%  { transform: rotate(360deg) scale(1.05); }
+    50%  { transform: rotate(0deg) scale(1); }
+    60%  { transform: rotate(90deg) scale(1.1); }
+    70%  { transform: rotate(180deg) scale(1.05); }
+    80%  { transform: rotate(270deg) scale(1.1); }
+    90%  { transform: rotate(360deg) scale(1.05); }
+    100% { transform: rotate(360deg) scale(1); }
 }
 
 .roll-animation img {
-  animation: wobble 0.7s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    animation: wobble 0.7s cubic-bezier(0.4, 0, 0.2, 1) forwards;
 }

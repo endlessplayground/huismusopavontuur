@@ -118,8 +118,6 @@ body {
     color: var(--text-color);
 }
 
-
-
 .area {
     position: fixed;
 
@@ -150,16 +148,24 @@ a:visited {
 p {
     font-size: 1.1rem;
     line-height: 1.3;
-    margin: var(--p-space) 0 var(--p-space) 0;
 }
 
 h1 {
     font-weight: 700;
 }
 
-.left p {
+p, h4 {
     text-align: left;
     margin: var(--p-space) var(--text-margin-small) var(--p-space) var(--text-margin);
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 1.2rem;
+    font-style: italic;
+    align-self: flex-start;
+    width: 90%;
+    color: white;
 }
 
 .center {

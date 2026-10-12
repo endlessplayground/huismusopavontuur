@@ -40,7 +40,7 @@ dice.addEventListener('click', () => {
       randomContent[Math.floor(Math.random() * randomContent.length)];
 
     document.getElementById('roll-instruction').innerHTML =
-      '<em>Nog</em> een poging<em>?</em>';
+      '<h4>Nog een?</h4>';
 
     fetch(randomFile)
       .then(response => response.text())
