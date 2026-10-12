@@ -7,9 +7,9 @@ show_submenu: true
 
 
 <div class="left"> 
-<p>Mijn werkverleden loopt nogal uiteen. Van creatieve projecten en zelfstandig werk tot banen waarin vooral improvisatie, mensenkennis en praktische aanpak nodig waren.</p>
+<p>Hier vertel ik over het werk dat ik heb gedaan gedurende mijn leven <i>ʻso farʼ</i>. Eigenlijk als een soort CV. Misschien is het ooit bruikbaar in sollicitaties. Wie weet.</p>
 
-<p>Ik heb nooit zo goed in één hokje gepast. Juist de afwisseling tussen denken, maken en aanpakken vind ik interessant.</p>
+<p>Ik ben in ieder geval geen persoon voor LinkedIn. Ik vind dat soort platforms helemaal niet leuk, want ik ben geen ʻnetwerk typeʼ. Ik denk ook niet dat ik dat nog nodig ga hebben, zo aan het eind van mijn ʻcarrière-matigeʼ leven…</p>
 
-<p>De laatste jaren werk ik in een hotel, waar geen ochtend hetzelfde is en een goed ontbijt soms verrassend veel organisatie vereist.</p>
+<p>Klik <a href="#">hier</a> voor een overzicht van mijn werkverleden.</p>
 </div>
