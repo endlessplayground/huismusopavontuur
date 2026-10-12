@@ -12,12 +12,12 @@ random_category: dontknowyet
     </div>
 
   <div class="instruction">
-        <p id="roll-instruction">Rol de <em>dobbelsteen</em><em>…</em></p>
+        <div id="roll-instruction"><h4>Rol de dobbelsteen…</h4></div>
     </div>
 </div>
 
 <div class="left random-content">
-    <div id="output"></div>
+    <div id="output" style="margin-top:15px;"></div>
 </div>
 
 <script>

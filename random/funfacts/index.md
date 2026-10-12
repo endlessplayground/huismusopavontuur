@@ -11,9 +11,9 @@ random_category: funfacts
         <img src="{{ '/images/dice.svg' | relative_url }}" alt="Dobbelsteen">
     </div>
 
-    <div class="instruction">
-        <p id="roll-instruction">Rol de <em>dobbelsteen</em> voor zomaar een interessant feit<em>…</em></p>
-    </div>
+<div class="instruction">
+        <div id="roll-instruction"><h4>Rol de dobbelsteen voor zomaar een interessant feit…</h4></div>
+</div>
 </div>
 
 <div class="left random-content">
