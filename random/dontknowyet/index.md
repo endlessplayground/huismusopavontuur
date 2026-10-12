@@ -12,7 +12,9 @@ random_category: dontknowyet
     </div>
 
   <div class="instruction">
-        <div id="roll-instruction"><h4>Rol de dobbelsteen…</h4></div>
+        <div id="roll-instruction"><h4>Rol de dobbelsteen…</h4>
+        <p>Er verschijnt dan een emoji of een random stukje tekst, maar dat is nog een soort opvulling. Uiteindelijk verzin ik hier nog iets anders.</p>
+  </div>
     </div>
 </div>
 
