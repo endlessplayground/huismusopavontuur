@@ -113,3 +113,14 @@ h2 {
     color: var(--txt-color);
     text-shadow: 0px 1px 3px rgb(255, 255, 255);
 }
+
+.nadruk {
+/*    display: block;
+    padding: 1px 2px 1px 2px;
+    background-color: yellow; */
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: rgb(255, 221, 0);
+    margin-right: 4px;
+    text-shadow: 1px 1px 2px rgba(77, 89, 92, 0.882);
+}

@@ -181,23 +181,6 @@ footer {
     z-index: 192;
 }
 
-.on-and-on {
-    position: absolute;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    width: var(--site-width);
-    height: 20px;
-    bottom: 14px;
-    visibility: hidden;
-
-}
-
-.on-and-on img {
-    margin-bottom: -15px;
-
-}
-
 .home {
     position: absolute;
     margin: 50px 0 78px 310px;
