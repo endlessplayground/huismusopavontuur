@@ -36,5 +36,5 @@
 
 .meteo-note a {
     text-decoration: underline;
-    color: white;
+    color: var(--text-color-light) !important;
 }

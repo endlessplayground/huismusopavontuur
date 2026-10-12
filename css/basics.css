@@ -24,6 +24,7 @@
     --basic-light:  rgb(254, 243, 228);
     --text-color-dark: rgb(47, 44, 44);
     --text-color: rgb(0, 255, 255);
+    --text-color-light: rgb(160, 253, 245);
 /*FONTS*/
 
 }
@@ -139,6 +140,12 @@ body {
     align-items: center;
 }
 
+.left a {
+    text-decoration: underline;
+    font-style: italic;
+    color: var(--text-color-light) !important;
+}
+
 /*TEXT*/
 a,
 a:visited {
@@ -166,6 +173,25 @@ h4 {
     align-self: flex-start;
     width: 90%;
     color: white;
+}
+
+.quote {
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.quote::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 12px;
+    width: 56px;
+    height: 40px;
+    background-image: url("../images/quote.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    pointer-events: none;
 }
 
 .center {
