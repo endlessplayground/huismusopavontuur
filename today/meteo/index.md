@@ -10,27 +10,27 @@ show_submenu: true
 <div class="left meteo-page">
 
     <div class="meteo-row">
-        <span class="meteo-label">Zonsopkomst</span>
+        <span class="meteo-label">&#9200; Zonsopkomst</span>
         <span id="sunrise" class="meteo-value"></span>
     </div>
 
     <div class="meteo-row">
-        <span class="meteo-label">Zonsondergang</span>
+        <span class="meteo-label">🕯️ Zonsondergang</span>
         <span id="sunset" class="meteo-value"></span>
     </div>
 
     <div class="meteo-row">
-        <span class="meteo-label">Daglengte</span>
+        <span class="meteo-label">☀️ Daglengte</span>
         <span id="daylength" class="meteo-value"></span>
     </div>
 
     <div class="meteo-row">
-        <span class="meteo-label">Gemiddelde temperatuur</span>
+        <span class="meteo-label">🌡️ Gemiddelde temperatuur</span>
         <span id="normal-mean" class="meteo-value"></span>
     </div>
 
     <div class="meteo-row">
-        <span class="meteo-label">Normale min.-max.</span>
+        <span class="meteo-label">&#128202; Normale min.-max.</span>
         <span id="normal-range" class="meteo-value"></span>
     </div>
 
