@@ -56,8 +56,8 @@ submenus:
       url: "/agenda/vandaag/"
     - name: "Deze week doen"
       url: "/agenda/dezeweek/"
-    - name: "Weet nog niet"
-      url: "/agenda/meteo-oud/"
+    - name: "Lijstje"
+      url: "/agenda/lijstje/"
 
   random:
     - name: "Muziek"
