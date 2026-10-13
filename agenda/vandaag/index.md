@@ -5,14 +5,18 @@ parent_folder: agenda
 show_submenu: true
 ---
 
+<style>
+#special-text p {
+  text-align: center;
+  padding: 0 20px;
+}
+
+</style>
+
 <div class="left">
 
-<h4 id="today-greeting">Hallo!</h4>
-
-<div id="today-text"></div>
 <div id="special-text"></div>
 
 </div>
 
-<script src="{{ '/js/date.js' | relative_url }}"></script>
-<script src="{{ '/js/greeting.js' | relative_url }}" defer></script>
+<script src="{{ '/js/klusjevoorvandaag.js' | relative_url }}"></script>
