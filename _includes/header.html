@@ -35,27 +35,30 @@
 
                 {% case parts[0] %}
 
-                    {% when "algoritmen" %}
-                        <h2>{{ site.labels.algoritmen }}</h2>
-
-                    {% when "projects" %}
-                        <h2>{{ site.labels.projects }}</h2>
-
                     {% when "about" %}
                         <h2>{{ site.labels.about }}</h2>
+
+                    {% when "algoritmen" %}
+                        <h2>{{ site.labels.algoritmen }}</h2>
 
                     {% when "today" %}
                         <h2 id="actual-day"></h2>
 
+                    {% when "projects" %}
+                        <h2>{{ site.labels.projects }}</h2>
+
+                    {% when "agenda" %}
+                        <h2>{{ site.labels.agenda }}</h2>
+
                     {% when "random" %}
                         <h2>{{ site.labels.random }}</h2>
+
+                    {% when "to-do" %}
+                        <h2>{{ site.labels.to-do }}</h2>
 
                     {% when "contact" %}
                         <h2>{{ site.labels.contact }}</h2>
  
-                    {% when "hidden" %}
-                        <h2 id="actual-day"></h2>
-
                 {% endcase %}
 
 </div>
