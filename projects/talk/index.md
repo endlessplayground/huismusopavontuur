@@ -8,15 +8,9 @@ show_submenu: true
 
 <div class="left">
 
-<p>Van complete onzin tot onderwerpen waar je spontaan drie uur over kunt doorpraten.</p>
+<h4>Gesprekken (of zoiets)</h4>
 
-<p>Bewustzijn. Gedrag. <a href="https://translate.google.com/?sl=en&tl=nl&op=translate">Evolutie.</a> Toeval. Vreemde hersenkronkels. Dingen die misschien onmogelijk zijn en dingen die alleen maar zo lijken.</p>
-
-<p>Waarom hebben mensen soms een sterk gevoel over iets zonder te weten waarom? Waarom onthouden we sommige volkomen onbelangrijke dingen en vergeten we andere? En wat gebeurt er eigenlijk in dat stukje tussen een gedachte en een beslissing?</p>
-
-<p>Ook leuk: complottheorieën, bijna-doodervaringen, AI, psychopaten, vreemde historische gebeurtenissen en alles wat ergens op het randje van wetenschap en speculatie terechtkomt.</p>
-
-<p>Niet alles hoeft opgelost te worden. Het moet vooral interessant genoeg zijn om er nog even over door te denken.</p>
+<p>Hier ga ik <i>praten</i>. Ik weet nog niet hoe en wat. Misschien bloggen of gesprekken met levende of artificiële individuen weergeven. Ik weet nog niet…</p>
 
 
 </div>
