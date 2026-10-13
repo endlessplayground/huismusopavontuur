@@ -161,7 +161,7 @@ h1 {
     font-weight: 700;
 }
 
-p, h4 {
+p, h4, h5 {
     text-align: left;
     margin: var(--p-space) var(--text-margin-small) var(--p-space) var(--text-margin);
 }
@@ -170,9 +170,15 @@ h4 {
     font-weight: 400;
     font-size: 1.2rem;
     font-style: italic;
-    align-self: flex-start;
-    width: 90%;
+    text-align: center;
     color: white;
+}
+
+#special-text h5 {
+    text-align: center;
+    color: var(--text-color-light);
+    font-size: 1.1rem;
+    margin: 20px 0 10px 0;
 }
 
 ul {

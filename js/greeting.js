@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     let timeGreeting;
 
-    if (hour >= 6 && hour < 12) {
+    if (hour >= 4 && hour < 12) {
         timeGreeting = "goeiemorgen";
     } else if (hour >= 12 && hour < 18) {
         timeGreeting = "goeiemiddag";
@@ -18,5 +18,5 @@ document.addEventListener("DOMContentLoaded", function () {
         timeGreeting = "goedenacht";
     }
 
-    greeting.textContent = "Hi, " + timeGreeting + "!";
+    greeting.textContent = "Hee, " + timeGreeting + "!";
 });
