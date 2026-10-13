@@ -12,10 +12,11 @@ labels:
   about: "Over mij"
   algoritmen: "Algoritmen"
   projects: "Projecten"
+  agenda: "Agenda"
   today: "Vandaag…"
   random: "Random"
   contact: "Contact"
-  hidden: "Private"
+  to-do: "Random to do"
 
 submenus:
   about:
@@ -44,11 +45,19 @@ submenus:
 
   projects:
     - name: '<span class="nadruk">Dit</span> project'
-      url: "/projects/ideeen/"
+      url: "/projects/ditproject/"
     - name: "Webdesign & illustraties"
       url: "/projects/screen/"
     - name: "(No) small&nbsp;talk"
       url: "/projects/talk/"
+
+  agenda:
+    - name: "Vandaag doen"
+      url: "/agenda/vandaag/"
+    - name: "Deze week doen"
+      url: "/agenda/dezeweek/"
+    - name: "Weet nog niet"
+      url: "/agenda/meteo-oud/"
 
   random:
     - name: "Muziek"
@@ -58,10 +67,10 @@ submenus:
     - name: '<span style="font-size: 1.2rem; margin-top: 2px;">&#128579;</span>'
       url: "/random/dontknowyet/"
 
-  hidden:
-    - name: "Random taakje"
-      url: "/hidden/random"
-    - name: "Kalender taakje"
-      url: "/hidden/kalender/"
-    - name: "Experiment"
-      url: "/hidden/experiment/"
+  to-do:
+    - name: "Klein klusje"
+      url: "/to-do/kleineklus/"
+    - name: "Wat grotere klus"
+      url: "/to-do/groteklus/"
+    - name: "Administratie"
+      url: "/to-do/admin/"
