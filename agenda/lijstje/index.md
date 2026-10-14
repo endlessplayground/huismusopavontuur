@@ -154,9 +154,9 @@ show_submenu: true
 
 <ul id="todo-list"></ul>
 
-<button type="button" id="todo-clear">
+<!--<button type="button" id="todo-clear">
             Leeg mijn lijstje
-        </button>
+        </button>-->
 
 </div>
 
