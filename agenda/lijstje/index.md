@@ -122,6 +122,7 @@ show_submenu: true
 
 #todo-clear {
     margin-top: 0.3rem;
+    visibility: hidden;
 }
 
 </style>
