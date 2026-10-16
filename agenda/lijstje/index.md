@@ -6,6 +6,8 @@ show_submenu: true
 ---
 <style>
 
+
+
 #todo-add,
 #todo-form {
     display: flex;
@@ -61,7 +63,7 @@ show_submenu: true
     width: 100%;
     box-sizing: border-box;
     font: inherit;
-    font-size: 0.85rem;
+    font-size: 1rem;
     padding: 0.35rem 0.45rem;
     color: #333;
     background: #f5f5f5;
@@ -82,7 +84,7 @@ show_submenu: true
 #todo-form button,
 #todo-clear {
     font: inherit;
-    font-size: 0.8rem;
+    font-size: 1rem;
     padding: 0.35rem 0.55rem;
     color: #222;
     background: rgb(154, 210, 76);
@@ -125,6 +127,12 @@ show_submenu: true
     visibility: hidden;
 }
 
+#todo-add button, #todo-form button {
+    font-weight:600; 
+    font-size:1.3rem; 
+    line-height:0.8
+}
+
 </style>
 
 <main>
@@ -135,10 +143,10 @@ show_submenu: true
 
 <div id="todo-add">
             <select id="todo-choice">
-                <option value="">Kies een klus uit de voorraad...</option>
+                <option value="">Kies een klus uit de lijst...</option>
             </select>
             <button type="button" id="todo-add-stock">
-                Toevoegen
+                +
             </button>
         </div>
 
@@ -149,14 +157,14 @@ show_submenu: true
                 placeholder="Of bedenk zelf een klusje..."
                 autocomplete="off"
             >
-            <button type="submit">Toevoegen</button>
-        </form>
+            <button type="submit">+</button>
+</form>
 
 <ul id="todo-list"></ul>
 
-<!--<button type="button" id="todo-clear">
+<button type="button" id="todo-clear">
             Leeg mijn lijstje
-        </button>-->
+        </button>
 
 </div>
 
