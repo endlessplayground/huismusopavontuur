@@ -1,4 +1,3 @@
-
 /* =================================
    STANDAARDKLUSSEN
    Voeg hier zelf taken toe of pas ze aan.
@@ -63,7 +62,6 @@ const voorraadKnop = document.getElementById("todo-add-stock");
 const formulier = document.getElementById("todo-form");
 const invoer = document.getElementById("todo-input");
 const lijst = document.getElementById("todo-list");
-const leegKnop = document.getElementById("todo-clear");
 
 
 /* =================================
@@ -138,19 +136,6 @@ function toonTaken() {
         lijst.appendChild(item);
     });
 }
-
-
-/* =================================
-   LIJST HELEMAAL LEEGMAKEN
-   ================================= */
-
-leegKnop.addEventListener("click", () => {
-    if (taken.length === 0) return;
-
-    taken = [];
-    bewaarTaken();
-    toonTaken();
-});
 
 
 /* =================================
