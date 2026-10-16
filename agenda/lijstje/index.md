@@ -68,8 +68,9 @@ show_submenu: true
     color: #333;
     background: #f5f5f5;
     border: none;
-    border-radius: 0;
+    border-radius: 3px;
 }
+
 
 #todo-choice {
     cursor: pointer;
@@ -130,8 +131,18 @@ show_submenu: true
 #todo-add button, #todo-form button {
     font-weight:600; 
     font-size:1.3rem; 
-    line-height:0.8
+    line-height:0.8;
+    border-radius: 3px;
 }
+
+#todo-choice {
+    padding-right: 1.5rem;
+}
+
+#todo-input {
+    padding-right: 1rem;
+}
+
 
 </style>
 
@@ -143,7 +154,7 @@ show_submenu: true
 
 <div id="todo-add">
             <select id="todo-choice">
-                <option value="">Kies een klus uit de lijst...</option>
+                <option value="">Kies een klus uit de lijst…</option>
             </select>
             <button type="button" id="todo-add-stock">
                 +
@@ -154,17 +165,13 @@ show_submenu: true
             <input
                 type="text"
                 id="todo-input"
-                placeholder="Of bedenk zelf een klusje..."
+                placeholder="Of bedenk zelf een klusje…"
                 autocomplete="off"
             >
             <button type="submit">+</button>
 </form>
 
 <ul id="todo-list"></ul>
-
-<button type="button" id="todo-clear">
-            Leeg mijn lijstje
-        </button>
 
 </div>
 
